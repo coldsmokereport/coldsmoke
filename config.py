@@ -14,8 +14,8 @@ SITE_DESCRIPTION = (
 # ===== URLs =====
 # Project Pages site is served under /coldsmoke; local preview overrides with --base ''.
 BASE_URL = "/coldsmoke"
-# Absolute URL used in the Atom feed; update after `gh repo create` reveals the username.
-BASE_URL_ABS = "https://USERNAME.github.io/coldsmoke"
+# Absolute URL used in the Atom feed.
+BASE_URL_ABS = "https://trey-alvey.github.io/coldsmoke"
 
 # ===== Repo paths =====
 ROOT = Path(__file__).resolve().parent
