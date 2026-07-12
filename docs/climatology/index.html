@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snow Climatology — The Cold Smoke Report</title>
+<meta name="description" content="Daily forecast discussions, a season snowfall tracker, and deep snow climatology for southwest Montana — Bridger Bowl, Big Sky, and Bozeman.">
+<link rel="icon" href="/coldsmoke/assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/atom+xml" title="The Cold Smoke Report" href="/coldsmoke/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/coldsmoke/assets/style.css">
+
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="masthead-kicker">Bridger Bowl · Big Sky · Bozeman</p>
+    <h1 class="masthead-title"><a href="/coldsmoke/">The Cold Smoke Report</a></h1>
+    <p class="masthead-tagline">Snow forecasting and climatology for Bridger Bowl, Big Sky &amp; Bozeman</p>
+  </div>
+  <svg class="ridgeline" viewBox="0 0 1200 84" preserveAspectRatio="none" aria-hidden="true">
+    <!-- Bridger-crest-inspired silhouette -->
+    <path d="M0,84 L0,58 L70,44 L130,52 L200,30 L255,46 L320,18 L370,38 L430,26 L490,44
+             L560,10 L610,34 L665,22 L730,42 L800,14 L850,36 L910,28 L970,48 L1040,34
+             L1100,50 L1160,42 L1200,54 L1200,84 Z"/>
+  </svg>
+  <nav class="sitenav" aria-label="Site">
+    <a href="/coldsmoke/">Posts</a>
+    <a href="/coldsmoke/tracker/">Season Tracker</a>
+    <a href="/coldsmoke/climatology/">Climatology</a>
+    <a href="/coldsmoke/archive/">Archive</a>
+    <a href="/coldsmoke/about/">About</a>
+  </nav>
+</header>
+
+<div class="layout">
+  <main class="content">
+    
+<h2 class="page-heading">Snow Climatology Explorer</h2>
+<p class="page-lede">What "normal" looks like in the Bridgers and on Lone Mountain,
+from 76 seasons at Bridger Bowl and
+35 at Big Sky.</p>
+
+
+<section class="climo-resort">
+  <h3 class="climo-head">Bridger Bowl
+    <span class="climo-sub">6,100–8,700 ft</span>
+  </h3>
+
+  <div class="tiles">
+    <div class="tile">
+      <p class="tile-value">163.9<span class="tile-unit">"</span></p>
+      <p class="tile-label">mean season total</p>
+    </div>
+    <div class="tile">
+      <p class="tile-value">76</p>
+      <p class="tile-label">seasons of record</p>
+    </div>
+    <div class="tile">
+      <p class="tile-value">6.3<span class="tile-unit">"</span></p>
+      <p class="tile-label">top-10% snow day</p>
+    </div>
+    <div class="tile">
+      <p class="tile-value">12.0<span class="tile-unit">"</span></p>
+      <p class="tile-label">top-1% snow day</p>
+    </div>
+  </div>
+
+  <div class="viz-root">
+    <h4 class="viz-title">Monthly snowfall (median, with 25th–75th percentile range)</h4>
+    <div class="viz-stage viz-stage-sm">
+      <svg class="monthly-chart" data-resort="bridger" role="img"
+           aria-label="Monthly snowfall climatology for Bridger Bowl"></svg>
+      <div class="viz-tooltip" hidden></div>
+    </div>
+  </div>
+
+  <h4 class="viz-title">Twenty biggest storms on record</h4>
+  <div class="table-wrap">
+    <table class="sortable" data-resort="bridger">
+      <thead><tr>
+        <th data-sort="text">Start</th><th data-sort="text">Peak thru</th>
+        <th data-sort="num">Days</th><th data-sort="num">Total (in)</th>
+        <th data-sort="num">Max day (in)</th><th data-sort="num">Season</th>
+      </tr></thead>
+      <tbody>
+        
+        <tr><td>1967-12-21</td><td>1968-01-04</td><td>15</td>
+            <td>60.1</td><td>11.5</td>
+            <td>1967–68</td></tr>
+        
+        <tr><td>1982-03-27</td><td>1982-04-10</td><td>15</td>
+            <td>58.3</td><td>9.9</td>
+            <td>1981–82</td></tr>
+        
+        <tr><td>1996-12-23</td><td>1997-01-09</td><td>18</td>
+            <td>54.1</td><td>10.8</td>
+            <td>1996–97</td></tr>
+        
+        <tr><td>1963-01-12</td><td>1963-01-17</td><td>6</td>
+            <td>45.2</td><td>19.7</td>
+            <td>1962–63</td></tr>
+        
+        <tr><td>1989-12-08</td><td>1989-12-20</td><td>13</td>
+            <td>42.8</td><td>14.8</td>
+            <td>1989–90</td></tr>
+        
+        <tr><td>1980-03-02</td><td>1980-03-14</td><td>13</td>
+            <td>40.0</td><td>7.7</td>
+            <td>1979–80</td></tr>
+        
+        <tr><td>1963-12-05</td><td>1963-12-17</td><td>13</td>
+            <td>39.3</td><td>7.0</td>
+            <td>1963–64</td></tr>
+        
+        <tr><td>1960-02-04</td><td>1960-02-16</td><td>13</td>
+            <td>36.5</td><td>9.1</td>
+            <td>1959–60</td></tr>
+        
+        <tr><td>1976-04-18</td><td>1976-04-26</td><td>9</td>
+            <td>36.4</td><td>12.5</td>
+            <td>1975–76</td></tr>
+        
+        <tr><td>1973-12-21</td><td>1973-12-30</td><td>10</td>
+            <td>35.4</td><td>9.9</td>
+            <td>1973–74</td></tr>
+        
+        <tr><td>1977-02-21</td><td>1977-03-02</td><td>10</td>
+            <td>35.1</td><td>9.1</td>
+            <td>1976–77</td></tr>
+        
+        <tr><td>1969-01-14</td><td>1969-01-21</td><td>8</td>
+            <td>34.5</td><td>9.8</td>
+            <td>1968–69</td></tr>
+        
+        <tr><td>1999-01-04</td><td>1999-01-09</td><td>6</td>
+            <td>33.9</td><td>11.6</td>
+            <td>1998–99</td></tr>
+        
+        <tr><td>2005-11-25</td><td>2005-12-05</td><td>11</td>
+            <td>33.5</td><td>9.5</td>
+            <td>2005–06</td></tr>
+        
+        <tr><td>1976-01-02</td><td>1976-01-14</td><td>13</td>
+            <td>33.0</td><td>8.7</td>
+            <td>1975–76</td></tr>
+        
+        <tr><td>1965-01-21</td><td>1965-01-28</td><td>8</td>
+            <td>32.8</td><td>10.1</td>
+            <td>1964–65</td></tr>
+        
+        <tr><td>1974-01-17</td><td>1974-01-27</td><td>11</td>
+            <td>32.2</td><td>9.5</td>
+            <td>1973–74</td></tr>
+        
+        <tr><td>2014-12-14</td><td>2014-12-28</td><td>15</td>
+            <td>32.0</td><td>8.0</td>
+            <td>2014–15</td></tr>
+        
+        <tr><td>1964-11-22</td><td>1964-12-04</td><td>13</td>
+            <td>31.9</td><td>8.9</td>
+            <td>1964–65</td></tr>
+        
+        <tr><td>1975-11-22</td><td>1975-11-30</td><td>9</td>
+            <td>31.6</td><td>9.4</td>
+            <td>1975–76</td></tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div class="viz-root">
+    <h4 class="viz-title">Season totals, every usable year</h4>
+    <div class="viz-stage viz-stage-sm">
+      <svg class="seasons-chart" data-resort="bridger" role="img"
+           aria-label="Season snowfall totals for Bridger Bowl"></svg>
+      <div class="viz-tooltip" hidden></div>
+    </div>
+  </div>
+</section>
+
+<section class="climo-resort">
+  <h3 class="climo-head">Big Sky
+    <span class="climo-sub">7,500–11,166 ft</span>
+  </h3>
+
+  <div class="tiles">
+    <div class="tile">
+      <p class="tile-value">141.2<span class="tile-unit">"</span></p>
+      <p class="tile-label">mean season total</p>
+    </div>
+    <div class="tile">
+      <p class="tile-value">35</p>
+      <p class="tile-label">seasons of record</p>
+    </div>
+    <div class="tile">
+      <p class="tile-value">5.0<span class="tile-unit">"</span></p>
+      <p class="tile-label">top-10% snow day</p>
+    </div>
+    <div class="tile">
+      <p class="tile-value">10.0<span class="tile-unit">"</span></p>
+      <p class="tile-label">top-1% snow day</p>
+    </div>
+  </div>
+
+  <div class="viz-root">
+    <h4 class="viz-title">Monthly snowfall (median, with 25th–75th percentile range)</h4>
+    <div class="viz-stage viz-stage-sm">
+      <svg class="monthly-chart" data-resort="bigsky" role="img"
+           aria-label="Monthly snowfall climatology for Big Sky"></svg>
+      <div class="viz-tooltip" hidden></div>
+    </div>
+  </div>
+
+  <h4 class="viz-title">Twenty biggest storms on record</h4>
+  <div class="table-wrap">
+    <table class="sortable" data-resort="bigsky">
+      <thead><tr>
+        <th data-sort="text">Start</th><th data-sort="text">Peak thru</th>
+        <th data-sort="num">Days</th><th data-sort="num">Total (in)</th>
+        <th data-sort="num">Max day (in)</th><th data-sort="num">Season</th>
+      </tr></thead>
+      <tbody>
+        
+        <tr><td>1999-12-06</td><td>1999-12-21</td><td>16</td>
+            <td>51.8</td><td>9.8</td>
+            <td>1999–00</td></tr>
+        
+        <tr><td>1995-04-03</td><td>1995-04-16</td><td>14</td>
+            <td>42.8</td><td>7.1</td>
+            <td>1994–95</td></tr>
+        
+        <tr><td>1997-01-06</td><td>1997-01-10</td><td>5</td>
+            <td>35.8</td><td>11.7</td>
+            <td>1996–97</td></tr>
+        
+        <tr><td>1996-11-22</td><td>1996-12-05</td><td>14</td>
+            <td>32.0</td><td>7.0</td>
+            <td>1996–97</td></tr>
+        
+        <tr><td>1999-02-14</td><td>1999-02-21</td><td>8</td>
+            <td>31.4</td><td>7.4</td>
+            <td>1998–99</td></tr>
+        
+        <tr><td>1998-01-07</td><td>1998-01-16</td><td>10</td>
+            <td>29.1</td><td>9.1</td>
+            <td>1997–98</td></tr>
+        
+        <tr><td>2012-11-29</td><td>2012-12-17</td><td>19</td>
+            <td>29.0</td><td>6.0</td>
+            <td>2012–13</td></tr>
+        
+        <tr><td>2020-02-02</td><td>2020-02-11</td><td>10</td>
+            <td>26.0</td><td>11.0</td>
+            <td>2019–20</td></tr>
+        
+        <tr><td>1996-01-18</td><td>1996-01-30</td><td>13</td>
+            <td>25.4</td><td>7.0</td>
+            <td>1995–96</td></tr>
+        
+        <tr><td>1992-12-26</td><td>1993-01-03</td><td>9</td>
+            <td>24.4</td><td>6.0</td>
+            <td>1992–93</td></tr>
+        
+        <tr><td>2018-10-29</td><td>2018-11-07</td><td>10</td>
+            <td>23.0</td><td>5.0</td>
+            <td>2018–19</td></tr>
+        
+        <tr><td>2022-10-21</td><td>2022-10-23</td><td>3</td>
+            <td>23.0</td><td>17.0</td>
+            <td>2022–23</td></tr>
+        
+        <tr><td>2001-01-30</td><td>2001-02-04</td><td>6</td>
+            <td>22.4</td><td>7.4</td>
+            <td>2000–01</td></tr>
+        
+        <tr><td>2001-11-20</td><td>2001-12-01</td><td>12</td>
+            <td>22.0</td><td>6.0</td>
+            <td>2001–02</td></tr>
+        
+        <tr><td>2009-03-28</td><td>2009-04-02</td><td>6</td>
+            <td>22.0</td><td>10.0</td>
+            <td>2008–09</td></tr>
+        
+        <tr><td>2010-11-13</td><td>2010-11-20</td><td>8</td>
+            <td>22.0</td><td>7.0</td>
+            <td>2010–11</td></tr>
+        
+        <tr><td>1996-12-24</td><td>1996-12-28</td><td>5</td>
+            <td>21.7</td><td>14.6</td>
+            <td>1996–97</td></tr>
+        
+        <tr><td>2012-01-15</td><td>2012-01-23</td><td>9</td>
+            <td>21.0</td><td>10.0</td>
+            <td>2011–12</td></tr>
+        
+        <tr><td>2019-01-17</td><td>2019-01-25</td><td>9</td>
+            <td>21.0</td><td>9.0</td>
+            <td>2018–19</td></tr>
+        
+        <tr><td>1998-12-30</td><td>1999-01-10</td><td>12</td>
+            <td>20.5</td><td>5.0</td>
+            <td>1998–99</td></tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div class="viz-root">
+    <h4 class="viz-title">Season totals, every usable year</h4>
+    <div class="viz-stage viz-stage-sm">
+      <svg class="seasons-chart" data-resort="bigsky" role="img"
+           aria-label="Season snowfall totals for Big Sky"></svg>
+      <div class="viz-tooltip" hidden></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="climo-resort">
+  <h3 class="climo-head">Pattern gallery <span class="climo-sub">from the research pipeline</span></h3>
+  <div class="fig-gallery">
+    
+    <figure class="fig-card">
+      <a href="/coldsmoke/assets/climo/monthly_climo_bridger.png">
+        <img loading="lazy" src="/coldsmoke/assets/climo/monthly_climo_bridger.png" alt="Monthly snowfall climatology at Bridger Bowl.">
+      </a>
+      <figcaption>Monthly snowfall climatology at Bridger Bowl.</figcaption>
+    </figure>
+    
+    <figure class="fig-card">
+      <a href="/coldsmoke/assets/climo/monthly_climo_bigsky.png">
+        <img loading="lazy" src="/coldsmoke/assets/climo/monthly_climo_bigsky.png" alt="Monthly snowfall climatology at Big Sky.">
+      </a>
+      <figcaption>Monthly snowfall climatology at Big Sky.</figcaption>
+    </figure>
+    
+    <figure class="fig-card">
+      <a href="/coldsmoke/assets/climo/seasonal_totals_bridger.png">
+        <img loading="lazy" src="/coldsmoke/assets/climo/seasonal_totals_bridger.png" alt="Season snowfall totals at Bridger Bowl across the full station record.">
+      </a>
+      <figcaption>Season snowfall totals at Bridger Bowl across the full station record.</figcaption>
+    </figure>
+    
+    <figure class="fig-card">
+      <a href="/coldsmoke/assets/climo/seasonal_totals_bigsky.png">
+        <img loading="lazy" src="/coldsmoke/assets/climo/seasonal_totals_bigsky.png" alt="Season snowfall totals at Big Sky.">
+      </a>
+      <figcaption>Season snowfall totals at Big Sky.</figcaption>
+    </figure>
+    
+    <figure class="fig-card">
+      <a href="/coldsmoke/assets/climo/resort_compare.png">
+        <img loading="lazy" src="/coldsmoke/assets/climo/resort_compare.png" alt="Bridger Bowl vs. Big Sky: overlapping-season comparison.">
+      </a>
+      <figcaption>Bridger Bowl vs. Big Sky: overlapping-season comparison.</figcaption>
+    </figure>
+    
+    <figure class="fig-card">
+      <a href="/coldsmoke/assets/climo/slr_monthly.png">
+        <img loading="lazy" src="/coldsmoke/assets/climo/slr_monthly.png" alt="Snow-to-liquid ratio by month — why the cold smoke is so light.">
+      </a>
+      <figcaption>Snow-to-liquid ratio by month — why the cold smoke is so light.</figcaption>
+    </figure>
+    
+    <figure class="fig-card">
+      <a href="/coldsmoke/assets/climo/snow_rose.png">
+        <img loading="lazy" src="/coldsmoke/assets/climo/snow_rose.png" alt="Snow rose: which 700-mb wind directions deliver the goods.">
+      </a>
+      <figcaption>Snow rose: which 700-mb wind directions deliver the goods.</figcaption>
+    </figure>
+    
+    <figure class="fig-card">
+      <a href="/coldsmoke/assets/climo/regime_snow_heatmap.png">
+        <img loading="lazy" src="/coldsmoke/assets/climo/regime_snow_heatmap.png" alt="Snowfall odds by synoptic regime.">
+      </a>
+      <figcaption>Snowfall odds by synoptic regime.</figcaption>
+    </figure>
+    
+    <figure class="fig-card">
+      <a href="/coldsmoke/assets/climo/regime_composites_k5.png">
+        <img loading="lazy" src="/coldsmoke/assets/climo/regime_composites_k5.png" alt="The five synoptic regimes of SW Montana winters (500-mb composites).">
+      </a>
+      <figcaption>The five synoptic regimes of SW Montana winters (500-mb composites).</figcaption>
+    </figure>
+    
+  </div>
+</section>
+
+  </main>
+
+  <aside class="sidebar">
+    <section class="sb-box">
+      <h2 class="sb-head">About</h2>
+      <p>Forecast discussions and snow climatology for southwest Montana,
+      grounded in 75 years of station records and a quantile ML forecast
+      system. <a href="/coldsmoke/about/">More →</a></p>
+    </section>
+
+    <section class="sb-box">
+      <h2 class="sb-head">Recent posts</h2>
+      <ul class="sb-list">
+        
+        <li><a href="/coldsmoke/posts/welcome-to-the-cold-smoke-report/">Welcome to The Cold Smoke Report</a>
+            <span class="sb-date">Jul 12</span></li>
+        
+      </ul>
+    </section>
+
+    <section class="sb-box">
+      <h2 class="sb-head">Archive</h2>
+      <ul class="sb-list">
+        
+        <li><a href="/coldsmoke/archive/2026-07/">July 2026</a>
+            <span class="sb-date">1</span></li>
+        
+      </ul>
+    </section>
+
+    
+    <section class="sb-box">
+      <h2 class="sb-head">Tags</h2>
+      <p class="sb-tags">
+        
+        <a class="tag" href="/coldsmoke/tags/meta/">meta<span>1</span></a>
+        
+      </p>
+    </section>
+    
+  </aside>
+</div>
+
+<footer class="sitefoot">
+  <p>© 2026 Trey · The Cold Smoke Report ·
+     <a href="/coldsmoke/feed.xml">Atom feed</a></p>
+  <p class="foot-fine">Forecasts are experimental research products, not official guidance.
+     Consult the <a href="https://www.weather.gov/gjt/">NWS</a> and the
+     <a href="https://www.mtavalanche.com/">GNFAC</a> before making decisions in the mountains.</p>
+</footer>
+
+
+<script>window.CSR_BASE = "/coldsmoke";</script>
+<script src="/coldsmoke/assets/climo.js" defer></script>
+
+</body>
+</html>

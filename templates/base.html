@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site_title }}{% endblock %}</title>
+<meta name="description" content="{{ site_description }}">
+<link rel="icon" href="{{ base }}/assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/atom+xml" title="{{ site_title }}" href="{{ base }}/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ base }}/assets/style.css">
+{% block head %}{% endblock %}
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="masthead-kicker">Bridger Bowl · Big Sky · Bozeman</p>
+    <h1 class="masthead-title"><a href="{{ base }}/">The Cold Smoke Report</a></h1>
+    <p class="masthead-tagline">{{ site_tagline }}</p>
+  </div>
+  <svg class="ridgeline" viewBox="0 0 1200 84" preserveAspectRatio="none" aria-hidden="true">
+    <!-- Bridger-crest-inspired silhouette -->
+    <path d="M0,84 L0,58 L70,44 L130,52 L200,30 L255,46 L320,18 L370,38 L430,26 L490,44
+             L560,10 L610,34 L665,22 L730,42 L800,14 L850,36 L910,28 L970,48 L1040,34
+             L1100,50 L1160,42 L1200,54 L1200,84 Z"/>
+  </svg>
+  <nav class="sitenav" aria-label="Site">
+    <a href="{{ base }}/">Posts</a>
+    <a href="{{ base }}/tracker/">Season Tracker</a>
+    <a href="{{ base }}/climatology/">Climatology</a>
+    <a href="{{ base }}/archive/">Archive</a>
+    <a href="{{ base }}/about/">About</a>
+  </nav>
+</header>
+
+<div class="layout">
+  <main class="content">
+    {% block content %}{% endblock %}
+  </main>
+
+  <aside class="sidebar">
+    <section class="sb-box">
+      <h2 class="sb-head">About</h2>
+      <p>Forecast discussions and snow climatology for southwest Montana,
+      grounded in 75 years of station records and a quantile ML forecast
+      system. <a href="{{ base }}/about/">More →</a></p>
+    </section>
+
+    <section class="sb-box">
+      <h2 class="sb-head">Recent posts</h2>
+      <ul class="sb-list">
+        {% for p in sb.recent %}
+        <li><a href="{{ base }}/posts/{{ p.slug }}/">{{ p.title }}</a>
+            <span class="sb-date">{{ p.date|datefmt("%b %-d") }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="sb-box">
+      <h2 class="sb-head">Archive</h2>
+      <ul class="sb-list">
+        {% for m in sb.months %}
+        <li><a href="{{ base }}/archive/{{ m.key }}/">{{ m.label }}</a>
+            <span class="sb-date">{{ m.count }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    {% if sb.tags %}
+    <section class="sb-box">
+      <h2 class="sb-head">Tags</h2>
+      <p class="sb-tags">
+        {% for t, n in sb.tags %}
+        <a class="tag" href="{{ base }}/tags/{{ t }}/">{{ t }}<span>{{ n }}</span></a>
+        {% endfor %}
+      </p>
+    </section>
+    {% endif %}
+  </aside>
+</div>
+
+<footer class="sitefoot">
+  <p>© {{ now_year }} {{ site_author }} · The Cold Smoke Report ·
+     <a href="{{ base }}/feed.xml">Atom feed</a></p>
+  <p class="foot-fine">Forecasts are experimental research products, not official guidance.
+     Consult the <a href="https://www.weather.gov/gjt/">NWS</a> and the
+     <a href="https://www.mtavalanche.com/">GNFAC</a> before making decisions in the mountains.</p>
+</footer>
+
+{% block scripts %}{% endblock %}
+</body>
+</html>

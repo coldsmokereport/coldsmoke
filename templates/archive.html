@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}{{ heading }} — {{ site_title }}{% endblock %}
+{% block content %}
+<h2 class="page-heading">{{ heading }}</h2>
+{% if show_months %}
+<ul class="archive-months">
+  {% for m in sb.months %}
+  <li><a href="{{ base }}/archive/{{ m.key }}/">{{ m.label }}</a> <span class="sb-date">({{ m.count }})</span></li>
+  {% endfor %}
+</ul>
+{% endif %}
+<ul class="archive-list">
+  {% for p in posts %}
+  <li>
+    <span class="arch-date">{{ p.date|datefmt("%Y-%m-%d") }}</span>
+    <a href="{{ base }}/posts/{{ p.slug }}/">{{ p.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

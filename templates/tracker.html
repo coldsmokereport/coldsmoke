@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Season Snowfall Tracker — {{ site_title }}{% endblock %}
+{% block content %}
+<h2 class="page-heading">Season Snowfall Tracker</h2>
+<p class="page-lede">Cumulative snowfall through the water year (Oct 1–Apr 30) against
+{{ tracker.resorts.bridger.n_seasons }} seasons of station climatology. Shaded bands span the
+10th–90th and 25th–75th percentiles; the dashed line is the median season.</p>
+
+<div class="viz-root" id="tracker-app" data-generated="{{ tracker.generated }}">
+  <div class="viz-controls" role="tablist" aria-label="Resort">
+    {% for key, r in tracker.resorts.items() %}
+    <button class="viz-toggle{% if loop.first %} active{% endif %}" role="tab"
+            aria-selected="{{ 'true' if loop.first else 'false' }}"
+            data-resort="{{ key }}">{{ r.name }}</button>
+    {% endfor %}
+  </div>
+  <div class="viz-stage">
+    <svg id="tracker-chart" role="img" aria-label="Cumulative season snowfall vs climatology"></svg>
+    <div class="viz-tooltip" id="tracker-tip" hidden></div>
+  </div>
+  <p class="viz-note" id="tracker-note"></p>
+  <details class="viz-table">
+    <summary>Data table (monthly checkpoints)</summary>
+    <div id="tracker-table"></div>
+  </details>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>window.CSR_BASE = "{{ base }}";</script>
+<script src="{{ base }}/assets/tracker.js" defer></script>
+{% endblock %}
