@@ -45,16 +45,17 @@ CLIMO_FIGURES = [
      "Season snowfall totals at Bridger Bowl across the full station record."),
     ("phase2/seasonal_totals_bigsky.png",
      "Season snowfall totals at Big Sky."),
-    ("phase2/resort_compare.png",
-     "Bridger Bowl vs. Big Sky: overlapping-season comparison."),
-    ("phase2/slr_monthly.png",
-     "Snow-to-liquid ratio by month — why the cold smoke is so light."),
-    ("phase3/snow_rose.png",
-     "Snow rose: which 700-mb wind directions deliver the goods."),
-    ("phase3/regime_snow_heatmap.png",
-     "Snowfall odds by synoptic regime."),
-    ("phase3/regime_composites_k5.png",
-     "The five synoptic regimes of SW Montana winters (500-mb composites)."),
+    # Trimmed for launch simplicity (2026-07) — restore any of these later:
+    # ("phase2/resort_compare.png",
+    #  "Bridger Bowl vs. Big Sky: overlapping-season comparison."),
+    # ("phase2/slr_monthly.png",
+    #  "Snow-to-liquid ratio by month — why the cold smoke is so light."),
+    # ("phase3/snow_rose.png",
+    #  "Snow rose: which 700-mb wind directions deliver the goods."),
+    # ("phase3/regime_snow_heatmap.png",
+    #  "Snowfall odds by synoptic regime."),
+    # ("phase3/regime_composites_k5.png",
+    #  "The five synoptic regimes of SW Montana winters (500-mb composites)."),
 ]
 
 MONTH_ORDER = [10, 11, 12, 1, 2, 3, 4, 5]  # water-year display order Oct..May

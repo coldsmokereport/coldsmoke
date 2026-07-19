@@ -2,13 +2,9 @@
 title: About
 ---
 
-**The Cold Smoke Report** covers snow in southwest Montana — Bridger Bowl,
-Big Sky, and the town of Bozeman — with forecast discussions during the season
-and year-round climatology.
-
-"Cold smoke" is what Bridger locals call the ultralight, low-density powder
-this range is famous for: continental air, cold storm temperatures, and
-snow-to-liquid ratios that routinely top 15:1.
+**The Cold Smoke Report** covers snowfall forecasts for skiers and boarders in
+southwest Montana — Bridger Bowl, Big Sky, and the town of Bozeman — with
+forecast discussions during the season and year-round climatology.
 
 ## Who's behind it
 

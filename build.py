@@ -123,6 +123,12 @@ def build_site(base: str, skip_data: bool = False):
     env = jinja_env(base)
     posts = load_posts(base)
 
+    # Refresh data JSON first so the sidebar can show live season stats
+    if not skip_data:
+        make_data.make_all()
+    climo = json.loads((out / "data" / "climatology.json").read_text())
+    tracker = json.loads((out / "data" / "season_tracker.json").read_text())
+
     # Sidebar context shared by every page
     months = defaultdict(list)  # "YYYY-MM" -> posts
     tags = defaultdict(list)
@@ -143,8 +149,26 @@ def build_site(base: str, skip_data: bool = False):
         years[y]["count"] += m["count"]
         years[y]["months"].append({**m, "name": m["label"].split()[0]})
     year_list = [{"year": y, **v} for y, v in sorted(years.items(), reverse=True)]
+
+    # "The lookout": season-to-date snowfall vs the station median, per resort
+    lookout, lk_season, lk_through = [], "", ""
+    for r in tracker["resorts"].values():
+        cur, median_total = r["current"], r["bands"]["p50"][-1]
+        lookout.append({
+            "name": r["name"],
+            "total": round(cur["total_in"]),
+            "pct": round(100 * cur["total_in"] / median_total)
+                   if median_total else None,
+        })
+        wy = cur["water_year"]
+        lk_season = f"{wy - 1}–{wy % 100:02d}"
+        lk_through = datetime.strptime(cur["last_obs_date"],
+                                       "%Y-%m-%d").strftime("%b %-d")
+
     sidebar = {"recent": posts[:6], "months": month_list, "years": year_list,
-               "tags": [(t, len(v)) for t, v in tag_list]}
+               "tags": [(t, len(v)) for t, v in tag_list],
+               "lookout": lookout, "lk_season": lk_season,
+               "lk_through": lk_through}
 
     # Post pages, index, archives, tags
     for p in posts:
@@ -174,10 +198,6 @@ def build_site(base: str, skip_data: bool = False):
                   body=body, sb=sidebar))
 
     # Data pages
-    if not skip_data:
-        make_data.make_all()
-    climo = json.loads((out / "data" / "climatology.json").read_text())
-    tracker = json.loads((out / "data" / "season_tracker.json").read_text())
     write(out / "tracker" / "index.html",
           env.get_template("tracker.html").render(tracker=tracker, sb=sidebar))
     write(out / "climatology" / "index.html",

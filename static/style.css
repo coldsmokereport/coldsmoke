@@ -7,22 +7,22 @@
    <header class="masthead"> — the rules below already cover it. */
 
 :root {
-  --snow:        #e8ecef;   /* page behind the column */
+  --snow:        #fafbfd;   /* page plane, ice white */
   --paper:       #ffffff;   /* content column / cards */
-  --ink:         #1e2830;   /* primary text */
-  --ink-2:       #4c5761;   /* secondary text */
-  --ink-3:       #8a949c;   /* muted / metadata */
-  --hairline:    #d8dde2;
-  --ridge:       #3b4a56;   /* masthead band, slate */
-  --ridge-2:     #2b3742;   /* mid ridge silhouette */
-  --ridge-3:     #212a33;   /* near ridge silhouette */
-  --strip:       #f4f6f8;   /* nav strip */
-  --accent:      #2a5db0;   /* honest link blue */
-  --accent-hi:   #17427e;   /* hover: darker, classic */
-  --alpenglow:   #eda100;   /* chart current-season highlight only */
-  --band-lo:     #dce7f5;   /* p10–p90 band */
-  --band-hi:     #b9cfec;   /* p25–p75 band */
-  --grid:        #e3e6e9;
+  --ink:         #16222e;   /* primary text */
+  --ink-2:       #4c5a68;   /* secondary text */
+  --ink-3:       #8a939c;   /* muted / metadata */
+  --hairline:    #e3e7ec;
+  --ridge:       #1c3a5e;   /* masthead band, deep midnight */
+  --ridge-2:     #24507f;   /* far ridge silhouette */
+  --ridge-3:     #152e4d;   /* near ridge silhouette */
+  --strip:       #eef3f9;   /* nav strip */
+  --accent:      #1c5cab;   /* links, current-season line */
+  --accent-hi:   #2a78d6;
+  --alpenglow:   #eda100;   /* sparing warm accent (chart highlights) */
+  --band-lo:     #dcebfb;   /* p10–p90 band */
+  --band-hi:     #b7d3f6;   /* p25–p75 band */
+  --grid:        #e1e0d9;
   --serif: "Source Serif 4", Georgia, serif;
   --cond: "Barlow Condensed", "Arial Narrow", sans-serif;
   --sans: system-ui, -apple-system, "Segoe UI", Verdana, sans-serif;
@@ -30,22 +30,22 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --snow:      #0b0e11;
-    --paper:     #14181d;
-    --ink:       #dfe5ea;
-    --ink-2:     #a2adb6;
-    --ink-3:     #737d86;
-    --hairline:  #2a323a;
-    --ridge:     #24303a;
-    --ridge-2:   #1a232b;
-    --ridge-3:   #131a21;
-    --strip:     #1a2027;
-    --accent:    #7aa7e8;
-    --accent-hi: #a3c3f2;
+    --snow:      #0d1218;
+    --paper:     #131a22;
+    --ink:       #e8edf2;
+    --ink-2:     #a7b2bd;
+    --ink-3:     #76818c;
+    --hairline:  #26303b;
+    --ridge:     #0a1826;
+    --ridge-2:   #1c3a5e;
+    --ridge-3:   #122940;
+    --strip:     #16202b;
+    --accent:    #5b9ce6;
+    --accent-hi: #7db3f0;
     --alpenglow: #ffbe3d;
-    --band-lo:   #1c2a3d;
-    --band-hi:   #29405c;
-    --grid:      #232b33;
+    --band-lo:   #1a2c42;
+    --band-hi:   #27435f;
+    --grid:      #232d38;
   }
 }
 
@@ -96,7 +96,7 @@ img { max-width: 100%; height: auto; }
 }
 .masthead-tagline {
   margin: 0.3rem 0 0; font-family: var(--sans);
-  font-size: 0.8rem; color: #c8d4dd;
+  font-size: 0.8rem; color: #b9d0e6;
   text-shadow: 0 1px 2px rgba(0,0,0,0.35);
 }
 
@@ -172,9 +172,7 @@ img { max-width: 100%; height: auto; }
 .sb-tags { line-height: 1.9; }
 .sb-tags .tag { margin-right: 0.6rem; text-decoration: none; }
 .sb-tags .tag:hover { text-decoration: underline; }
-.sb-station { color: var(--ink-2); }
-.sb-station dt { float: left; clear: left; color: var(--ink-3); margin-right: 0.5rem; }
-.sb-station dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; }
+.sb-note { color: var(--ink-3); font-size: 0.72rem; line-height: 1.5; margin: 0.4rem 0 0; }
 
 /* Blog-archive year tree */
 .arch-year summary {
