@@ -3,29 +3,34 @@ title: About
 ---
 
 **The Cold Smoke Report** covers snow in southwest Montana — Bridger Bowl,
-Big Sky, and the town of Bozeman — with daily forecast discussions during the
-season and year-round climatology.
+Big Sky, and the town of Bozeman — with forecast discussions during the season
+and year-round climatology.
 
 "Cold smoke" is what Bridger locals call the ultralight, low-density powder
 this range is famous for: continental air, cold storm temperatures, and
 snow-to-liquid ratios that routinely top 15:1.
 
-## What's under the hood
+## Who's behind it
 
-The forecasts and data pages here are built on a research pipeline that:
+I'm a hurricane scientist by day who fell hard for snow and skiing during grad
+school out in Utah — and it's been an obsession ever since. This site is the
+hobby that got a little out of hand. I've been hooked on weather since I was a
+little kid glued to The Weather Channel, and forecasting mountain snow scratches
+that same itch: it's part science, part art, and never a solved problem.
 
-- merges **75+ years of daily station records** (SNOTEL, COOP, GHCN) into
-  quality-controlled snowfall series for Bridger Bowl and Big Sky;
-- classifies every winter day since 1950 into **synoptic regimes** using ERA5
-  reanalysis, to understand which patterns actually deliver;
-- verifies **GFS and HRRR** snowfall guidance against those station records,
-  quantifying where the models over- and under-produce;
-- runs a **quantile machine-learning forecast** (LightGBM) that turns model
-  guidance into calibrated P10/P50/P90 snowfall ranges and probabilities of
-  3", 6", and 10" days.
+The goal here is simple — to share some tidbits and insight into how these
+forecasts come together, in the hope that you learn a little something and I do
+too along the way. Snowfall forecasting is an inexact craft, and half the fun is
+talking through the uncertainty rather than pretending it away.
 
-The [Season Tracker](%BASE%/tracker/) plots season-to-date snowfall
-against percentile bands from the full station record, and the
+**Every forecast discussion on this site is written and interpreted by a
+human — me.** I lean on data and a bit of machine learning to sharpen the
+picture — a quantile model that turns raw guidance into calibrated snowfall
+ranges — but the words, the judgment calls, and the reasoning are all mine. No
+auto-generated slop.
+
+The [Season Tracker](%BASE%/tracker/) plots season-to-date snowfall against
+percentile bands from the full station record, and the
 [Climatology Explorer](%BASE%/climatology/) digs into what normal — and
 abnormal — looks like here.
 

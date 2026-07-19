@@ -4,7 +4,7 @@ from pathlib import Path
 
 # ===== Identity =====
 SITE_TITLE = "The Cold Smoke Report"
-SITE_TAGLINE = "Snow forecasting and climatology for Bridger Bowl, Big Sky & Bozeman"
+SITE_TAGLINE = "Snow forecasts for Bridger Bowl, Big Sky & Bozeman"
 SITE_AUTHOR = "Trey"
 SITE_DESCRIPTION = (
     "Daily forecast discussions, a season snowfall tracker, and deep snow "

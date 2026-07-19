@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>The Cold Smoke Report</title>
-  <subtitle>Snow forecasting and climatology for Bridger Bowl, Big Sky &amp; Bozeman</subtitle>
+  <subtitle>Snow forecasts for Bridger Bowl, Big Sky &amp; Bozeman</subtitle>
   <link href="https://trey-alvey.github.io/coldsmoke/feed.xml" rel="self"/>
   <link href="https://trey-alvey.github.io/coldsmoke/"/>
   <id>https://trey-alvey.github.io/coldsmoke/</id>

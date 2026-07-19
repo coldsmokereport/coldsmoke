@@ -136,7 +136,14 @@ def build_site(base: str, skip_data: bool = False):
         for k, v in sorted(months.items(), reverse=True)
     ]
     tag_list = sorted(tags.items(), key=lambda kv: (-len(kv[1]), kv[0]))
-    sidebar = {"recent": posts[:6], "months": month_list,
+    # Group months by year for the sidebar's collapsible blog-archive tree
+    years = defaultdict(lambda: {"count": 0, "months": []})
+    for m in month_list:
+        y = m["key"][:4]
+        years[y]["count"] += m["count"]
+        years[y]["months"].append({**m, "name": m["label"].split()[0]})
+    year_list = [{"year": y, **v} for y, v in sorted(years.items(), reverse=True)]
+    sidebar = {"recent": posts[:6], "months": month_list, "years": year_list,
                "tags": [(t, len(v)) for t, v in tag_list]}
 
     # Post pages, index, archives, tags

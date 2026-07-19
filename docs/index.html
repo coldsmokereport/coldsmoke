@@ -14,30 +14,29 @@
 
 </head>
 <body>
+<div class="page">
 
 <header class="masthead">
-  <div class="stationbar">
-    <span>Bozeman, Montana</span>
-    <span class="stationbar-data">45.7°N 111.0°W · Bridgers 8,700′ · Lone Peak 11,166′</span>
-  </div>
+  <svg class="ridgeline" viewBox="0 0 1200 150" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <!-- Bridger-crest-inspired duotone silhouette -->
+    <path class="ridge-far" d="M0,150 L0,96 L90,64 L180,84 L300,46 L420,74 L560,30 L680,62 L820,40
+             L950,70 L1080,52 L1200,72 L1200,150 Z"/>
+    <path class="ridge-near" d="M0,150 L0,118 L140,96 L280,110 L420,86 L560,102 L720,78 L880,98
+             L1040,84 L1200,104 L1200,150 Z"/>
+  </svg>
   <div class="masthead-inner">
     <h1 class="masthead-title"><a href="/coldsmoke/">The Cold Smoke Report</a></h1>
-    <p class="masthead-tagline">Snow forecasting and climatology for Bridger Bowl, Big Sky &amp; Bozeman</p>
+    <p class="masthead-tagline">Snow forecasts for Bridger Bowl, Big Sky &amp; Bozeman</p>
   </div>
-  <svg class="ridgeline" viewBox="0 0 1200 84" preserveAspectRatio="none" aria-hidden="true">
-    <!-- Bridger-crest-inspired silhouette -->
-    <path d="M0,84 L0,58 L70,44 L130,52 L200,30 L255,46 L320,18 L370,38 L430,26 L490,44
-             L560,10 L610,34 L665,22 L730,42 L800,14 L850,36 L910,28 L970,48 L1040,34
-             L1100,50 L1160,42 L1200,54 L1200,84 Z"/>
-  </svg>
-  <nav class="sitenav" aria-label="Site">
-    <a href="/coldsmoke/">Posts</a>
-    <a href="/coldsmoke/tracker/">Season Tracker</a>
-    <a href="/coldsmoke/climatology/">Climatology</a>
-    <a href="/coldsmoke/archive/">Archive</a>
-    <a href="/coldsmoke/about/">About</a>
-  </nav>
 </header>
+
+<nav class="sitenav" aria-label="Site">
+  <a href="/coldsmoke/">Home</a>
+  <a href="/coldsmoke/tracker/">Season tracker</a>
+  <a href="/coldsmoke/climatology/">Climatology</a>
+  <a href="/coldsmoke/archive/">Archive</a>
+  <a href="/coldsmoke/about/">About</a>
+</nav>
 
 <div class="layout">
   <main class="content">
@@ -45,7 +44,7 @@
 
 <article class="post">
   <header class="post-head">
-    <p class="post-date">July 12, 2026</p>
+    <p class="post-date">Sunday, July 12, 2026</p>
     <h2 class="post-title"><a href="/coldsmoke/posts/welcome-to-the-cold-smoke-report/">Welcome to The Cold Smoke Report</a></h2>
   </header>
   <div class="post-body"><p>It's July, the Bridgers are green, and this is exactly the right time to start
@@ -78,7 +77,7 @@ followed by the human discussion of why. Until then: climatology season.</p>
 <p>Think snow.</p>
 </div>
   
-  <p class="post-tags">
+  <p class="post-tags">Labels:
     <a class="tag" href="/coldsmoke/tags/meta/">meta</a>
   </p>
   
@@ -90,9 +89,18 @@ followed by the human discussion of why. Until then: climatology season.</p>
   <aside class="sidebar">
     <section class="sb-box">
       <h2 class="sb-head">About</h2>
-      <p>Forecast discussions and snow climatology for southwest Montana,
-      grounded in 75 years of station records and a quantile ML forecast
-      system. <a href="/coldsmoke/about/">More →</a></p>
+      <p>Human-written forecast discussions and snow climatology for southwest
+      Montana — the side-hobby of a hurricane scientist who caught the powder
+      bug out west. <a href="/coldsmoke/about/">More →</a></p>
+    </section>
+
+    <section class="sb-box">
+      <h2 class="sb-head">The lookout</h2>
+      <dl class="sb-station">
+        <dt>Bozeman</dt><dd>45.7°N 111.0°W</dd>
+        <dt>Bridger Bowl</dt><dd>6,100–8,700′</dd>
+        <dt>Big Sky</dt><dd>7,500–11,166′</dd>
+      </dl>
     </section>
 
     <section class="sb-box">
@@ -106,18 +114,23 @@ followed by the human discussion of why. Until then: climatology season.</p>
     </section>
 
     <section class="sb-box">
-      <h2 class="sb-head">Archive</h2>
-      <ul class="sb-list">
-        
-        <li><a href="/coldsmoke/archive/2026-07/">July 2026</a>
-            <span class="sb-date">1</span></li>
-        
-      </ul>
+      <h2 class="sb-head">Blog archive</h2>
+      
+      <details class="arch-year" open>
+        <summary>2026 <span class="sb-date">(1)</span></summary>
+        <ul class="sb-list">
+          
+          <li><a href="/coldsmoke/archive/2026-07/">July</a>
+              <span class="sb-date">1</span></li>
+          
+        </ul>
+      </details>
+      
     </section>
 
     
     <section class="sb-box">
-      <h2 class="sb-head">Tags</h2>
+      <h2 class="sb-head">Labels</h2>
       <p class="sb-tags">
         
         <a class="tag" href="/coldsmoke/tags/meta/">meta<span>1</span></a>
@@ -125,6 +138,18 @@ followed by the human discussion of why. Until then: climatology season.</p>
       </p>
     </section>
     
+
+    <section class="sb-box">
+      <h2 class="sb-head">Links</h2>
+      <ul class="sb-list">
+        <li><a href="https://www.weather.gov/gjt/">National Weather Service</a></li>
+        <li><a href="https://www.mtavalanche.com/">GNFAC avalanche center</a></li>
+        <li><a href="https://bridgerbowl.com/weather/tables">Bridger Bowl weather tables</a></li>
+        <li><a href="https://nwcc-apps.sc.egov.usda.gov/imap/">SNOTEL snow data</a></li>
+        <li><a href="https://weather.utah.edu/">U. of Utah forecast models</a></li>
+        <li><a href="/coldsmoke/feed.xml">Atom feed</a></li>
+      </ul>
+    </section>
   </aside>
 </div>
 
@@ -136,6 +161,7 @@ followed by the human discussion of why. Until then: climatology season.</p>
      <a href="https://www.mtavalanche.com/">GNFAC</a> before making decisions in the mountains.</p>
 </footer>
 
+</div>
 
 </body>
 </html>

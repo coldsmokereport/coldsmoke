@@ -14,30 +14,29 @@
 
 </head>
 <body>
+<div class="page">
 
 <header class="masthead">
-  <div class="stationbar">
-    <span>Bozeman, Montana</span>
-    <span class="stationbar-data">45.7°N 111.0°W · Bridgers 8,700′ · Lone Peak 11,166′</span>
-  </div>
+  <svg class="ridgeline" viewBox="0 0 1200 150" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <!-- Bridger-crest-inspired duotone silhouette -->
+    <path class="ridge-far" d="M0,150 L0,96 L90,64 L180,84 L300,46 L420,74 L560,30 L680,62 L820,40
+             L950,70 L1080,52 L1200,72 L1200,150 Z"/>
+    <path class="ridge-near" d="M0,150 L0,118 L140,96 L280,110 L420,86 L560,102 L720,78 L880,98
+             L1040,84 L1200,104 L1200,150 Z"/>
+  </svg>
   <div class="masthead-inner">
     <h1 class="masthead-title"><a href="/coldsmoke/">The Cold Smoke Report</a></h1>
-    <p class="masthead-tagline">Snow forecasting and climatology for Bridger Bowl, Big Sky &amp; Bozeman</p>
+    <p class="masthead-tagline">Snow forecasts for Bridger Bowl, Big Sky &amp; Bozeman</p>
   </div>
-  <svg class="ridgeline" viewBox="0 0 1200 84" preserveAspectRatio="none" aria-hidden="true">
-    <!-- Bridger-crest-inspired silhouette -->
-    <path d="M0,84 L0,58 L70,44 L130,52 L200,30 L255,46 L320,18 L370,38 L430,26 L490,44
-             L560,10 L610,34 L665,22 L730,42 L800,14 L850,36 L910,28 L970,48 L1040,34
-             L1100,50 L1160,42 L1200,54 L1200,84 Z"/>
-  </svg>
-  <nav class="sitenav" aria-label="Site">
-    <a href="/coldsmoke/">Posts</a>
-    <a href="/coldsmoke/tracker/">Season Tracker</a>
-    <a href="/coldsmoke/climatology/">Climatology</a>
-    <a href="/coldsmoke/archive/">Archive</a>
-    <a href="/coldsmoke/about/">About</a>
-  </nav>
 </header>
+
+<nav class="sitenav" aria-label="Site">
+  <a href="/coldsmoke/">Home</a>
+  <a href="/coldsmoke/tracker/">Season tracker</a>
+  <a href="/coldsmoke/climatology/">Climatology</a>
+  <a href="/coldsmoke/archive/">Archive</a>
+  <a href="/coldsmoke/about/">About</a>
+</nav>
 
 <div class="layout">
   <main class="content">
@@ -45,26 +44,28 @@
 <article class="post">
   <header class="post-head"><h2 class="post-title">About</h2></header>
   <div class="post-body"><p><strong>The Cold Smoke Report</strong> covers snow in southwest Montana — Bridger Bowl,
-Big Sky, and the town of Bozeman — with daily forecast discussions during the
-season and year-round climatology.</p>
+Big Sky, and the town of Bozeman — with forecast discussions during the season
+and year-round climatology.</p>
 <p>&quot;Cold smoke&quot; is what Bridger locals call the ultralight, low-density powder
 this range is famous for: continental air, cold storm temperatures, and
 snow-to-liquid ratios that routinely top 15:1.</p>
-<h2>What's under the hood</h2>
-<p>The forecasts and data pages here are built on a research pipeline that:</p>
-<ul>
-<li>merges <strong>75+ years of daily station records</strong> (SNOTEL, COOP, GHCN) into
-quality-controlled snowfall series for Bridger Bowl and Big Sky;</li>
-<li>classifies every winter day since 1950 into <strong>synoptic regimes</strong> using ERA5
-reanalysis, to understand which patterns actually deliver;</li>
-<li>verifies <strong>GFS and HRRR</strong> snowfall guidance against those station records,
-quantifying where the models over- and under-produce;</li>
-<li>runs a <strong>quantile machine-learning forecast</strong> (LightGBM) that turns model
-guidance into calibrated P10/P50/P90 snowfall ranges and probabilities of
-3&quot;, 6&quot;, and 10&quot; days.</li>
-</ul>
-<p>The <a href="/coldsmoke/tracker/">Season Tracker</a> plots season-to-date snowfall
-against percentile bands from the full station record, and the
+<h2>Who's behind it</h2>
+<p>I'm a hurricane scientist by day who fell hard for snow and skiing during grad
+school out in Utah — and it's been an obsession ever since. This site is the
+hobby that got a little out of hand. I've been hooked on weather since I was a
+little kid glued to The Weather Channel, and forecasting mountain snow scratches
+that same itch: it's part science, part art, and never a solved problem.</p>
+<p>The goal here is simple — to share some tidbits and insight into how these
+forecasts come together, in the hope that you learn a little something and I do
+too along the way. Snowfall forecasting is an inexact craft, and half the fun is
+talking through the uncertainty rather than pretending it away.</p>
+<p><strong>Every forecast discussion on this site is written and interpreted by a
+human — me.</strong> I lean on data and a bit of machine learning to sharpen the
+picture — a quantile model that turns raw guidance into calibrated snowfall
+ranges — but the words, the judgment calls, and the reasoning are all mine. No
+auto-generated slop.</p>
+<p>The <a href="/coldsmoke/tracker/">Season Tracker</a> plots season-to-date snowfall against
+percentile bands from the full station record, and the
 <a href="/coldsmoke/climatology/">Climatology Explorer</a> digs into what normal — and
 abnormal — looks like here.</p>
 <h2>The fine print</h2>
@@ -80,9 +81,18 @@ the <a href="https://www.mtavalanche.com/">Gallatin National Forest Avalanche Ce
   <aside class="sidebar">
     <section class="sb-box">
       <h2 class="sb-head">About</h2>
-      <p>Forecast discussions and snow climatology for southwest Montana,
-      grounded in 75 years of station records and a quantile ML forecast
-      system. <a href="/coldsmoke/about/">More →</a></p>
+      <p>Human-written forecast discussions and snow climatology for southwest
+      Montana — the side-hobby of a hurricane scientist who caught the powder
+      bug out west. <a href="/coldsmoke/about/">More →</a></p>
+    </section>
+
+    <section class="sb-box">
+      <h2 class="sb-head">The lookout</h2>
+      <dl class="sb-station">
+        <dt>Bozeman</dt><dd>45.7°N 111.0°W</dd>
+        <dt>Bridger Bowl</dt><dd>6,100–8,700′</dd>
+        <dt>Big Sky</dt><dd>7,500–11,166′</dd>
+      </dl>
     </section>
 
     <section class="sb-box">
@@ -96,18 +106,23 @@ the <a href="https://www.mtavalanche.com/">Gallatin National Forest Avalanche Ce
     </section>
 
     <section class="sb-box">
-      <h2 class="sb-head">Archive</h2>
-      <ul class="sb-list">
-        
-        <li><a href="/coldsmoke/archive/2026-07/">July 2026</a>
-            <span class="sb-date">1</span></li>
-        
-      </ul>
+      <h2 class="sb-head">Blog archive</h2>
+      
+      <details class="arch-year" open>
+        <summary>2026 <span class="sb-date">(1)</span></summary>
+        <ul class="sb-list">
+          
+          <li><a href="/coldsmoke/archive/2026-07/">July</a>
+              <span class="sb-date">1</span></li>
+          
+        </ul>
+      </details>
+      
     </section>
 
     
     <section class="sb-box">
-      <h2 class="sb-head">Tags</h2>
+      <h2 class="sb-head">Labels</h2>
       <p class="sb-tags">
         
         <a class="tag" href="/coldsmoke/tags/meta/">meta<span>1</span></a>
@@ -115,6 +130,18 @@ the <a href="https://www.mtavalanche.com/">Gallatin National Forest Avalanche Ce
       </p>
     </section>
     
+
+    <section class="sb-box">
+      <h2 class="sb-head">Links</h2>
+      <ul class="sb-list">
+        <li><a href="https://www.weather.gov/gjt/">National Weather Service</a></li>
+        <li><a href="https://www.mtavalanche.com/">GNFAC avalanche center</a></li>
+        <li><a href="https://bridgerbowl.com/weather/tables">Bridger Bowl weather tables</a></li>
+        <li><a href="https://nwcc-apps.sc.egov.usda.gov/imap/">SNOTEL snow data</a></li>
+        <li><a href="https://weather.utah.edu/">U. of Utah forecast models</a></li>
+        <li><a href="/coldsmoke/feed.xml">Atom feed</a></li>
+      </ul>
+    </section>
   </aside>
 </div>
 
@@ -126,6 +153,7 @@ the <a href="https://www.mtavalanche.com/">Gallatin National Forest Avalanche Ce
      <a href="https://www.mtavalanche.com/">GNFAC</a> before making decisions in the mountains.</p>
 </footer>
 
+</div>
 
 </body>
 </html>

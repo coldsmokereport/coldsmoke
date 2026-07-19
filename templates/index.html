@@ -3,13 +3,13 @@
 {% for post in posts %}
 <article class="post">
   <header class="post-head">
-    <p class="post-date">{{ post.date|datefmt }}</p>
+    <p class="post-date">{{ post.date|datefmt("%A, %B %-d, %Y") }}</p>
     <h2 class="post-title"><a href="{{ base }}/posts/{{ post.slug }}/">{{ post.title }}</a></h2>
   </header>
   <div class="post-body">{{ post.body|safe }}</div>
   {% if post.tags %}
-  <p class="post-tags">
-    {% for t in post.tags %}<a class="tag" href="{{ base }}/tags/{{ t }}/">{{ t }}</a>{% endfor %}
+  <p class="post-tags">Labels:
+    {% for t in post.tags %}<a class="tag" href="{{ base }}/tags/{{ t }}/">{{ t }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
 </article>
