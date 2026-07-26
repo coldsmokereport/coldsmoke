@@ -22,7 +22,6 @@ import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 import config
-import make_data
 
 POST_FNAME_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-(.+)\.md$")
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
@@ -123,8 +122,11 @@ def build_site(base: str, skip_data: bool = False):
     env = jinja_env(base)
     posts = load_posts(base)
 
-    # Refresh data JSON first so the sidebar can show live season stats
+    # Refresh data JSON first so the sidebar can show live season stats.
+    # Lazy import: make_data needs pandas/numpy + HPC data paths, which the
+    # GitHub Actions rebuild (--skip-data) doesn't have.
     if not skip_data:
+        import make_data
         make_data.make_all()
     climo = json.loads((out / "data" / "climatology.json").read_text())
     tracker = json.loads((out / "data" / "season_tracker.json").read_text())

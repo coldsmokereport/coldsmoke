@@ -1,0 +1,55 @@
+name: Rebuild site
+
+# Rebuild docs/ whenever content or templates change (e.g. a post published
+# from the /admin CMS, or an edit made in the GitHub web UI). Uses the
+# committed data JSON (--skip-data); the full data refresh still happens on
+# HPC builds via publish.sh. The paths filter excludes docs/, so the
+# commit this workflow pushes does not re-trigger it.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "posts/**"
+      - "pages/**"
+      - "templates/**"
+      - "static/**"
+      - "config.py"
+      - "build.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build deps
+        run: pip install mistune jinja2 pyyaml
+
+      - name: Build site
+        run: python build.py --skip-data
+
+      - name: Commit rebuilt site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then
+            echo "no site changes"
+          else
+            git commit -m "ci: rebuild site"
+            git pull --rebase origin main
+            git push
+          fi

@@ -1,0 +1,44 @@
+backend:
+  name: github
+  repo: trey-alvey/coldsmoke
+  branch: main
+
+# Uploaded images are committed to posts/images/ and copied by build.py to
+# docs/assets/images/ — %BASE% is the site's base-URL token from build.py.
+media_folder: posts/images
+public_folder: "%BASE%/assets/images"
+
+site_url: https://trey-alvey.github.io/coldsmoke
+display_url: https://trey-alvey.github.io/coldsmoke
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: posts
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} — {{date}}"
+    sortable_fields: [date, title]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime,
+          format: YYYY-MM-DD, date_format: YYYY-MM-DD, time_format: false }
+      - { label: Tags, name: tags, widget: list, default: [forecast],
+          required: false }
+      - { label: Draft, name: draft, widget: boolean, default: false,
+          required: false,
+          hint: "Drafts are skipped by the site build" }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: pages
+    label: Pages
+    files:
+      - label: About
+        name: about
+        file: pages/about.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
