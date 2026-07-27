@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: trey-alvey/coldsmoke
+  repo: coldsmokereport/coldsmoke
   branch: main
 
 # Uploaded images are committed to posts/images/ and copied by build.py to
@@ -8,8 +8,8 @@ backend:
 media_folder: posts/images
 public_folder: "%BASE%/assets/images"
 
-site_url: https://trey-alvey.github.io/coldsmoke
-display_url: https://trey-alvey.github.io/coldsmoke
+site_url: https://coldsmokereport.github.io/coldsmoke
+display_url: https://coldsmokereport.github.io/coldsmoke
 
 collections:
   - name: posts

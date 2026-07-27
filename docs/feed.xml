@@ -2,24 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>The Cold Smoke Report</title>
   <subtitle>Snow forecasts for Bridger Bowl, Big Sky &amp; Bozeman</subtitle>
-  <link href="https://trey-alvey.github.io/coldsmoke/feed.xml" rel="self"/>
-  <link href="https://trey-alvey.github.io/coldsmoke/"/>
-  <id>https://trey-alvey.github.io/coldsmoke/</id>
+  <link href="https://coldsmokereport.github.io/coldsmoke/feed.xml" rel="self"/>
+  <link href="https://coldsmokereport.github.io/coldsmoke/"/>
+  <id>https://coldsmokereport.github.io/coldsmoke/</id>
   <updated>2026-07-12T12:00:00Z</updated>
   <author><name>Trey</name></author>
   
   <entry>
     <title>Welcome to The Cold Smoke Report</title>
-    <link href="https://trey-alvey.github.io/coldsmoke/posts/welcome-to-the-cold-smoke-report/"/>
-    <id>https://trey-alvey.github.io/coldsmoke/posts/welcome-to-the-cold-smoke-report/</id>
+    <link href="https://coldsmokereport.github.io/coldsmoke/posts/welcome-to-the-cold-smoke-report/"/>
+    <id>https://coldsmokereport.github.io/coldsmoke/posts/welcome-to-the-cold-smoke-report/</id>
     <updated>2026-07-12T12:00:00Z</updated>
     <content type="html">&lt;p&gt;It&#39;s July, the Bridgers are green, and this is exactly the right time to start
 a snow blog — because the interesting work happens before the first flake.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The Cold Smoke Report&lt;/strong&gt; is a new home for southwest Montana snow: daily
 forecast discussions for &lt;strong&gt;Bridger Bowl&lt;/strong&gt; and &lt;strong&gt;Big Sky&lt;/strong&gt; once the season
 spins up (with Bozeman in-town forecasts in the mix), plus a
-&lt;a href=&#34;https://trey-alvey.github.io/coldsmoke/tracker/&#34;&gt;Season Tracker&lt;/a&gt; and a
-&lt;a href=&#34;https://trey-alvey.github.io/coldsmoke/climatology/&#34;&gt;Climatology Explorer&lt;/a&gt; that run year-round.&lt;/p&gt;
+&lt;a href=&#34;https://coldsmokereport.github.io/coldsmoke/tracker/&#34;&gt;Season Tracker&lt;/a&gt; and a
+&lt;a href=&#34;https://coldsmokereport.github.io/coldsmoke/climatology/&#34;&gt;Climatology Explorer&lt;/a&gt; that run year-round.&lt;/p&gt;
 &lt;p&gt;The name is the local term of art. Cold smoke is the low-density powder the
 Bridgers are famous for — cold continental storms, high snow-to-liquid
 ratios, and the kind of snow that hangs in the air behind you.&lt;/p&gt;
@@ -36,7 +36,7 @@ on record have a habit of showing up in the shoulder months.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Last winter (2025–26) finished at &lt;strong&gt;139 inches&lt;/strong&gt; at Bridger and &lt;strong&gt;127&lt;/strong&gt; at
 Big Sky — you can see exactly how that season traced against climatology on
-the &lt;a href=&#34;https://trey-alvey.github.io/coldsmoke/tracker/&#34;&gt;tracker&lt;/a&gt;.&lt;/p&gt;
+the &lt;a href=&#34;https://coldsmokereport.github.io/coldsmoke/tracker/&#34;&gt;tracker&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;When the snow returns, each morning&#39;s post will lead with a calibrated
 P10/P50/P90 forecast from a quantile ML system trained on that same record,
 followed by the human discussion of why. Until then: climatology season.&lt;/p&gt;
