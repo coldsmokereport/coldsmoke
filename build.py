@@ -80,6 +80,7 @@ def jinja_env(base: str) -> Environment:
         site_author=config.SITE_AUTHOR,
         site_description=config.SITE_DESCRIPTION,
         now_year=datetime.now().year,
+        cusdis_app_id=config.CUSDIS_APP_ID,
     )
     env.filters["datefmt"] = lambda d, f="%B %-d, %Y": d.strftime(f)
     return env

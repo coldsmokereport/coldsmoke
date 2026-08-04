@@ -5,8 +5,112 @@
   <link href="https://coldsmokereport.github.io/coldsmoke/feed.xml" rel="self"/>
   <link href="https://coldsmokereport.github.io/coldsmoke/"/>
   <id>https://coldsmokereport.github.io/coldsmoke/</id>
-  <updated>2026-07-12T12:00:00Z</updated>
+  <updated>2026-07-27T12:00:00Z</updated>
   <author><name>Trey</name></author>
+  
+  <entry>
+    <title>El Niño and Bridger Bowl: what 76 winters say about 2026–27</title>
+    <link href="https://coldsmokereport.github.io/coldsmoke/posts/el-nino-and-bridger-bowl-what-76-winters-say/"/>
+    <id>https://coldsmokereport.github.io/coldsmoke/posts/el-nino-and-bridger-bowl-what-76-winters-say/</id>
+    <updated>2026-07-27T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;A strong El Niño is underway. As of the Climate Prediction Center&#39;s July
+discussion, Niño-3.4 is running &lt;strong&gt;+1.2 °C&lt;/strong&gt; and still warming, with an &lt;strong&gt;81%
+chance of a &lt;em&gt;very strong&lt;/em&gt; event by October–December&lt;/strong&gt; — the kind of ENSO
+winter that shows up three times in the historical record (1982-83, 1997-98,
+2015-16). So it&#39;s a fair question for anyone with a Bridger pass: what does
+a big El Niño actually do to our snow?&lt;/p&gt;
+&lt;p&gt;We joined all &lt;strong&gt;76 seasons&lt;/strong&gt; of the station record behind this site
+(WY1951–2026) to the CPC&#39;s Oceanic Niño Index and let the data talk. Short
+version: &lt;strong&gt;El Niño tilts the odds against us — modestly, measurably, and
+mostly by deleting the blower years.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;The relationship, in one scatter&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/enso/regression_oni_total.png&#34; alt=&#34;Seasonal snowfall vs DJF ONI&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Across all 76 winters, Bridger loses about &lt;strong&gt;11 inches of seasonal snowfall
+per +1 °C of winter ONI&lt;/strong&gt; (p &amp;lt; 0.001). But the R² is 0.14 — ENSO explains
+about a seventh of the year-to-year variance. It loads the dice; it doesn&#39;t
+throw them.&lt;/p&gt;
+&lt;p&gt;The more interesting result is &lt;em&gt;where&lt;/em&gt; the loss comes from. Quantile
+regression says the slope at the 90th percentile (−16″/°C) is three times
+steeper than at the 10th (−5.5″/°C). El Niño doesn&#39;t crater the floor of a
+Bridger winter — &lt;strong&gt;it caps the ceiling&lt;/strong&gt;. None of the eight strong-or-better
+El Niño winters since 1950 cleared 200 inches, while half of the strong La
+Niña winters did.&lt;/p&gt;
+&lt;h2&gt;The probabilities&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/enso/probability_bars.png&#34; alt=&#34;Season-outcome probabilities by ENSO state&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Sorting all 76 winters into five ENSO bins (whiskers are honest 95%
+confidence intervals — small samples, wide bars):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;P(below-median season)&lt;/strong&gt; climbs from ~33% in La Niña to &lt;strong&gt;~75% in
+strong+ El Niño&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;P(200″+ blower year)&lt;/strong&gt;: ~50% in strong La Niña, ~9% in neutral,
+&lt;strong&gt;~0–5% in strong+ El Niño&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;P(lean year, under 130″)&lt;/strong&gt;: rises to &lt;strong&gt;~25–30%&lt;/strong&gt; in strong+ El Niño —
+elevated, but far from a guarantee of misery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mean seasonal totals run 143″ (strong+ El Niño) → 158″ (neutral) → 186″
+(strong La Niña) against the 164″ climo mean. And a detail worth noting:
+strong El Niño vs &lt;em&gt;neutral&lt;/em&gt; is only −14″ and not statistically significant.
+Most of the ENSO lever at Bridger is &lt;strong&gt;La Niña generosity&lt;/strong&gt;, not El Niño
+devastation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/enso/violin_seasonal_total.png&#34; alt=&#34;Seasonal snowfall by ENSO state&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Why: the ridge&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/enso/composite_z500_mslp.png&#34; alt=&#34;DJF composite anomalies&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The mechanism is textbook. Compositing 76 winters of ERA5 fields, strong El
+Niño Decembers-through-Februaries deepen and shift the Aleutian low while
+parking a &lt;strong&gt;ridge over western Canada and the northern Rockies&lt;/strong&gt; — right on
+top of us. The storm track splits and feeds California; we sit under
+subsidence. Strong La Niña is the mirror image: a North Pacific ridge and a
+trough digging into the Northwest, which is why those winters produced 11
+of Bridger&#39;s top-20 storms (El Niño winters: 5).&lt;/p&gt;
+&lt;p&gt;Two more findings from the record:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The hit is spread across the season, worst early.&lt;/strong&gt; Every month
+Nov–Mar loses snow per degree of ONI, with November and December the only
+months reaching significance. The folklore of the &amp;quot;back-loaded El Niño
+winter&amp;quot; doesn&#39;t rescue Bridger — February and March slopes stay negative.
+Plan for a slow start without banking on a March miracle.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/enso/monthly_slopes.png&#34; alt=&#34;Monthly snowfall sensitivity to ENSO&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;There is no temperature signal.&lt;/strong&gt; Bozeman-area station records, ERA5,
+and SNOTEL all agree: strong El Niño winters here are not reliably warmer
+(differences of 0.1–0.6 °C, indistinguishable from noise). El Niño
+doesn&#39;t melt Bridger — it starves the storm track. When it snows, it
+should still be cold smoke.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;So what does 2026–27 look like?&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/enso/analog_table.png&#34; alt=&#34;Analog winters&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The eight strong+ analogs range from 112″ (1997-98, the worst of them) to
+175″ (2009-10). Even monster 1982-83 managed 102% of climatology — a very
+strong El Niño does not forbid a decent winter.&lt;/p&gt;
+&lt;p&gt;We built the outlook three independent ways: the raw analog distribution,
+an ONI-kernel weighting of all 76 winters centered on the forecast (+2.0),
+and the quantile-regression fit evaluated at ONI 1.8–2.2. They converge to
+the same place:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/enso/outlook_plume.png&#34; alt=&#34;2026-27 outlook plume&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The central expectation for Bridger in 2026–27 is roughly 145–150 inches
+— about 85–90% of a normal season&lt;/strong&gt; — with a 10th-to-90th-percentile range
+of about &lt;strong&gt;112″ to 170″&lt;/strong&gt;. Roughly a 70–75% chance of finishing below the
+climo mean, a ~25–30% chance of a genuinely lean year under 130″, and only
+a few percent chance of a 200″ season.&lt;/p&gt;
+&lt;p&gt;The honest caveats: eight analogs is a small sample, and ENSO explains only
+~14% of what a Bridger winter does. The other 86% — storm-by-storm luck,
+the polar jet, whatever the North Pacific decides to do in February — is
+still on the table. 2009-10 beat climatology under a strong El Niño.&lt;/p&gt;
+&lt;p&gt;But if you&#39;re setting expectations: think &lt;strong&gt;slower start, fewer deep days,
+same cold snow&lt;/strong&gt; — and watch the &lt;a href=&#34;https://coldsmokereport.github.io/coldsmoke/tracker/&#34;&gt;Season Tracker&lt;/a&gt; trace it
+against the gray bands in real time once the flakes fly.&lt;/p&gt;
+&lt;p&gt;Think snow anyway.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;Methods: DJF Oceanic Niño Index (CPC), 76 usable Bridger seasons
+(Nov–Apr totals) from the station record behind this site. Probability
+bins use Wilson intervals; group differences tested with Mann-Whitney,
+permutation, and bootstrap methods; composites are ERA5 12Z anomalies vs a
+smoothed day-of-year climatology with bootstrap stippling. Full analysis
+lives in the mtnsnow pipeline (phase 09).&lt;/em&gt;&lt;/p&gt;
+</content>
+    <category term="climatology"/><category term="el-nino"/><category term="bridger"/><category term="outlook"/>
+  </entry>
   
   <entry>
     <title>Welcome to The Cold Smoke Report</title>

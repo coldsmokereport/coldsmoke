@@ -151,6 +151,9 @@ img { max-width: 100%; height: auto; }
 .tag span::before { content: " ("; }
 .tag span::after { content: ")"; }
 
+.post-comments { max-width: 44rem; margin-top: 2.4rem; }
+.post-comments .sb-head { font-size: 1rem; border-bottom: 2px solid var(--ridge); }
+
 .page-heading { font-size: 1.6rem; margin: 0 0 0.4rem; line-height: 1.2; font-weight: 600; }
 .page-lede { color: var(--ink-2); margin-top: 0; max-width: 44rem; }
 

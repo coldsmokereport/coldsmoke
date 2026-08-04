@@ -44,6 +44,114 @@
 
 <article class="post">
   <header class="post-head">
+    <p class="post-date">Monday, July 27, 2026</p>
+    <h2 class="post-title"><a href="/coldsmoke/posts/el-nino-and-bridger-bowl-what-76-winters-say/">El Niño and Bridger Bowl: what 76 winters say about 2026–27</a></h2>
+  </header>
+  <div class="post-body"><p>A strong El Niño is underway. As of the Climate Prediction Center's July
+discussion, Niño-3.4 is running <strong>+1.2 °C</strong> and still warming, with an <strong>81%
+chance of a <em>very strong</em> event by October–December</strong> — the kind of ENSO
+winter that shows up three times in the historical record (1982-83, 1997-98,
+2015-16). So it's a fair question for anyone with a Bridger pass: what does
+a big El Niño actually do to our snow?</p>
+<p>We joined all <strong>76 seasons</strong> of the station record behind this site
+(WY1951–2026) to the CPC's Oceanic Niño Index and let the data talk. Short
+version: <strong>El Niño tilts the odds against us — modestly, measurably, and
+mostly by deleting the blower years.</strong></p>
+<h2>The relationship, in one scatter</h2>
+<p><img src="/coldsmoke/assets/images/enso/regression_oni_total.png" alt="Seasonal snowfall vs DJF ONI" /></p>
+<p>Across all 76 winters, Bridger loses about <strong>11 inches of seasonal snowfall
+per +1 °C of winter ONI</strong> (p &lt; 0.001). But the R² is 0.14 — ENSO explains
+about a seventh of the year-to-year variance. It loads the dice; it doesn't
+throw them.</p>
+<p>The more interesting result is <em>where</em> the loss comes from. Quantile
+regression says the slope at the 90th percentile (−16″/°C) is three times
+steeper than at the 10th (−5.5″/°C). El Niño doesn't crater the floor of a
+Bridger winter — <strong>it caps the ceiling</strong>. None of the eight strong-or-better
+El Niño winters since 1950 cleared 200 inches, while half of the strong La
+Niña winters did.</p>
+<h2>The probabilities</h2>
+<p><img src="/coldsmoke/assets/images/enso/probability_bars.png" alt="Season-outcome probabilities by ENSO state" /></p>
+<p>Sorting all 76 winters into five ENSO bins (whiskers are honest 95%
+confidence intervals — small samples, wide bars):</p>
+<ul>
+<li><strong>P(below-median season)</strong> climbs from ~33% in La Niña to <strong>~75% in
+strong+ El Niño</strong>.</li>
+<li><strong>P(200″+ blower year)</strong>: ~50% in strong La Niña, ~9% in neutral,
+<strong>~0–5% in strong+ El Niño</strong>.</li>
+<li><strong>P(lean year, under 130″)</strong>: rises to <strong>~25–30%</strong> in strong+ El Niño —
+elevated, but far from a guarantee of misery.</li>
+</ul>
+<p>Mean seasonal totals run 143″ (strong+ El Niño) → 158″ (neutral) → 186″
+(strong La Niña) against the 164″ climo mean. And a detail worth noting:
+strong El Niño vs <em>neutral</em> is only −14″ and not statistically significant.
+Most of the ENSO lever at Bridger is <strong>La Niña generosity</strong>, not El Niño
+devastation.</p>
+<p><img src="/coldsmoke/assets/images/enso/violin_seasonal_total.png" alt="Seasonal snowfall by ENSO state" /></p>
+<h2>Why: the ridge</h2>
+<p><img src="/coldsmoke/assets/images/enso/composite_z500_mslp.png" alt="DJF composite anomalies" /></p>
+<p>The mechanism is textbook. Compositing 76 winters of ERA5 fields, strong El
+Niño Decembers-through-Februaries deepen and shift the Aleutian low while
+parking a <strong>ridge over western Canada and the northern Rockies</strong> — right on
+top of us. The storm track splits and feeds California; we sit under
+subsidence. Strong La Niña is the mirror image: a North Pacific ridge and a
+trough digging into the Northwest, which is why those winters produced 11
+of Bridger's top-20 storms (El Niño winters: 5).</p>
+<p>Two more findings from the record:</p>
+<ul>
+<li><p><strong>The hit is spread across the season, worst early.</strong> Every month
+Nov–Mar loses snow per degree of ONI, with November and December the only
+months reaching significance. The folklore of the &quot;back-loaded El Niño
+winter&quot; doesn't rescue Bridger — February and March slopes stay negative.
+Plan for a slow start without banking on a March miracle.</p>
+<p><img src="/coldsmoke/assets/images/enso/monthly_slopes.png" alt="Monthly snowfall sensitivity to ENSO" /></p>
+</li>
+<li><p><strong>There is no temperature signal.</strong> Bozeman-area station records, ERA5,
+and SNOTEL all agree: strong El Niño winters here are not reliably warmer
+(differences of 0.1–0.6 °C, indistinguishable from noise). El Niño
+doesn't melt Bridger — it starves the storm track. When it snows, it
+should still be cold smoke.</p>
+</li>
+</ul>
+<h2>So what does 2026–27 look like?</h2>
+<p><img src="/coldsmoke/assets/images/enso/analog_table.png" alt="Analog winters" /></p>
+<p>The eight strong+ analogs range from 112″ (1997-98, the worst of them) to
+175″ (2009-10). Even monster 1982-83 managed 102% of climatology — a very
+strong El Niño does not forbid a decent winter.</p>
+<p>We built the outlook three independent ways: the raw analog distribution,
+an ONI-kernel weighting of all 76 winters centered on the forecast (+2.0),
+and the quantile-regression fit evaluated at ONI 1.8–2.2. They converge to
+the same place:</p>
+<p><img src="/coldsmoke/assets/images/enso/outlook_plume.png" alt="2026-27 outlook plume" /></p>
+<p><strong>The central expectation for Bridger in 2026–27 is roughly 145–150 inches
+— about 85–90% of a normal season</strong> — with a 10th-to-90th-percentile range
+of about <strong>112″ to 170″</strong>. Roughly a 70–75% chance of finishing below the
+climo mean, a ~25–30% chance of a genuinely lean year under 130″, and only
+a few percent chance of a 200″ season.</p>
+<p>The honest caveats: eight analogs is a small sample, and ENSO explains only
+~14% of what a Bridger winter does. The other 86% — storm-by-storm luck,
+the polar jet, whatever the North Pacific decides to do in February — is
+still on the table. 2009-10 beat climatology under a strong El Niño.</p>
+<p>But if you're setting expectations: think <strong>slower start, fewer deep days,
+same cold snow</strong> — and watch the <a href="/coldsmoke/tracker/">Season Tracker</a> trace it
+against the gray bands in real time once the flakes fly.</p>
+<p>Think snow anyway.</p>
+<hr />
+<p><em>Methods: DJF Oceanic Niño Index (CPC), 76 usable Bridger seasons
+(Nov–Apr totals) from the station record behind this site. Probability
+bins use Wilson intervals; group differences tested with Mann-Whitney,
+permutation, and bootstrap methods; composites are ERA5 12Z anomalies vs a
+smoothed day-of-year climatology with bootstrap stippling. Full analysis
+lives in the mtnsnow pipeline (phase 09).</em></p>
+</div>
+  
+  <p class="post-tags">Labels:
+    <a class="tag" href="/coldsmoke/tags/climatology/">climatology</a>, <a class="tag" href="/coldsmoke/tags/el-nino/">el-nino</a>, <a class="tag" href="/coldsmoke/tags/bridger/">bridger</a>, <a class="tag" href="/coldsmoke/tags/outlook/">outlook</a>
+  </p>
+  
+</article>
+
+<article class="post">
+  <header class="post-head">
     <p class="post-date">Sunday, July 12, 2026</p>
     <h2 class="post-title"><a href="/coldsmoke/posts/welcome-to-the-cold-smoke-report/">Welcome to The Cold Smoke Report</a></h2>
   </header>
@@ -114,6 +222,9 @@ followed by the human discussion of why. Until then: climatology season.</p>
       <h2 class="sb-head">Recent posts</h2>
       <ul class="sb-list">
         
+        <li><a href="/coldsmoke/posts/el-nino-and-bridger-bowl-what-76-winters-say/">El Niño and Bridger Bowl: what 76 winters say about 2026–27</a>
+            <span class="sb-date">Jul 27</span></li>
+        
         <li><a href="/coldsmoke/posts/welcome-to-the-cold-smoke-report/">Welcome to The Cold Smoke Report</a>
             <span class="sb-date">Jul 12</span></li>
         
@@ -124,11 +235,11 @@ followed by the human discussion of why. Until then: climatology season.</p>
       <h2 class="sb-head">Blog archive</h2>
       
       <details class="arch-year" open>
-        <summary>2026 <span class="sb-date">(1)</span></summary>
+        <summary>2026 <span class="sb-date">(2)</span></summary>
         <ul class="sb-list">
           
           <li><a href="/coldsmoke/archive/2026-07/">July</a>
-              <span class="sb-date">1</span></li>
+              <span class="sb-date">2</span></li>
           
         </ul>
       </details>
@@ -140,7 +251,15 @@ followed by the human discussion of why. Until then: climatology season.</p>
       <h2 class="sb-head">Labels</h2>
       <p class="sb-tags">
         
+        <a class="tag" href="/coldsmoke/tags/bridger/">bridger<span>1</span></a>
+        
+        <a class="tag" href="/coldsmoke/tags/climatology/">climatology<span>1</span></a>
+        
+        <a class="tag" href="/coldsmoke/tags/el-nino/">el-nino<span>1</span></a>
+        
         <a class="tag" href="/coldsmoke/tags/meta/">meta<span>1</span></a>
+        
+        <a class="tag" href="/coldsmoke/tags/outlook/">outlook<span>1</span></a>
         
       </p>
     </section>

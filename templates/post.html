@@ -12,5 +12,22 @@
     {% for t in post.tags %}<a class="tag" href="{{ base }}/tags/{{ t }}/">{{ t }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
+
+  {% if cusdis_app_id %}
+  <section class="post-comments">
+    <h2 class="sb-head">Comments</h2>
+    <div id="cusdis_thread"
+         data-host="https://cusdis.com"
+         data-app-id="{{ cusdis_app_id }}"
+         data-page-id="{{ post.slug }}"
+         data-page-url="{{ base_abs }}/posts/{{ post.slug }}/"
+         data-page-title="{{ post.title }}"></div>
+  </section>
+  {% endif %}
 </article>
+{% endblock %}
+{% block scripts %}
+{% if cusdis_app_id %}
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+{% endif %}
 {% endblock %}
