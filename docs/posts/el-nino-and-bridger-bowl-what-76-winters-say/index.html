@@ -301,6 +301,23 @@ lives in the mtnsnow pipeline (phase 09).</em></p>
 
 
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<script>
+// Force the Cusdis widget's theme to follow the site's real light/dark state.
+// data-theme="auto" only syncs on the iframe's onload handshake, which can be
+// missed — leaving light text/dark labels. Re-push the theme for the first few
+// seconds while the iframe mounts, then keep tracking live OS changes.
+(function () {
+  var mq = window.matchMedia("(prefers-color-scheme: dark)");
+  function sync() {
+    if (window.CUSDIS && window.CUSDIS.setTheme) {
+      window.CUSDIS.setTheme(mq.matches ? "dark" : "light");
+    }
+  }
+  var n = 0, id = setInterval(function () { sync(); if (++n >= 12) clearInterval(id); }, 500);
+  if (mq.addEventListener) { mq.addEventListener("change", sync); }
+  else if (mq.addListener) { mq.addListener(sync); }
+})();
+</script>
 
 
 </body>

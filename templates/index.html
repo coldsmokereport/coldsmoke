@@ -12,6 +12,9 @@
     {% for t in post.tags %}<a class="tag" href="{{ base }}/tags/{{ t }}/">{{ t }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
+  {% if cusdis_app_id %}
+  <p class="post-comment-link"><a href="{{ base }}/posts/{{ post.slug }}/#cusdis_thread">Read &amp; leave comments →</a></p>
+  {% endif %}
 </article>
 {% else %}
 <p>No posts yet — the season is coming.</p>

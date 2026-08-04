@@ -151,6 +151,10 @@ img { max-width: 100%; height: auto; }
 .tag span::before { content: " ("; }
 .tag span::after { content: ")"; }
 
+.post-comment-link { margin-top: 0.5rem; font-family: var(--sans); font-size: 0.78rem; }
+.post-comment-link a { color: var(--accent); text-decoration: none; }
+.post-comment-link a:hover { text-decoration: underline; }
+
 .post-comments { max-width: 44rem; margin-top: 2.4rem; }
 .post-comments .sb-head { font-size: 1rem; border-bottom: 2px solid var(--ridge); }
 
