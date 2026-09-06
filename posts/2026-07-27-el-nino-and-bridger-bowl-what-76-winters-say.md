@@ -1,6 +1,7 @@
 ---
 title: "El Niño and Bridger Bowl: what 76 winters say about 2026–27"
 date: 2026-07-27
+draft: true
 tags:
   - climatology
   - el-nino

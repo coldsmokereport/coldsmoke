@@ -1,6 +1,7 @@
 ---
 title: "Welcome to The Cold Smoke Report"
 date: 2026-07-12
+draft: true
 tags:
   - meta
 ---
