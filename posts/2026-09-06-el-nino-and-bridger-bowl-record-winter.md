@@ -36,7 +36,7 @@ blower years.**
 
 ## The relationship, in one scatter
 
-![Seasonal snowfall vs DJF ONI](%BASE%/assets/images/enso/regression_oni_total.png)
+![Seasonal snowfall vs DJF ONI](https://coldsmokereport.github.io/coldsmoke/assets/images/enso/regression_oni_total.png)
 
 Across all 76 winters, Bridger loses about **11 inches of seasonal snowfall
 per +1 °C of winter ONI** (p < 0.001). But the R² is 0.14 — ENSO explains
@@ -54,7 +54,7 @@ La Niña winters; just 5 in El Niño winters.
 
 ## The probabilities
 
-![Season-outcome probabilities by ENSO state](%BASE%/assets/images/enso/probability_bars.png)
+![Season-outcome probabilities by ENSO state](https://coldsmokereport.github.io/coldsmoke/assets/images/enso/probability_bars.png)
 
 Sorting all 76 winters into five ENSO bins (whiskers are honest 95%
 confidence intervals — small samples make for wide bars):
@@ -74,7 +74,7 @@ El Niño devastation — a strong El Niño mostly costs you the upside.
 
 ## Why: the ridge
 
-![DJF composite anomalies](%BASE%/assets/images/enso/composite_z500_mslp.png)
+![DJF composite anomalies](https://coldsmokereport.github.io/coldsmoke/assets/images/enso/composite_z500_mslp.png)
 
 The mechanism is textbook. Compositing 76 winters of reanalysis fields,
 strong El Niño Decembers-through-Februaries deepen and shift the Aleutian low
@@ -92,7 +92,7 @@ Two more findings from the record that shape how to play the season:
   El Niño winter" doesn't rescue Bridger — February and March slopes stay
   negative. Plan for a slow start without banking on a March miracle.
 
-  ![Monthly snowfall sensitivity to ENSO](%BASE%/assets/images/enso/monthly_slopes.png)
+  ![Monthly snowfall sensitivity to ENSO](https://coldsmokereport.github.io/coldsmoke/assets/images/enso/monthly_slopes.png)
 
 - **There is no temperature signal.** Bozeman-area station records,
   reanalysis, and SNOTEL all agree: strong El Niño winters here are not
@@ -107,14 +107,14 @@ Here's where the "record" part matters. Our three very-strong analog winters
 **167″, 112″, and 138″** at Bridger. A mean near 139″, and a spread wide
 enough to hold both a perfectly respectable winter and a genuinely lean one.
 
-![Very-strong El Niño analog winters at Bridger](%BASE%/assets/images/2026-09-06/analog_table_aug.png)
+![Very-strong El Niño analog winters at Bridger](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-06/analog_table_aug.png)
 
 We built the outlook three independent ways — the raw analog distribution, an
 ONI-distance-weighted blend of all 76 winters, and the quantile-regression
 fit — re-centered on this year's stronger forecast (an ONI around +2.4, the
 top of the historical set). They converge:
 
-![2026-27 outlook](%BASE%/assets/images/2026-09-06/outlook_plume_aug.png)
+![2026-27 outlook](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-06/outlook_plume_aug.png)
 
 **The central expectation for Bridger in 2026–27 is roughly 140–145 inches —
 about 85–88% of a normal season** (climo mean 164″) — with a
