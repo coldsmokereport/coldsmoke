@@ -31,10 +31,19 @@ went from 69% in August to 75% now.
 
 So it's a fair question for anyone with a Bridger pass: what does a big El
 Niño — let alone a record one — actually do to our snow? We joined all
-**76 seasons** of the station record behind this site (WY1951–2026) to the
+**76 seasons** of the SNOTEL record behind this site (WY1951–2026) to the
 CPC's Oceanic Niño Index and let the data talk. Short version: **El Niño
 tilts the odds against us — modestly, measurably, and mostly by deleting the
 blower years.**
+
+*A note on the numbers.* The snowfall totals in this post come from the long
+**Bridger Bowl SNOTEL record** (Brackett Creek, mid-mountain, extended back to
+1950 with the nearby co-op station): the daily change in snow depth, measured
+once a day after the snow has settled. Bridger's snow report measures higher
+on the hill and clears its board more often, so its totals run higher — over
+the last six winters anywhere from 10% to 100% more, typically about 45%. So
+don't line these inches up against the snow report. Read the results as
+percentages of normal and as odds; those don't depend on the ruler.
 
 ## The relationship, in one scatter
 
@@ -58,15 +67,20 @@ La Niña winters; just 5 in El Niño winters.
 
 ![Share of lean, normal, and blower winters by El Niño / La Niña state](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/02_odds.png)
 
-Sorting all 76 winters into five ENSO bins (whiskers are honest 95%
-confidence intervals — small samples make for wide bars):
+Sorting all 76 winters into five ENSO bins, and splitting each bin into
+below-normal, near-normal, and above-normal thirds (under 150″, 150–175″,
+and over 175″ in the SNOTEL record):
 
-- **P(below-median season)** climbs from ~33% in La Niña to **~75% in
+- **Above-normal winters** go from **two-thirds** of strong La Niña winters
+  (57% of weak-to-moderate ones) to 18% in neutral years to **zero of the
+  eight** strong+ El Niño winters.
+- **Below-normal winters** climb from ~15% under La Niña to **62% under
   strong+ El Niño.**
-- **P(200″+ blower year)**: ~50% in strong La Niña, ~9% in neutral, and
-  **~0–5% in strong+ El Niño.**
-- **P(lean year, under 130″)**: rises to **~25–30%** in strong+ El Niño —
-  elevated, but far from a guarantee of misery.
+- The extremes tell the same story: half of the strong La Niña winters
+  topped 200″ and none of the strong+ El Niño winters did, while the odds of
+  a genuinely lean year (under 130″) rise to **~25–30%** under strong El Niño
+  — elevated, but far from a guarantee of misery. (Six and eight winters are
+  small groups; treat these shares as rough.)
 
 Mean seasonal totals run 143″ (strong+ El Niño) → 158″ (neutral) → 186″
 (strong La Niña), against the 164″ climo mean. And a detail worth sitting
@@ -163,7 +177,8 @@ Think snow anyway.
 ---
 
 *Methods: DJF Oceanic Niño Index (CPC), 76 usable Bridger seasons (Nov–Apr
-totals) from the station record behind this site. Probability bins use Wilson
+totals) from the Bridger Bowl SNOTEL record behind this site (Brackett Creek,
+extended to 1950 with the nearby co-op station). Probability bins use Wilson
 intervals; group differences tested with Mann-Whitney, permutation, and
 bootstrap methods; composites are reanalysis anomalies vs a smoothed
 day-of-year climatology (the research versions carry bootstrap stippling).
