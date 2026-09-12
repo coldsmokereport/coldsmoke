@@ -88,11 +88,15 @@ that bury us.
 
 Two more findings from the record that shape how to play the season:
 
-- **The hit is spread across the winter, worst early.** Every month Nov–Mar
-  loses snow per degree of ONI, with **November and December** the only
-  months reaching statistical significance. The folklore of the "back-loaded
-  El Niño winter" doesn't rescue Bridger — February and March slopes stay
-  negative. Plan for a slow start without banking on a March miracle.
+- **The loss is spread across the whole winter — it's about the total, not
+  the timing.** Every month Nov–Mar gives up a similar 5–7 inches at this
+  year's forecast strength. **November and December** are where the signal is
+  statistically solid (and, being smaller months, where the proportional hit
+  is biggest), but January–March point the same direction. Two things follow.
+  The folklore of the "back-loaded El Niño winter" doesn't rescue Bridger —
+  February and March slopes stay negative. And don't bank on a slow start
+  either: two of the three record El Niño winters (1982-83, 2015-16) came out
+  of the gate *above* normal, as the season plot further down shows.
 
   ![Normal monthly snowfall vs. a +2.5 °C El Niño winter, Nov–Mar](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/03_months.png)
 
@@ -141,7 +145,9 @@ not a lower number:
 
 The forecast is dramatic; the playbook is calm.
 
-- **Plan for a slow start.** The suppression is worst in November–December.
+- **Don't bet on the timing.** The loss is spread across the season, and the
+  record winters started fast and slow alike — bet on the total, not the
+  calendar.
 - **Expect fewer deep days** — a central total around 85% of normal, and
   real odds (~30%) of a lean year — but don't write off the season.
 - **The snow that does fall should still be cold.** No reliable temperature
