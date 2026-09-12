@@ -155,6 +155,23 @@ not a lower number:
   February — is untouched by how warm the eastern Pacific gets. 1982-83 was a
   monster El Niño and still beat climatology.
 
+## What about Big Sky?
+
+The story rhymes down the road at Big Sky. The record there is shorter — the
+Lone Mountain SNOTEL only goes back to 1992, so 35 winters instead of 76 — but
+the ENSO tilt is, if anything, a touch stronger: about **14 inches lost per
++1 °C** of winter ONI, and the relationship explains a larger share of the
+variance (R² ≈ 0.26) than at Bridger.
+
+![Big Sky seasonal snowfall vs. winter El Niño strength, 1992–2026](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/07_bigsky.png)
+
+Against a Lone Mountain normal of about **141 inches**, the strong-El-Niño
+winters on record averaged roughly **114″ (about 80% of normal)** — though the
+two closest very-strong analogs, 1997-98 and 2015-16, both landed nearer 95%.
+With only a handful of strong-Niño winters in a 35-year record, treat Big Sky
+as a **directional** call rather than a precise number: lean toward
+below-normal, same as Bridger, and watch the same fall forecasts.
+
 ## Bottom line
 
 The forecast is dramatic; the playbook is calm.
