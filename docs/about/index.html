@@ -172,5 +172,10 @@ the <a href="https://www.mtavalanche.com/">Gallatin National Forest Avalanche Ce
 
 <script data-goatcounter="https://coldsmoke.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+<script>
+  document.querySelectorAll('.sidebar a[href^="http"]').forEach(function (a) {
+    if (a.host !== location.host) { a.target = '_blank'; a.rel = 'noopener'; }
+  });
+</script>
 </body>
 </html>
