@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bridger Bowl snow-quality map — preview</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../snowmap.css">
+<style>body{margin:0;background:var(--snow);color:var(--ink);
+  font-family:var(--sans)}
+ .wrap{max-width:1150px;margin:0 auto;padding:1.5rem 1.2rem 3rem}
+ h1{font:700 1.8rem/1.1 var(--cond);letter-spacing:.02em;margin:0 0 .2rem}
+ .sub{color:var(--muted,#6b7a88);font-size:.9rem;margin:0 0 1rem}</style>
+</head><body><div class="wrap">
+<h1>Bridger Bowl &mdash; snow quality by slope</h1>
+<p class="sub">Local preview. 10&nbsp;m terrain from 1&nbsp;m USGS LiDAR; physics from
+<code>mtnsnow/10_skimap/snow_quality.py</code>.</p>
+<div class="snowmap is-loading" data-assets=".">
+  <div class="snowmap-grid">
+    <div>
+      <div class="snowmap-stage">
+        <canvas class="snowmap-canvas"></canvas>
+        <svg class="snowmap-vec" xmlns="http://www.w3.org/2000/svg"></svg>
+        <div class="snowmap-tip" hidden></div>
+      </div>
+      <p class="sm-caveat">Hover anywhere on the mountain for that slope&rsquo;s
+      elevation, aspect, new snow, snow-to-liquid ratio and the melt energy its
+      surface absorbed before the storm. Dashed lines are lifts.</p>
+    </div>
+
+    <div>
+      <div class="sm-headline">&nbsp;</div>
+      <div class="sm-bands"></div>
+
+      <div class="sm-btnrow">
+        <button data-mode="score" class="is-on">Quality</button>
+        <button data-mode="category">Snow type</button>
+        <button data-stretch>Boost contrast</button>
+      </div>
+      <div class="sm-ramp"></div>
+      <div class="sm-ramp-ends"><span>worse</span><span>better</span></div>
+      <div class="sm-legend-cat" hidden></div>
+
+      <ul class="sm-mix"></ul>
+
+      <div class="sm-btnrow">
+        <button data-preset='{"snow":11,"slrGuess":13,"temp":-11,"trend":-2,"wdir":285,"wspd":18,"gap":4,"gaptmax":-3,"cloud":30,"month":1}'>Cold NW</button>
+        <button data-preset='{"snow":4,"slrGuess":11,"temp":-3,"trend":2,"wdir":250,"wspd":10,"gap":6,"gaptmax":6,"cloud":10,"month":3}'>Spring dust</button>
+        <button data-preset='{"snow":10,"slrGuess":13,"temp":-9,"trend":-1,"wdir":300,"wspd":34,"gap":2,"gaptmax":-6,"cloud":50,"month":2}'>Big wind</button>
+        <button data-preset='{"snow":18,"slrGuess":10,"temp":-5,"trend":0,"wdir":270,"wspd":12,"gap":5,"gaptmax":0,"cloud":40,"month":12}'>Deep dump</button>
+      </div>
+
+      <div class="sm-controls">
+        <label>New snow, mid-mtn <span data-out="snow">11</span>&Prime;
+          <input type="range" data-field="snow" min="0" max="30" step="0.5" value="11"></label>
+        <label>Storm temp <span data-out="temp">-11</span>&deg;C
+          <input type="range" data-field="temp" min="-22" max="3" step="0.5" value="-11"></label>
+        <label>Warm/cool through storm <span data-out="trend">-2</span>&deg;C
+          <input type="range" data-field="trend" min="-6" max="6" step="0.5" value="-2"></label>
+        <label>Assumed mid SLR <span data-out="slrGuess">13</span>:1
+          <input type="range" data-field="slrGuess" min="6" max="25" step="1" value="13"></label>
+        <label>Ridge wind <span data-out="wspd">18</span> mph
+          <input type="range" data-field="wspd" min="0" max="60" step="1" value="18"></label>
+        <label>Wind from <span data-out="wdir">285</span>&deg;
+          <input type="range" data-field="wdir" min="0" max="355" step="5" value="285"></label>
+        <label>Days since last snow <span data-out="gap">4</span>
+          <input type="range" data-field="gap" min="0.5" max="21" step="0.5" value="4"></label>
+        <label>Warmest gap temp <span data-out="gaptmax">-3</span>&deg;C
+          <input type="range" data-field="gaptmax" min="-20" max="12" step="0.5" value="-3"></label>
+        <label>Cloud during gap <span data-out="cloud">30</span>%
+          <input type="range" data-field="cloud" min="0" max="100" step="5" value="30"></label>
+        <label>Month <span data-out="month">1</span>
+          <input type="range" data-field="month" min="1" max="12" step="1" value="1"></label>
+      </div>
+
+      <div class="sm-scroll">
+        <table class="sm-runs">
+          <thead><tr><th></th><th>Run</th><th class="sm-num">New</th>
+            <th>Asp</th><th>Type</th><th class="sm-num">Score</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<script src="../snowmap.js"></script>
+<script src="../snowmap-ui.js"></script>
+</body></html>
