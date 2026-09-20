@@ -4,9 +4,10 @@ backend:
   branch: main
 
 # Uploaded images are committed to posts/images/ and copied by build.py to
-# docs/assets/images/ — %BASE% is the site's base-URL token from build.py.
+# docs/assets/images/, served under the site's /coldsmoke base. Sveltia CMS
+# requires public_folder to be a root-relative path, not an absolute URL.
 media_folder: posts/images
-public_folder: "https://coldsmokereport.github.io/coldsmoke/assets/images"
+public_folder: "/coldsmoke/assets/images"
 
 site_url: https://coldsmokereport.github.io/coldsmoke
 display_url: https://coldsmokereport.github.io/coldsmoke
