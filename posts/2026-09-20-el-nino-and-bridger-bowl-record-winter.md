@@ -17,7 +17,11 @@ Hi all, welcome to the Cold Smoke Report! As an atmospheric scientist with a pas
 
 3) There are no bad questions, ask away.
 
-3) Oh and “Super” El Niño does not exist, scientifically speaking; I know it's semantics in terms of terminology but just so you all know :)
+4) This will always be a free community based resource.
+
+5) I'll try to update as much a possible but can only promise a few posts per week during the season given the amount of time it takes to put together.
+
+6) Oh and “Super” El Niño does not exist, scientifically speaking; I know it's semantics in terms of terminology but just so you all know :)
 
 More than anything, though, I’m hoping this can be an educational resource for our community to better understand weather and science in general, including myself. Okay lets get into it!
 
@@ -55,7 +59,6 @@ Is there any good news in all of this? Well, Bozeman-area station records, reana
 
 Our three very-strong analog winters (DJF ONI ≥ 2.0) are 1982-83, 1997-98, and 2015-16, which had **167″, 112″, and 138″** at Bridger respectively (remember these are the snotel numbers and would correspond to \~ 233, 157, and 193"). This is a pretty wide spread and ranges anywhere from a decent winter near average to a dry one similar to last season. So here are what the numbers are telling me in summary: \~77% chance of finishing below the climo mean, a \~30% chance of a very lean
 winter under 130″, and only a few percent chance of an above average season.
-
 
 ![Where 2026–27 most likely lands](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/06_outlook.png)
 
