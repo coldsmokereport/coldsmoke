@@ -33,11 +33,7 @@ The snowfall totals in this post come from the nearest Bridger Bowl SNOTEL recor
 
 ![Bridger seasonal snowfall vs. El Niño strength, 76 winters](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/01_scatter.png)
 
-Across all 76 winters, Bridger loses about **11 inches of seasonal snowfall**
-**per +1 °C of winter ONI** (p < 0.001). But the R² is 0.14 — ENSO explains
-only about a seventh of the year-to-year variance. **It loads the dice; it**
-**doesn't throw them.** Keep that number in your back pocket; it's the single
-most important caveat in this whole post.
+Over the past 76 winters, Bridger loses about 11 inches of seasonal snowfall per +1 °C of winter ONI, the measure of El Nino's strength (more positive = stronger El Nino, more negative = stronger La Nina, -0.5-0.5 = neutral). It's important to note that despite the relationship, ENSO explains only part of the year-to-year variance. It does, however, load the dice against us.
 
 The more interesting result is _where_ the loss comes from. Quantile
 regression says the slope at the 90th percentile (−16″/°C) is three times
