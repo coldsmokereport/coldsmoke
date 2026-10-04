@@ -37,43 +37,15 @@ Over the past 76 winters, Bridger loses about 11 inches of seasonal snowfall per
 
 What's interesting to me is looking at where the loss comes from: In the plot you can see that the trend is steeper at the top of the range than the bottom: the biggest winters lose about 16″ per °C of El Niño, the driest about 5–6″. This indicates to me that while El Nino generally means less snow across the board, it's bigger effect is on capping the ceiling. None of the eight strong-or-better El Niño winters since 1950 cleared 200 inches, while half of the strong La Niña winters did. Furthermore, though not shown here, looking at Bridger's top-20 biggest storms on record, 11 landed in La Niña winters and just 5 in El Niño winters. 
 
-- **Above-normal winters** go from **two-thirds** of strong La Niña winters
-  (57% of weak-to-moderate ones) to 18% in neutral years to **zero of the**
-\*\*  eight\*\* strong+ El Niño winters.
-- **Below-normal winters** climb from \~15% under La Niña to **62% under**
-\*\*  strong+ El Niño.\*\*
-- The extremes tell the same story: half of the strong La Niña winters
-  topped 200″ and none of the strong+ El Niño winters did, while the odds of
-  a genuinely lean year (under 130″) rise to **\~25–30%** under strong El Niño
-  — elevated, but far from a guarantee of misery. (Six and eight winters are
-  small groups; treat these shares as rough.)
+- La Niña winters skew above normal in terms of snowfall around 2/3rds of the time, with only about 18% of neutral years being above average, and zero of the eight historical El Niño winters above average.
+- On the other side of the coin, El Niño winters historically are below average about 2/3rds of the time.
 
-Mean seasonal totals run 143″ (strong+ El Niño) → 158″ (neutral) → 186″
-(strong La Niña), against the 164″ climo mean. Basically, the La Nina boost is the strongest Bridger snowfall indicator. You're probably asking what happened last year, wasn't that a La Niña? Sort of. ENSO quickly flipped to neutral early in the season, technically making it not a La Niña winter at least by our metrics.
+Mean seasonal totals run 143″ (strong El Niño) → 158″ (neutral) → 186″
+(strong La Niña), against the 164″ climatological mean. You're probably asking what happened last year, wasn't that a La Niña? Sort of. ENSO quickly flipped to neutral early in the season, technically making it not a La Niña winter at least by these metrics.
 
 ## Why El Niño's Pattern = Less Snowfall![Winter pressure pattern in strong El Niño vs. strong La Niña years — a ridge over Montana](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/04_why_ridge.png)
 
-The mechanism is textbook. Compositing 76 winters of reanalysis fields,
-strong El Niño Decembers-through-Februaries deepen and shift the Aleutian low
-while parking a **ridge over western Canada and the northern Rockies** —
-right on top of us. The storm track splits and feeds California; we sit under
-subsidence. Strong La Niña is the mirror image: a North Pacific ridge and a
-trough digging into the Northwest, which is why those winters are the ones
-that bury us.
-
-Two more findings from the record that shape how to play the season:
-
-- **The loss is spread across the whole winter — it's about the total, not**
-\*\*  the timing.\*\* Every month Nov–Mar gives up a similar 5–7 inches at this
-  year's forecast strength. **November and December** are where the signal is
-  statistically solid (and, being smaller months, where the proportional hit
-  is biggest), but January–March point the same direction. Two things follow.
-  The folklore of the "back-loaded El Niño winter" doesn't rescue Bridger —
-  February and March slopes stay negative. And don't bank on a slow start
-  either: two of the three record El Niño winters (1982-83, 2015-16) came out
-  of the gate _above_ normal, as the season plot further down shows.
-
-  ![Normal monthly snowfall vs. a +2.5 °C El Niño winter, Nov–Mar](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/03_months.png)
+If we composite 76 winters of reanalysis fields, the pattern during strong El Niño Decembers-through-Februaries deepen and shift the Aleutian low and also have more prominent ridging over western Canada and the northern Rockies over MT. This coincides with a storm track that tends to split and provides California with more precipitation than typical winters. Strong La Niña's, on the other hand, feature a North Pacific ridge and a trough digging into the Northwest, which leads to a favorable storm track from the W/NW for us.
 
 - **There is no temperature signal.** Bozeman-area station records,
   reanalysis, and SNOTEL all agree: strong El Niño winters here are not
