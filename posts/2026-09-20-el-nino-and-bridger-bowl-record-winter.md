@@ -15,6 +15,8 @@ Hi all, welcome to the Cold Smoke Report! As an atmospheric scientist with a pas
 
 2) I will be wrong at times.
 
+3) There are no bad questions, ask away.
+
 3) Oh and “Super” El Niño does not exist, scientifically speaking; I know it's semantics in terms of terminology but just so you all know :)
 
 More than anything, though, I’m hoping this can be an educational resource for our community to better understand weather and science in general, including myself. Okay lets get into it!
@@ -47,19 +49,11 @@ Mean seasonal totals run 143″ (strong El Niño) → 158″ (neutral) → 186�
 
 If we composite 76 winters of reanalysis fields, the pattern during strong El Niño Decembers-through-Februaries deepen and shift the Aleutian low and also have more prominent ridging over western Canada and the northern Rockies over MT. This coincides with a storm track that tends to split and provides California with more precipitation than typical winters. Strong La Niña's, on the other hand, feature a North Pacific ridge and a trough digging into the Northwest, which leads to a favorable storm track from the W/NW for us.
 
-- **There is no temperature signal.** Bozeman-area station records,
-  reanalysis, and SNOTEL all agree: strong El Niño winters here are not
-  reliably warmer (differences of 0.1–0.6 °C, indistinguishable from noise).
-  El Niño doesn't melt Bridger — **it starves the storm track.** When it
-  snows, it should still be cold smoke.
+Is there any good news in all of this? Well, Bozeman-area station records, reanalysis, and SNOTEL all seem to indicate that strong El Niño winters here are not reliably warmer with differences of only 0.1–0.6 °C. This result actually surprised me a bit. Historically, the warmest periods globally tend to be coming out of peak El Nino conditions during the following summer/fall, so this is likely what's happening here, to an extent.
 
 ## So what does a record 2026–27 look like?
 
-Here's where the "record" part matters. Our three very-strong analog winters
-(DJF ONI ≥ 2.0) are 1982-83, 1997-98, and 2015-16 — and they delivered
-**167″, 112″, and 138″** at Bridger. A mean near 139″, and a spread wide
-enough to hold both a perfectly respectable winter and a genuinely lean one.
-
+Our three very-strong analog winters (DJF ONI ≥ 2.0) are 1982-83, 1997-98, and 2015-16, which had **167″, 112″, and 138″** at Bridger respectively (remember these are the snotel numbers and would correspond to \~ 233, 157, and 193"). This is a pretty wide spread and ranges anywhere from a decent winter near average to a dry one similar to last season.
 ![The eight strong El Niño winters at Bridger since 1950, ranked by strength](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/05_record_winters.png)
 
 We built the outlook three independent ways — the raw analog distribution, a
