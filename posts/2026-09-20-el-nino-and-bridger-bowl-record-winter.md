@@ -53,76 +53,47 @@ Is there any good news in all of this? Well, Bozeman-area station records, reana
 
 ## So what does 2026–27 look like?
 
-Our three very-strong analog winters (DJF ONI ≥ 2.0) are 1982-83, 1997-98, and 2015-16, which had **167″, 112″, and 138″** at Bridger respectively (remember these are the snotel numbers and would correspond to \~ 233, 157, and 193"). This is a pretty wide spread and ranges anywhere from a decent winter near average to a dry one similar to last season.
+Our three very-strong analog winters (DJF ONI ≥ 2.0) are 1982-83, 1997-98, and 2015-16, which had **167″, 112″, and 138″** at Bridger respectively (remember these are the snotel numbers and would correspond to \~ 233, 157, and 193"). This is a pretty wide spread and ranges anywhere from a decent winter near average to a dry one similar to last season. So here are what the numbers are telling me in summary: \~77% chance of finishing below the climo mean, a \~30% chance of a very lean
+winter under 130″, and only a few percent chance of an above average season.
 
 
 ![Where 2026–27 most likely lands](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/06_outlook.png)
 
-**The central expectation for Bridger in 2026–27 is roughly 140 inches —**
-**about 85% of a normal season** (climo mean 164″) — with a
-10th-to-90th-percentile range of about **110″ to 165″.** Call it a \~77%
-chance of finishing below the climo mean, a \~30% chance of a genuinely lean
-year under 130″, and only a few percent chance of a 200″ season.
-
-Two honest caveats, both pointing the same direction — _wider_ error bars,
-not a lower number:
+**A couple of disclaimers:**
 
 - **We're at the edge of the analogs already.** The strongest winter in the
-  record is 2015-16 at +2.63 — and this year's forecast sits right there. If
+  record is 2015-16 at +2.63 — and this year's forecast sits there or above. If
   the El Niño clears CPC's historic threshold, 2026-27 lands beyond everything
-  we have to compare it to, and the ceiling-capping relationship is being
-  extrapolated at the central case, not just in the tail.
-- **ENSO still explains only \~14% of a Bridger winter.** The other 86% —
+  we have to compare it to.
+- **ENSO still explains only part of a Bridger winter.** The other parts are 
   the polar jet, storm-by-storm luck, whatever the North Pacific decides in
-  February — is untouched by how warm the eastern Pacific gets. 1982-83 was a
-  monster El Niño and still beat climatology.
+  February. 1982-83 was a monster El Niño and still beat climatology.
 
 ## What about Big Sky?
 
-The story rhymes down the road at Big Sky. The record there is shorter — the
-Lone Mountain SNOTEL only goes back to 1992, so 35 winters instead of 76 — but
-the ENSO tilt is, if anything, a touch stronger: about **14 inches lost per**
-**+1 °C** of winter ONI, and the relationship explains a larger share of the
-variance (R² ≈ 0.26) than at Bridger.
+The story is pretty similar down the road at Big Sky. The record there for the Lone Mountain Snotel is shorter (only goes back to 1992), but the ENSO tilt is, if anything, a touch stronger: about 14 inches lost per +1 °C of winter ONI, and the relationship explains a larger share of the variance than at Bridger.
 
-![Big Sky seasonal snowfall vs. winter El Niño strength, 1992–2026](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/07_bigsky.png)
+![Big Sky seasonal snowfall vs. winter El Niño strength, 1992–2026](/coldsmoke/assets/images/07_bigsky.png)
 
-Against a Lone Mountain normal of about **141 inches**, the strong-El-Niño
-winters on record averaged roughly **114″ (about 80% of normal)** — though the
+Against a Lone Mountain normal of about 141 inches, the strong-El-Niño
+winters on record averaged roughly 114″ (about 80% of normal); however, the
 two closest very-strong analogs, 1997-98 and 2015-16, both landed nearer 95%.
-With only a handful of strong-Niño winters in a 35-year record, treat Big Sky
-as a **directional** call rather than a precise number: lean toward
-below-normal, same as Bridger, and watch the same fall forecasts.
 
 ## Bottom line
 
-The forecast is dramatic; the playbook is calm.
+The expected snowfall loss is spread across the season, and the record winters started fast and slow alike.
 
-- **Don't bet on the timing.** The loss is spread across the season, and the
-  record winters started fast and slow alike — bet on the total, not the
-  calendar.
-- **Expect fewer deep days** — a central total around 85% of normal, and
-  real odds (\~30%) of a lean year — but don't write off the season.
-- **The snow that does fall should still be cold.** No reliable temperature
-  signal here; this is a storm-track story, not a warm-winter one.
+Expect fewer big storm days, but I wouldn't completely write off the season.
 
-CPC's next update lands October 8, and the fall forecasts are where a
-developing El Niño usually shows its hand. We'll be tracking it — and once
-the flakes fly, the [Season Tracker](%BASE%/tracker/) will trace this winter
-against the gray bands in real time.
+The snow that does fall should still be cold, since there's no reliable temperature signal here with El Nino, and it all comes down to the storm track.
 
-Think snow anyway.
+CPC's next update is on October 8. I'll continue to provide updates leading into the season.
+
+Pray for snow.
+
+-Trey
 
 ***
 
 \*Methods: DJF Oceanic Niño Index (CPC), 76 usable Bridger seasons (Nov–Apr
-totals) from the Bridger Bowl SNOTEL record behind this site (Brackett Creek,
-extended to 1950 with the nearby co-op station). Probability bins use Wilson
-intervals; group differences tested with Mann-Whitney, permutation, and
-bootstrap methods; composites are reanalysis anomalies vs a smoothed
-day-of-year climatology (the research versions carry bootstrap stippling).
-The 2026-27 outlook centers three framings on a forecast ONI of +2.5 (range
-2.3–2.7) and CPC's >90% very-strong probability. ENSO status from the CPC
-ENSO Diagnostic Discussion issued 2026-09-10. The figures here are simplified
-renderings of that analysis. Full analysis lives in the mtnsnow research
-pipeline.\*
+totals) from the Brackett Creek SNOTEL record (extended to 1950 with the nearby co-op station). Composites are reanalysis anomalies. The 2026-27 outlook centers on a forecast ONI of +2.5 (range 2.3–2.7) and CPC's >90% very-strong probability. ENSO status from the CPC ENSO Diagnostic Discussion issued 2026-09-10.\*
