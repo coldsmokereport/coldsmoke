@@ -31,25 +31,11 @@ The snowfall totals in this post come from the nearest Bridger Bowl SNOTEL recor
 
 ## Scatter plot of El Nino vs. La Nina Snowfall
 
-![Bridger seasonal snowfall vs. El Niño strength, 76 winters](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/01_scatter.png)
+![Bridger seasonal snowfall vs. El Niño](/coldsmoke/assets/images/01_scatter.png)
 
-Over the past 76 winters, Bridger loses about 11 inches of seasonal snowfall per +1 °C of winter ONI, the measure of El Nino's strength (more positive = stronger El Nino, more negative = stronger La Nina, -0.5-0.5 = neutral). It's important to note that despite the relationship, ENSO explains only part of the year-to-year variance. It does, however, load the dice against us.
+Over the past 76 winters, Bridger loses about 11 inches of seasonal snowfall per +1 °C of winter ONI, the measure of El Nino's strength (more positive = stronger El Niño, more negative = stronger La Niña, -0.5-0.5 = neutral). It's important to note that despite the relationship, ENSO explains only part of the year-to-year variance. It does, however, load the dice against us.
 
-The more interesting result is _where_ the loss comes from. Quantile
-regression says the slope at the 90th percentile (−16″/°C) is three times
-steeper than at the 10th (−5.5″/°C). El Niño doesn't crater the floor of a
-Bridger winter — **it caps the ceiling.** None of the eight strong-or-better
-El Niño winters since 1950 cleared 200 inches, while half of the strong La
-Niña winters did. Of Bridger's top-20 biggest storms on record, 11 landed in
-La Niña winters; just 5 in El Niño winters.
-
-## The probabilities
-
-![Share of lean, normal, and blower winters by El Niño / La Niña state](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/02_odds.png)
-
-Sorting all 76 winters into five ENSO bins, and splitting each bin into
-below-normal, near-normal, and above-normal thirds (under 150″, 150–175″,
-and over 175″ in the SNOTEL record):
+What's interesting to me is looking at where the loss comes from: In the plot you can see that the trend is steeper at the top of the range than the bottom: the biggest winters lose about 16″ per °C of El Niño, the driest about 5–6″. This indicates to me that while El Nino generally means less snow across the board, it's bigger effect is on capping the ceiling. None of the eight strong-or-better El Niño winters since 1950 cleared 200 inches, while half of the strong La Niña winters did. Furthermore, though not shown here, looking at Bridger's top-20 biggest storms on record, 11 landed in La Niña winters and just 5 in El Niño winters. 
 
 - **Above-normal winters** go from **two-thirds** of strong La Niña winters
   (57% of weak-to-moderate ones) to 18% in neutral years to **zero of the**
@@ -63,14 +49,9 @@ and over 175″ in the SNOTEL record):
   small groups; treat these shares as rough.)
 
 Mean seasonal totals run 143″ (strong+ El Niño) → 158″ (neutral) → 186″
-(strong La Niña), against the 164″ climo mean. And a detail worth sitting
-with: strong El Niño vs _neutral_ is only −14″, and **not** statistically
-significant. Most of the ENSO lever at Bridger is **La Niña generosity**, not
-El Niño devastation — a strong El Niño mostly costs you the upside.
+(strong La Niña), against the 164″ climo mean. Basically, the La Nina boost is the strongest Bridger snowfall indicator. You're probably asking what happened last year, wasn't that a La Niña? Sort of. ENSO quickly flipped to neutral early in the season, technically making it not a La Niña winter at least by our metrics.
 
-## Why: the ridge
-
-![Winter pressure pattern in strong El Niño vs. strong La Niña years — a ridge over Montana](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/04_why_ridge.png)
+## Why El Niño's Pattern = Less Snowfall![Winter pressure pattern in strong El Niño vs. strong La Niña years — a ridge over Montana](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/04_why_ridge.png)
 
 The mechanism is textbook. Compositing 76 winters of reanalysis fields,
 strong El Niño Decembers-through-Februaries deepen and shift the Aleutian low
