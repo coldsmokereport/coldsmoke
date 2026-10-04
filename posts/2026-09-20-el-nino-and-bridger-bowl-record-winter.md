@@ -1,61 +1,45 @@
 ---
-title: "El Niño and Bridger Bowl: what 76 winters say about a record 2026–27"
-date: 2026-09-12
-draft: true
+title: "Welcome & the Question on Everyone's Mind: What does El Niño mean for Bridger?"
+date: 2026-10-04
 tags:
   - climatology
   - el-nino
   - bridger
   - outlook
+draft: true
 ---
 
-*Welcome to the Cold Smoke Report — a data-first look at snow in southwest
-Montana: Bridger Bowl, Big Sky, and the Bozeman backyard. It runs on a
-research pipeline that reads decades of station records, SNOTEL, and
-atmospheric reanalysis, and the idea here is simple: no hype, no powder-day
-clickbait — just the numbers, honestly framed, and what they actually mean for
-your season. For the first post, the question on every pass-holder's mind
-heading into this winter.*
+Hi all, welcome to the Cold Smoke Report! As an atmospheric scientist with a passion for skiing and snow, I've realized over the past few years that Southwest Montana is lacking a dedicated blog/site for snowfall forecasts. To start things off I'll be focusing on winter weather forecasts right here in the backyard at Bridger Bowl, Big Sky, and in Bozeman. Before I start with my first topic I've got a few ground rules and things I can promise for you all:
 
-A **record-strength El Niño** is taking shape in the Pacific. As of the
-Climate Prediction Center's September 10 discussion, the alert status is a
-full **El Niño Advisory**, and the ocean is running hot and getting hotter:
-the key Niño-3.4 region sits at **+1.8 °C**, the eastern Pacific is already
-past +3 °C, and a deep pool of warm water (more than +10 °C above average at
-depth) is still queued up to surface through the fall. CPC now puts a
-**greater than 90% chance on a *very strong* event** — and, more strikingly,
-a **75% chance on a *historic* one**, a winter that would exceed the strength
-of any El Niño back to 1950. Those odds have only climbed as the summer went
-on: the very-strong probability was 81% in July, and the historic-event call
-went from 69% in August to 75% now.
+1) All forecasts will be written by a human, me. The full model/forecast and AI disclosure can be found on the "About" tab.
 
-So it's a fair question for anyone with a Bridger pass: what does a big El
-Niño — let alone a record one — actually do to our snow? We joined all
-**76 seasons** of the SNOTEL record behind this site (WY1951–2026) to the
-CPC's Oceanic Niño Index and let the data talk. Short version: **El Niño
-tilts the odds against us — modestly, measurably, and mostly by deleting the
-blower years.**
+2) I will be wrong at times.
 
-*A note on the numbers.* The snowfall totals in this post come from the long
-**Bridger Bowl SNOTEL record** (Brackett Creek, mid-mountain, extended back to
-1950 with the nearby co-op station): the daily change in snow depth, measured
-once a day after the snow has settled. Bridger's snow report measures higher
-on the hill and clears its board more often, so its totals run higher — over
-the last six winters anywhere from 10% to 100% more, typically about 45%. So
-don't line these inches up against the snow report. Read the results as
-percentages of normal and as odds; those don't depend on the ruler.
+3) Oh and “Super” El Niño does not exist, scientifically speaking; I know it's semantics in terms of terminology but just so you all know :)
 
-## The relationship, in one scatter
+More than anything, though, I’m hoping this can be an educational resource for our community to better understand weather and science in general, including myself. Okay lets get into it!
+
+I've probably either gotten the question or heard at least a hundred times this summer and fall, what does this El Niño mean for our snowfall? I thought that this will make for a good first post topic.
+
+Unless you've been living under a rock, most folks know already that a record-strength El Niño is taking shape in the Pacific. As of the Climate Prediction Center's (CPC) September 10 discussion, the  ocean still getting hotter with the key Niño-3.4 region sitting at +2.2 °C, and the eastern Pacific  already past +3 °C.  The CPC now puts a greater than 90% chance on a _very strong_ event, and, a 75% chance on a _historic_ one, exceeding the strength of any El Niño back to 1950. 
+
+So the question for anyone with a Bridger or Big Sky pass: what does a big El
+Niño actually do to our snowfall in this region? To dig a little deeper I aggregated
+76 seasons of SNOTEL recorded data to the CPC's Oceanic Niño Index. TLDR: El Niño historically tilts the odds against us.
+
+The snowfall totals in this post come from the nearest Bridger Bowl SNOTEL record (Brackett Creek) that extends back continuously to 1950 with the nearby co-op station. I'm using the daily change in snow depth, measured once a day after the snow has settled. Bridger's own snow report almost always measures higher (typically by up to 30%). Basically in the upcoming plots, don't line these numbers up against the snow report; the results are meant to be percentages of normal and as odds.
+
+## Scatter plot of El Nino vs. La Nina Snowfall
 
 ![Bridger seasonal snowfall vs. El Niño strength, 76 winters](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/01_scatter.png)
 
-Across all 76 winters, Bridger loses about **11 inches of seasonal snowfall
-per +1 °C of winter ONI** (p < 0.001). But the R² is 0.14 — ENSO explains
-only about a seventh of the year-to-year variance. **It loads the dice; it
-doesn't throw them.** Keep that number in your back pocket; it's the single
+Across all 76 winters, Bridger loses about **11 inches of seasonal snowfall**
+**per +1 °C of winter ONI** (p < 0.001). But the R² is 0.14 — ENSO explains
+only about a seventh of the year-to-year variance. **It loads the dice; it**
+**doesn't throw them.** Keep that number in your back pocket; it's the single
 most important caveat in this whole post.
 
-The more interesting result is *where* the loss comes from. Quantile
+The more interesting result is _where_ the loss comes from. Quantile
 regression says the slope at the 90th percentile (−16″/°C) is three times
 steeper than at the 10th (−5.5″/°C). El Niño doesn't crater the floor of a
 Bridger winter — **it caps the ceiling.** None of the eight strong-or-better
@@ -72,19 +56,19 @@ below-normal, near-normal, and above-normal thirds (under 150″, 150–175″,
 and over 175″ in the SNOTEL record):
 
 - **Above-normal winters** go from **two-thirds** of strong La Niña winters
-  (57% of weak-to-moderate ones) to 18% in neutral years to **zero of the
-  eight** strong+ El Niño winters.
-- **Below-normal winters** climb from ~15% under La Niña to **62% under
-  strong+ El Niño.**
+  (57% of weak-to-moderate ones) to 18% in neutral years to **zero of the**
+\*\*  eight\*\* strong+ El Niño winters.
+- **Below-normal winters** climb from \~15% under La Niña to **62% under**
+\*\*  strong+ El Niño.\*\*
 - The extremes tell the same story: half of the strong La Niña winters
   topped 200″ and none of the strong+ El Niño winters did, while the odds of
-  a genuinely lean year (under 130″) rise to **~25–30%** under strong El Niño
+  a genuinely lean year (under 130″) rise to **\~25–30%** under strong El Niño
   — elevated, but far from a guarantee of misery. (Six and eight winters are
   small groups; treat these shares as rough.)
 
 Mean seasonal totals run 143″ (strong+ El Niño) → 158″ (neutral) → 186″
 (strong La Niña), against the 164″ climo mean. And a detail worth sitting
-with: strong El Niño vs *neutral* is only −14″, and **not** statistically
+with: strong El Niño vs _neutral_ is only −14″, and **not** statistically
 significant. Most of the ENSO lever at Bridger is **La Niña generosity**, not
 El Niño devastation — a strong El Niño mostly costs you the upside.
 
@@ -102,15 +86,15 @@ that bury us.
 
 Two more findings from the record that shape how to play the season:
 
-- **The loss is spread across the whole winter — it's about the total, not
-  the timing.** Every month Nov–Mar gives up a similar 5–7 inches at this
+- **The loss is spread across the whole winter — it's about the total, not**
+\*\*  the timing.\*\* Every month Nov–Mar gives up a similar 5–7 inches at this
   year's forecast strength. **November and December** are where the signal is
   statistically solid (and, being smaller months, where the proportional hit
   is biggest), but January–March point the same direction. Two things follow.
   The folklore of the "back-loaded El Niño winter" doesn't rescue Bridger —
   February and March slopes stay negative. And don't bank on a slow start
   either: two of the three record El Niño winters (1982-83, 2015-16) came out
-  of the gate *above* normal, as the season plot further down shows.
+  of the gate _above_ normal, as the season plot further down shows.
 
   ![Normal monthly snowfall vs. a +2.5 °C El Niño winter, Nov–Mar](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/03_months.png)
 
@@ -136,13 +120,13 @@ forecast, and the quantile-regression fit — all centered on an ONI of about
 
 ![How a season piles up, and where 2026–27 most likely lands](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/06_outlook.png)
 
-**The central expectation for Bridger in 2026–27 is roughly 140 inches —
-about 85% of a normal season** (climo mean 164″) — with a
-10th-to-90th-percentile range of about **110″ to 165″.** Call it a ~77%
-chance of finishing below the climo mean, a ~30% chance of a genuinely lean
+**The central expectation for Bridger in 2026–27 is roughly 140 inches —**
+**about 85% of a normal season** (climo mean 164″) — with a
+10th-to-90th-percentile range of about **110″ to 165″.** Call it a \~77%
+chance of finishing below the climo mean, a \~30% chance of a genuinely lean
 year under 130″, and only a few percent chance of a 200″ season.
 
-Two honest caveats, both pointing the same direction — *wider* error bars,
+Two honest caveats, both pointing the same direction — _wider_ error bars,
 not a lower number:
 
 - **We're at the edge of the analogs already.** The strongest winter in the
@@ -150,7 +134,7 @@ not a lower number:
   the El Niño clears CPC's historic threshold, 2026-27 lands beyond everything
   we have to compare it to, and the ceiling-capping relationship is being
   extrapolated at the central case, not just in the tail.
-- **ENSO still explains only ~14% of a Bridger winter.** The other 86% —
+- **ENSO still explains only \~14% of a Bridger winter.** The other 86% —
   the polar jet, storm-by-storm luck, whatever the North Pacific decides in
   February — is untouched by how warm the eastern Pacific gets. 1982-83 was a
   monster El Niño and still beat climatology.
@@ -159,8 +143,8 @@ not a lower number:
 
 The story rhymes down the road at Big Sky. The record there is shorter — the
 Lone Mountain SNOTEL only goes back to 1992, so 35 winters instead of 76 — but
-the ENSO tilt is, if anything, a touch stronger: about **14 inches lost per
-+1 °C** of winter ONI, and the relationship explains a larger share of the
+the ENSO tilt is, if anything, a touch stronger: about **14 inches lost per**
+**+1 °C** of winter ONI, and the relationship explains a larger share of the
 variance (R² ≈ 0.26) than at Bridger.
 
 ![Big Sky seasonal snowfall vs. winter El Niño strength, 1992–2026](https://coldsmokereport.github.io/coldsmoke/assets/images/2026-09-12/07_bigsky.png)
@@ -180,7 +164,7 @@ The forecast is dramatic; the playbook is calm.
   record winters started fast and slow alike — bet on the total, not the
   calendar.
 - **Expect fewer deep days** — a central total around 85% of normal, and
-  real odds (~30%) of a lean year — but don't write off the season.
+  real odds (\~30%) of a lean year — but don't write off the season.
 - **The snow that does fall should still be cold.** No reliable temperature
   signal here; this is a storm-track story, not a warm-winter one.
 
@@ -191,9 +175,9 @@ against the gray bands in real time.
 
 Think snow anyway.
 
----
+***
 
-*Methods: DJF Oceanic Niño Index (CPC), 76 usable Bridger seasons (Nov–Apr
+\*Methods: DJF Oceanic Niño Index (CPC), 76 usable Bridger seasons (Nov–Apr
 totals) from the Bridger Bowl SNOTEL record behind this site (Brackett Creek,
 extended to 1950 with the nearby co-op station). Probability bins use Wilson
 intervals; group differences tested with Mann-Whitney, permutation, and
@@ -203,4 +187,4 @@ The 2026-27 outlook centers three framings on a forecast ONI of +2.5 (range
 2.3–2.7) and CPC's >90% very-strong probability. ENSO status from the CPC
 ENSO Diagnostic Discussion issued 2026-09-10. The figures here are simplified
 renderings of that analysis. Full analysis lives in the mtnsnow research
-pipeline.*
+pipeline.\*
