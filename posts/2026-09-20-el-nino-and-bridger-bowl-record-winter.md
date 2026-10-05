@@ -31,7 +31,7 @@ Unless you've been living under a rock, most folks know already that a record-st
 
 So the question for anyone with a Bridger or Big Sky pass: what does a big El Niño actually do to our snowfall in this region? To dig a little deeper I aggregated 76 seasons of SNOTEL recorded data along with the CPC's Oceanic Niño Index. TLDR: El Niño historically tilts the odds against us.
 
-The snowfall totals in this post come from the nearest Bridger Bowl SNOTEL record (Brackett Creek) that extends back to 1950 after including the nearby co-op station. I'm using the daily change in snow depth, measured once a day after the snow has settled. Bridger's snow report that most are familiar with almost always measures higher (typically by up to 30–40%). Basically in the upcoming plots, don't line these numbers up against the snow report; the results are meant to be percentages of normal and as odds.
+The snowfall totals in this post come from the nearest Bridger Bowl SNOTEL record (Brackett Creek) that extends back to 1950 after including the nearby co-op station. I'm using the daily change in snow depth, measured once a day after the snow has settled. Bridger's snow report that most are familiar with almost always measures higher (typically by up to 30–40%) due to higher frequency measurements and measurement board sweeps. Basically in the upcoming plots, don't compare these numbers directly against the snow report; the results are meant to be percentages of normal.
 
 ## Scatter plot of El Niño vs. La Niña Snowfall
 
