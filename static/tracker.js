@@ -152,7 +152,7 @@
     note.textContent =
       (cur.last_obs_date
         ? `${wyLabel} season through ${fmtObs(cur.last_obs_date)}. `
-        : `The ${wyLabel} season started Oct 1 — no snowfall recorded yet. `) +
+        : `The ${wyLabel} season started Oct 1. `) +
       (pShown.length
         ? `Gray line: last season (${seasonLabel(prev.water_year)}), final ${prev.total_in}". `
         : "") +
