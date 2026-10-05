@@ -19,7 +19,7 @@ Hi all, welcome to the Cold Smoke Report! As an atmospheric scientist with a pas
 
 4) This will always be a free community based resource.
 
-5) I'll try to update as much a possible but can only promise a few posts per week during the season given the amount of time it takes to put together.
+5) I'll try to update as much as possible but can only promise a few posts per week during the season given the amount of time it takes to put together.
 
 6) Oh and “Super” El Niño does not exist, scientifically speaking; I know it's semantics in terms of terminology but just so you all know :)
 
@@ -27,11 +27,11 @@ More than anything, though, I’m hoping this can be an educational resource for
 
 I've probably either gotten the question or heard at least a hundred times this summer and fall, what does this El Niño mean for our snowfall? I thought that this will make for a good first post.
 
-Unless you've been living under a rock, most folks know already that a record-strength El Niño is taking shape in the Pacific. As of the Climate Prediction Center's (CPC) September 10 discussion, the ocean's still getting hotter with the key Niño-3.4 region sitting at +2.2 °C, and the eastern Pacific already past +3 °C. The CPC now has a greater than 90% chance of a very strong event, and, a 75% chance of a historic one, exceeding the strength of any El Niño back to 1950. 
+Unless you've been living under a rock, most folks know already that a record-strength El Niño is taking shape in the Pacific. As of the Climate Prediction Center's (CPC) late Sept. discussion, the ocean's still getting hotter with the key Niño-3.4 region sitting at +2.2 °C, and the eastern Pacific already past +3 °C. The CPC now has a greater than 90% chance of a very strong event, and, a 75% chance of a historic one, exceeding the strength of any El Niño back to 1950. 
 
 So the question for anyone with a Bridger or Big Sky pass: what does a big El Niño actually do to our snowfall in this region? To dig a little deeper I aggregated 76 seasons of SNOTEL recorded data along with the CPC's Oceanic Niño Index. TLDR: El Niño historically tilts the odds against us.
 
-The snowfall totals in this post come from the nearest Bridger Bowl SNOTEL record (Brackett Creek) that extends back to 1950 after including the nearby co-op station. I'm using the daily change in snow depth, measured once a day after the snow has settled. Bridger's snow report that most are familiar with almost always measures higher (typically by up to 30–40%) due to higher frequency measurements and measurement board sweeps. Basically in the upcoming plots, don't compare these numbers directly against the snow report; the results are meant to be percentages of normal.
+The snowfall totals in this post come from the nearest Bridger Bowl SNOTEL record (Brackett Creek) that extends back to 1950 after including the nearby co-op station. I'm using the daily change in snow depth, measured once a day after the snow has settled. Bridger's snow report that most are familiar with almost always measures higher (typically by up to 40+%) due to higher frequency measurements and measurement board sweeps. Basically in the upcoming plots, don't compare these numbers directly against the snow report; the results are meant to be percentages of normal.
 
 ## Scatter plot of El Niño vs. La Niña Snowfall
 
@@ -83,7 +83,7 @@ The snow that does fall should still be cold, since there's no reliable temperat
 
 CPC's next update is on October 8. I'll continue to provide updates leading into the season.
 
-Pray for snow. And taking a quick peak at the forecast for next weekend we may have our first ❄️ to discuss! More soon and thanks for reading!
+Pray for snow. And taking a quick peek at the forecast for next weekend we may have our first ❄️ to discuss! More soon and thanks for reading!
 
 -Trey
 
