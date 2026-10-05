@@ -71,9 +71,9 @@ The story is pretty similar down the road at Big Sky. The record there for the L
 
 ![Big Sky seasonal snowfall vs. winter El Niño strength, 1992–2026](/coldsmoke/assets/images/07_bigsky.png)
 
-Compared to a Lone Mountain normal of about 141 inches, the strong-El-Niño
+Compared to a normal of about 141 inches at Lone Mountain, the strong-El-Niño
 winters on record averaged roughly 114″ (about 80% of normal); however, the
-two closest very-strong analogs, 1997-98 and 2015-16, both landed nearer 95%.
+two closest very-strong analogs, 1997-98 and 2015-16, both were near 95%.
 
 ## Bottom line
 
