@@ -1,6 +1,6 @@
 ---
 title: "Welcome & the Question on Everyone's Mind: What does El Niño mean for our Snow?"
-date: 2026-10-04
+date: 2026-10-05
 tags:
   - climatology
   - el-nino
