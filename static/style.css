@@ -160,6 +160,8 @@ img { max-width: 100%; height: auto; }
 
 .page-heading { font-size: 1.6rem; margin: 0 0 0.4rem; line-height: 1.2; font-weight: 600; }
 .page-lede { color: var(--ink-2); margin-top: 0; max-width: 44rem; }
+.page-disclaimer { color: var(--ink-2); font-size: 0.85rem; max-width: 44rem; margin: 0 0 0.9rem;
+  padding: 0.45rem 0.75rem; border-left: 3px solid var(--alpenglow); background: var(--strip); }
 
 /* ===== Sidebar ===== */
 .sidebar { font-family: var(--sans); font-size: 0.8rem; line-height: 1.55; }
