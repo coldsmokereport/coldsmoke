@@ -17,9 +17,10 @@ BASE_URL = "/coldsmoke"
 # Absolute URL used in the Atom feed.
 BASE_URL_ABS = "https://coldsmokereport.github.io/coldsmoke"
 
-# ===== Comments (Cusdis) =====
-# App ID from https://cusdis.com after creating a website there. Empty = comments hidden.
-CUSDIS_APP_ID = "bd55b449-a3ec-4a60-b600-18e884da3e57"
+# ===== Comments (Disqus) =====
+# Site shortname from disqus.com (Admin -> Settings -> General). Empty = comments hidden.
+# (Cusdis, used until 2026-10-04, shut down its hosted service.)
+DISQUS_SHORTNAME = "thecoldsmokereport"
 
 # ===== Repo paths =====
 ROOT = Path(__file__).resolve().parent

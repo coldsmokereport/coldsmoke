@@ -13,38 +13,31 @@
   </p>
   {% endif %}
 
-  {% if cusdis_app_id %}
+  {% if disqus_shortname %}
   <section class="post-comments">
     <h2 class="sb-head">Comments</h2>
-    <div id="cusdis_thread"
-         data-host="https://cusdis.com"
-         data-app-id="{{ cusdis_app_id }}"
-         data-page-id="{{ post.slug }}"
-         data-page-url="{{ base_abs }}/posts/{{ post.slug }}/"
-         data-page-title="{{ post.title }}"
-         data-theme="auto"></div>
+    <div id="disqus_thread"></div>
+    <noscript>Comments are powered by Disqus and need JavaScript.</noscript>
   </section>
   {% endif %}
 </article>
 {% endblock %}
 {% block scripts %}
-{% if cusdis_app_id %}
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+{% if disqus_shortname %}
 <script>
-// Force the Cusdis widget's theme to follow the site's real light/dark state.
-// data-theme="auto" only syncs on the iframe's onload handshake, which can be
-// missed — leaving light text/dark labels. Re-push the theme for the first few
-// seconds while the iframe mounts, then keep tracking live OS changes.
+// Disqus universal embed. Identifier = slug, so a post keeps its thread even if
+// its title or date prefix changes. Disqus picks light/dark from the page's
+// text color when it loads.
+var disqus_config = function () {
+  this.page.url = "{{ base_abs }}/posts/{{ post.slug }}/";
+  this.page.identifier = "{{ post.slug }}";
+  this.page.title = {{ post.title|tojson }};
+};
 (function () {
-  var mq = window.matchMedia("(prefers-color-scheme: dark)");
-  function sync() {
-    if (window.CUSDIS && window.CUSDIS.setTheme) {
-      window.CUSDIS.setTheme(mq.matches ? "dark" : "light");
-    }
-  }
-  var n = 0, id = setInterval(function () { sync(); if (++n >= 12) clearInterval(id); }, 500);
-  if (mq.addEventListener) { mq.addEventListener("change", sync); }
-  else if (mq.addListener) { mq.addListener(sync); }
+  var d = document, s = d.createElement("script");
+  s.src = "https://{{ disqus_shortname }}.disqus.com/embed.js";
+  s.setAttribute("data-timestamp", +new Date());
+  (d.head || d.body).appendChild(s);
 })();
 </script>
 {% endif %}
