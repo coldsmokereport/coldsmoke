@@ -20,7 +20,7 @@ BASE_URL_ABS = "https://coldsmokereport.github.io/coldsmoke"
 # ===== Comments (Disqus) =====
 # Site shortname from disqus.com (Admin -> Settings -> General). Empty = comments hidden.
 # (Cusdis, used until 2026-10-04, shut down its hosted service.)
-DISQUS_SHORTNAME = "thecoldsmokereport"
+DISQUS_SHORTNAME = "https-coldsmokereport-github-io-coldsmoke"
 
 # ===== Repo paths =====
 ROOT = Path(__file__).resolve().parent
