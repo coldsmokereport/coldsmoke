@@ -60,7 +60,13 @@
     const b = r.bands;
     const cur = r.current;
     const curVals = cur.cumulative_in;
-    const ymaxRaw = Math.max(b.p90[SEASON_END - 1], cur.total_in) * 1.08;
+    // Last season stays on as a labelled comparison line for the first ~6 weeks.
+    const prev = r.previous;
+    const showPrev = !!(prev && prev.cumulative_in.length && prev.show_until &&
+      Date.now() < new Date(prev.show_until + "T00:00:00Z").getTime());
+    const seasonLabel = (wy) => `${wy - 1}–${String(wy % 100).padStart(2, "0")}`;
+    const ymaxRaw = Math.max(b.p90[SEASON_END - 1], cur.total_in,
+                             showPrev ? prev.total_in : 0) * 1.08;
     const ymax = Math.ceil(ymaxRaw / 25) * 25;
 
     svg.innerHTML = "";
@@ -93,6 +99,23 @@
         .textContent = m.label;
     });
 
+    // last season (comparison line, drawn under the current season)
+    const pStart = showPrev ? (prev.start_dowy || 1) : 1;
+    const pShown = showPrev ? prev.cumulative_in.slice(0, Math.max(0, SEASON_END - pStart + 1)) : [];
+    if (pShown.length) {
+      el("path", { class: "prev-line", d: linePath(pShown, ymax, pStart) }, svg);
+      const pEnd = pStart + pShown.length - 1;
+      const px = x(pEnd), py = y(pShown[pShown.length - 1], ymax);
+      el("circle", { class: "prev-dot", cx: px, cy: py, r: 3.5 }, svg);
+      // right-margin label, nudged below any band label it would collide with
+      let ly = py + 4;
+      ["p90", "p50", "p10"].map((k) => y(b[k][SEASON_END - 1], ymax) + 4)
+        .sort((a1, a2) => a1 - a2)
+        .forEach((by) => { if (Math.abs(ly - by) < 13) ly = by + 14; });
+      el("text", { class: "series-label", x: M.left + PW + 6, y: ly }, svg)
+        .textContent = `${seasonLabel(prev.water_year)}: ${prev.total_in}"`;
+    }
+
     // current season
     const startD = cur.start_dowy || 1;
     const shown = curVals.slice(0, Math.max(0, SEASON_END - startD + 1));
@@ -110,6 +133,11 @@
         const sub = el("text", { class: "series-label", x: ex + 10, y: ey + 18 }, svg);
         sub.textContent = `${pct}% of median`;
       }
+    } else {
+      // new season, no obs yet: mark the start at 0"
+      el("circle", { class: "end-dot", cx: x(1), cy: y(0, ymax), r: 5 }, svg);
+      el("text", { class: "end-label", x: x(1) + 10, y: y(0, ymax) - 10 }, svg)
+        .textContent = `${seasonLabel(cur.water_year)}: no snow yet`;
     }
 
     // band edge labels (right margin)
@@ -119,13 +147,16 @@
     });
 
     // note
-    const lastObs = cur.last_obs_date ? new Date(cur.last_obs_date + "T00:00:00Z") : null;
-    const staleDays = lastObs ? (Date.now() - lastObs.getTime()) / 864e5 : Infinity;
-    const wyLabel = `${cur.water_year - 1}–${String(cur.water_year % 100).padStart(2, "0")}`;
-    note.textContent = staleDays > 7
-      ? `Showing the completed ${wyLabel} season (final: ${cur.total_in}" through ${cur.last_obs_date}). ` +
-        `Climatology from ${r.n_seasons} seasons. Updates resume when the snow does.`
-      : `${wyLabel} season through ${cur.last_obs_date}. Climatology from ${r.n_seasons} seasons.`;
+    const wyLabel = seasonLabel(cur.water_year);
+    const fmtObs = (s) => fmtDate(new Date(s + "T00:00:00Z"));
+    note.textContent =
+      (cur.last_obs_date
+        ? `${wyLabel} season through ${fmtObs(cur.last_obs_date)}. `
+        : `The ${wyLabel} season started Oct 1 — no snowfall recorded yet. `) +
+      (pShown.length
+        ? `Gray line: last season (${seasonLabel(prev.water_year)}), final ${prev.total_in}". `
+        : "") +
+      `Climatology from ${r.n_seasons} seasons.`;
 
     // hover crosshair + tooltip
     const hover = el("g", { style: "display:none" }, svg);
@@ -154,6 +185,9 @@
         chDot.setAttribute("cx", xi);
         chDot.setAttribute("cy", y(shown[ci], ymax));
       } else chDot.style.display = "none";
+      const pi = d - pStart;
+      if (pi >= 0 && pi < pShown.length)
+        curTxt += `${seasonLabel(prev.water_year)}: ${pShown[pi]}"<br>`;
 
       tip.innerHTML = `<span class="tt-head">${fmtDate(dowyToDate(d, cur.water_year))}</span><br>` +
         curTxt + rows.map(([k, v]) => `${k}: ${v}"`).join("<br>");
@@ -170,13 +204,18 @@
     let rows = MONTHS.slice(1).map((m) => {
       const d = m.d - 1;
       const ci = d - startD;
+      const pi = d - pStart;
+      const prevCell = pShown.length
+        ? `<td>${pi >= 0 && pi < pShown.length ? pShown[pi] + '"' : "—"}</td>` : "";
       return `<tr><td>${m.label} 1</td><td>${b.p10[d - 1]}</td><td>${b.p50[d - 1]}</td>` +
-        `<td>${b.p90[d - 1]}</td><td>${ci >= 0 && ci < shown.length ? shown[ci] + '"' : "—"}</td></tr>`;
+        `<td>${b.p90[d - 1]}</td>${prevCell}<td>${ci >= 0 && ci < shown.length ? shown[ci] + '"' : "—"}</td></tr>`;
     }).join("");
     const endRow = `<tr><td>Apr 30</td><td>${b.p10[SEASON_END - 1]}</td><td>${b.p50[SEASON_END - 1]}</td>` +
-      `<td>${b.p90[SEASON_END - 1]}</td><td>${cur.total_in}"</td></tr>`;
+      `<td>${b.p90[SEASON_END - 1]}</td>${pShown.length ? `<td>${prev.total_in}"</td>` : ""}` +
+      `<td>${shown.length ? cur.total_in + '"' : "—"}</td></tr>`;
     tableDiv.innerHTML =
       `<table><thead><tr><th>Date</th><th>p10</th><th>median</th><th>p90</th>` +
+      (pShown.length ? `<th>${seasonLabel(prev.water_year)}</th>` : "") +
       `<th>${wyLabel}</th></tr></thead><tbody>${rows}${endRow}</tbody></table>`;
   }
 

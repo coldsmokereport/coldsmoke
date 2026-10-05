@@ -239,6 +239,8 @@ img { max-width: 100%; height: auto; }
 .band-inner { fill: var(--band-hi); }
 .median-line { stroke: var(--ink-2); stroke-width: 1.6; stroke-dasharray: 5 4; fill: none; }
 .current-line { stroke: var(--accent); stroke-width: 2.5; fill: none; }
+.prev-line { stroke: var(--ink-3); stroke-width: 1.6; fill: none; }
+.prev-dot { fill: var(--ink-3); stroke: var(--paper); stroke-width: 1.5; }
 .crosshair { stroke: var(--ink-3); stroke-width: 1; stroke-dasharray: 2 3; }
 .end-dot { fill: var(--accent); stroke: var(--paper); stroke-width: 2; }
 .end-label { fill: var(--ink); font-family: var(--sans); font-weight: 700; font-size: 13px; }

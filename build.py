@@ -156,17 +156,22 @@ def build_site(base: str, skip_data: bool = False):
     # "The lookout": season-to-date snowfall vs the station median, per resort
     lookout, lk_season, lk_through = [], "", ""
     for r in tracker["resorts"].values():
-        cur, median_total = r["current"], r["bands"]["p50"][-1]
+        cur = r["current"]
+        # percent of the median season-to-date (same basis as the tracker chart)
+        end_dowy = cur["start_dowy"] + len(cur["cumulative_in"]) - 1
+        median_to_date = (r["bands"]["p50"][min(end_dowy, 212) - 1]
+                          if cur["cumulative_in"] else 0)
         lookout.append({
             "name": r["name"],
             "total": round(cur["total_in"]),
-            "pct": round(100 * cur["total_in"] / median_total)
-                   if median_total else None,
+            "pct": round(100 * cur["total_in"] / median_to_date)
+                   if median_to_date else None,
         })
         wy = cur["water_year"]
         lk_season = f"{wy - 1}–{wy % 100:02d}"
-        lk_through = datetime.strptime(cur["last_obs_date"],
-                                       "%Y-%m-%d").strftime("%b %-d")
+        # None until the new season's first obs arrive (template says "no snow yet")
+        lk_through = (datetime.strptime(cur["last_obs_date"], "%Y-%m-%d").strftime("%b %-d")
+                      if cur["last_obs_date"] else None)
 
     sidebar = {"recent": posts[:6], "months": month_list, "years": year_list,
                "tags": [(t, len(v)) for t, v in tag_list],

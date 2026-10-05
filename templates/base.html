@@ -59,9 +59,14 @@
             <span class="sb-date">{{ r.total }}″{% if r.pct %} · {{ r.pct }}%{% endif %}</span></li>
         {% endfor %}
       </ul>
+      {% if sb.lk_through %}
       <p class="sb-note">{{ sb.lk_season }} snowfall and percent of the station
-      median, through {{ sb.lk_through }}.
+      median to date, through {{ sb.lk_through }}.
       <a href="{{ base }}/tracker/">Tracker →</a></p>
+      {% else %}
+      <p class="sb-note">The {{ sb.lk_season }} season is underway — no snowfall
+      on the board yet. <a href="{{ base }}/tracker/">Tracker →</a></p>
+      {% endif %}
     </section>
 
     <section class="sb-box">

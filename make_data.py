@@ -19,6 +19,14 @@ import pandas as pd
 import config
 
 DOWY_MAX = 366  # day-of-water-year index runs 1..366
+# Last season stays on the tracker as a labelled comparison line until this
+# many days into the new water year (Oct 1 + 45 days = Nov 15).
+PREV_SEASON_SHOW_DAYS = 45
+
+
+def calendar_water_year(ts: pd.Timestamp) -> int:
+    """Water year of a date (Oct 1 starts the next WY)."""
+    return ts.year + 1 if ts.month >= 10 else ts.year
 
 
 def day_of_water_year(dates: pd.Series) -> np.ndarray:
@@ -78,13 +86,30 @@ def cumulative_by_dowy(df: pd.DataFrame) -> pd.DataFrame:
     return cum
 
 
+def _season_block(cum: pd.DataFrame, df: pd.DataFrame, wy: int) -> dict:
+    """Cumulative series + metadata for one water year (empty if no obs yet)."""
+    cur = cum[wy] if wy in cum.columns else pd.Series(dtype=float)
+    cur_valid = cur.dropna()
+    cur_dates = df.loc[df["water_year"] == wy, "date"]
+    return {
+        "water_year": wy,
+        "cumulative_in": _round_list(cur_valid.to_numpy()),
+        "start_dowy": int(cur_valid.index.min()) if len(cur_valid) else 1,
+        "last_obs_date": cur_dates.max().strftime("%Y-%m-%d") if len(cur_dates) else None,
+        "total_in": round(float(cur_valid.iloc[-1]), 1) if len(cur_valid) else 0.0,
+    }
+
+
 def build_season_tracker() -> dict:
-    out = {"generated": pd.Timestamp.now().strftime("%Y-%m-%d"), "resorts": {}}
+    today = pd.Timestamp.now().normalize()
+    out = {"generated": today.strftime("%Y-%m-%d"), "resorts": {}}
     for resort, meta in config.RESORTS.items():
         df = load_merged(resort)
         ok_years = usable_years(resort)
         cum = cumulative_by_dowy(df)
-        current_wy = int(df["water_year"].max())
+        # The season turns over on Oct 1 by the calendar, even before the
+        # pipeline has any obs for the new water year (ops refresh starts Oct 15).
+        current_wy = max(int(df["water_year"].max()), calendar_water_year(today))
 
         hist_cols = [wy for wy in cum.columns
                      if int(wy) in ok_years and int(wy) != current_wy]
@@ -95,20 +120,15 @@ def build_season_tracker() -> dict:
             # Percentile of NaN-padded tails can dip; enforce monotone for display.
             bands[f"p{p}"] = _round_list(np.maximum.accumulate(q.ffill().fillna(0.0)))
 
-        cur = cum[current_wy] if current_wy in cum.columns else pd.Series(dtype=float)
-        cur_valid = cur.dropna()
-        cur_dates = df.loc[df["water_year"] == current_wy, "date"]
+        prev_wy = current_wy - 1
+        show_until = pd.Timestamp(year=prev_wy, month=10, day=1) + pd.Timedelta(days=PREV_SEASON_SHOW_DAYS)
         out["resorts"][resort] = {
             "name": meta["name"],
             "n_seasons": len(hist_cols),
             "bands": bands,
-            "current": {
-                "water_year": current_wy,
-                "cumulative_in": _round_list(cur_valid.to_numpy()),
-                "start_dowy": int(cur_valid.index.min()) if len(cur_valid) else 1,
-                "last_obs_date": cur_dates.max().strftime("%Y-%m-%d") if len(cur_dates) else None,
-                "total_in": round(float(cur_valid.iloc[-1]), 1) if len(cur_valid) else 0.0,
-            },
+            "current": _season_block(cum, df, current_wy),
+            "previous": {**_season_block(cum, df, prev_wy),
+                         "show_until": show_until.strftime("%Y-%m-%d")},
         }
         print(f"[tracker] {resort}: {len(hist_cols)} climatology seasons, "
               f"WY{current_wy} total {out['resorts'][resort]['current']['total_in']}\" "
