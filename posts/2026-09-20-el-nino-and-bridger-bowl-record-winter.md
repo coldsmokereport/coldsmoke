@@ -11,17 +11,17 @@ draft: true
 
 Hi all, welcome to the Cold Smoke Report! As an atmospheric scientist with a passion for skiing and snow, I've realized over the past few years that Southwest Montana is lacking a dedicated blog/site for snowfall forecasts. To start things off I'll be focusing on winter weather forecasts right here in the backyard at Bridger Bowl, Big Sky, and in Bozeman. Before I start with my first topic I've got a few ground rules and things I can promise for you all:
 
-1) All forecasts will be written by a human, me. The full model/forecast and AI disclosure can be found on the "About" tab.
+1\) All forecasts will be written by a human, me. The full model/forecast and AI disclosure can be found on the "About" tab.
 
-2) I will be wrong at times.
+2\) I will be wrong at times.
 
-3) There are no bad questions, ask away.
+3\) There are no bad questions, ask away.
 
-4) This will always be a free community based resource.
+4\) This will always be a free community based resource.
 
-5) I'll try to update as much as possible but can only promise a few posts per week during the season given the amount of time it takes to put together.
+5\) I'll try to update as much as possible but can only promise a few posts per week during the season given the amount of time it takes to put together.
 
-6) Oh and “Super” El Niño does not exist, scientifically speaking; I know it's semantics in terms of terminology but just so you all know :)
+6\) Oh and “Super” El Niño does not exist, scientifically speaking; I know it's semantics in terms of terminology but just so you all know :)
 
 More than anything, though, I’m hoping this can be an educational resource for our community to better understand weather and science in general, including myself. With that, let's get into it!
 
@@ -90,4 +90,4 @@ Pray for snow. And taking a quick peek at the forecast for next weekend we may h
 ***
 
 \*Methods: DJF Oceanic Niño Index (CPC), 76 usable Bridger seasons (Nov–Apr
-totals) from the Brackett Creek SNOTEL record (extended to 1950 with the nearby co-op station). Composites are reanalysis anomalies. The 2026-27 outlook centers on a forecast ONI of +2.5 (range 2.3–2.7) and CPC's >90% very-strong probability. ENSO status from the CPC ENSO Diagnostic Discussion issued 2026-09-10.\*
+totals) from the Brackett Creek SNOTEL record (extended to 1950 with the nearby co-op station). Composites are reanalysis anomalies. The 2026-27 outlook centers on a forecast ONI of +2.9 (ranging 2.6–3.2) and CPC's >90% very-strong probability. ENSO status from the CPC ENSO Diagnostic Discussion issued 2026-09-10 and CPC's weekly update of 2026-09-28.\*
