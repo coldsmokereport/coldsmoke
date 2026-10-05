@@ -86,7 +86,7 @@ The snow that does fall should still be cold, since there's no reliable temperat
 
 CPC's next update is on October 8. I'll continue to provide updates leading into the season.
 
-Pray for snow.
+Pray for snow. And taking a quick peak at the forecast for next weekend we may have our first ❄️ to discuss! More soon and thanks for reading!
 
 -Trey
 
