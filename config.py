@@ -47,7 +47,7 @@ CLIMO_FIGURES = [
     ("phase2/monthly_climo_bigsky.png",
      "Monthly snowfall climatology at Big Sky."),
     ("phase2/seasonal_totals_bridger.png",
-     "Season snowfall totals at Bridger Bowl across the full station record."),
+     "Season snowfall totals at Bridger Bowl"),
     ("phase2/seasonal_totals_bigsky.png",
      "Season snowfall totals at Big Sky."),
     # Trimmed for launch simplicity (2026-07) — restore any of these later:

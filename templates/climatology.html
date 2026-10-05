@@ -2,8 +2,7 @@
 {% block title %}Snow Climatology — {{ site_title }}{% endblock %}
 {% block content %}
 <h2 class="page-heading">Snow Climatology Explorer</h2>
-<p class="page-lede">What "normal" looks like in the Bridgers and on Lone Mountain,
-from {{ climo.resorts.bridger.summary.usable_seasons }} seasons at Bridger Bowl and
+<p class="page-lede">{{ climo.resorts.bridger.summary.usable_seasons }} seasons at Bridger Bowl and
 {{ climo.resorts.bigsky.summary.usable_seasons }} at Big Sky.</p>
 
 {% for key, r in climo.resorts.items() %}
@@ -40,26 +39,8 @@ from {{ climo.resorts.bridger.summary.usable_seasons }} seasons at Bridger Bowl 
     </div>
   </div>
 
-  <h4 class="viz-title">Twenty biggest storms on record</h4>
-  <div class="table-wrap">
-    <table class="sortable" data-resort="{{ key }}">
-      <thead><tr>
-        <th data-sort="text">Start</th><th data-sort="text">Peak thru</th>
-        <th data-sort="num">Days</th><th data-sort="num">Total (in)</th>
-        <th data-sort="num">Max day (in)</th><th data-sort="num">Season</th>
-      </tr></thead>
-      <tbody>
-        {% for s in r.storms %}
-        <tr><td>{{ s.start }}</td><td>{{ s.end }}</td><td>{{ s.days }}</td>
-            <td>{{ s.total_in }}</td><td>{{ s.max_daily_in }}</td>
-            <td>{{ s.wy - 1 }}–{{ "%02d"|format(s.wy % 100) }}</td></tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
-
   <div class="viz-root">
-    <h4 class="viz-title">Season totals, every usable year</h4>
+    <h4 class="viz-title">Season totals</h4>
     <div class="viz-stage viz-stage-sm">
       <svg class="seasons-chart" data-resort="{{ key }}" role="img"
            aria-label="Season snowfall totals for {{ r.name }}"></svg>
@@ -70,7 +51,7 @@ from {{ climo.resorts.bridger.summary.usable_seasons }} seasons at Bridger Bowl 
 {% endfor %}
 
 <section class="climo-resort">
-  <h3 class="climo-head">Pattern gallery <span class="climo-sub">from the research pipeline</span></h3>
+  <h3 class="climo-head">Additional plots</h3>
   <div class="fig-gallery">
     {% for rel, caption in figures %}
     <figure class="fig-card">
