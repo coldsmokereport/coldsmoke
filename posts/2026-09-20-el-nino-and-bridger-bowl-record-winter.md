@@ -46,7 +46,7 @@ for strong La Niña, compared with a 164″ climatological mean. You're probably
 
 ## Why El Niño's Pattern = Less Snowfall
 
-## ![Winter pressure pattern in strong El Niño vs. strong La Niña years — a ridge over Montana](/coldsmoke/assets/images/04_why_ridge.png)
+![Winter pressure pattern in strong El Niño vs. strong La Niña years — a ridge over Montana](/coldsmoke/assets/images/04_why_ridge.png)
 
 If we composite 76 winters of reanalysis fields, the pattern during strong El Niño's mid-winter has a deeper Aleutian low (dark blues off the Pacific NW) and also have more prominent ridging over western Canada to the northern Rockies over MT (notice the lines look like they form a mountain ridge with redder colors). This coincides with a storm track that tends to split and provides California with more precipitation than typical winters. Strong La Niña's, on the other hand, feature a North Pacific ridge and a trough digging into the Northwest, which leads to a favorable storm track from the W/NW for us.
 
