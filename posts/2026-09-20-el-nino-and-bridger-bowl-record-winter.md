@@ -6,7 +6,7 @@ tags:
   - el-nino
   - bridger
   - outlook
-draft: true
+draft: false
 ---
 
 Hi all, welcome to the Cold Smoke Report! As an atmospheric scientist with a passion for skiing and snow, I've realized over the past few years that Southwest Montana is lacking a dedicated blog/site for snowfall forecasts. To start things off I'll be focusing on winter weather forecasts right here in the backyard at Bridger Bowl, Big Sky, and in Bozeman. Before I start with my first topic I've got a few ground rules and things I can promise for you all:
