@@ -6,7 +6,7 @@ tags:
   - snow
   - bridger bowl
   - big sky
-draft: true
+draft: false
 ---
 
 Thanks, all, for the warm reception to the launch of this blog! It makes me excited that so many in our community are interested in the weather. Today’s post will cover this weekend’s potential storm. ❄️ ⛷🏂
