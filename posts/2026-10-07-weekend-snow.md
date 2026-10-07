@@ -29,8 +29,4 @@ Thanks for reading!
 
 -Trey
 
-P.S. What would you like to see in future posts?
-
-<iframe src="[https://strawpoll.com/ajnE1l7EBnW](https://strawpoll.com/embed/ajnE1l7EBnW)"
-
-        style="width:100%;height:480px;border:0;" loading="lazy"></iframe>
+<iframe src="https://strawpoll.com/embed/ajnE1l7EBnW" style="width:100%;height:480px;border:0;" loading="lazy"></iframe>
