@@ -10,6 +10,6 @@ My goal is to not only provide forecasts but also include some insight into how 
 
 Every forecast discussion on this site is written and interpreted by a human, me. Full disclosure, though: I use large dataset, and therefore, a bit of machine learning to try some different forecasting techniques and find new patterns. However, the words and the reasoning are still my own (I guess minus that fact that everything I've learned is an accumulation from interactions with professors and colleagues over the years).
 
-The [Season Tracker](%BASE%/tracker/) plots season-to-date snowfall compared to the full station record, and [Climatology](%BASE%/climatology/) shows what normal and abnormal seasons look like here. If you ever have any questions or recommendations, feel free to reach out in the Comments at the bottom of each post.
+The [Season Tracker](%BASE%/tracker/) plots season-to-date snowfall compared to the full station record, and [Climatology](%BASE%/climatology/) shows what normal and abnormal seasons look like here. If you ever have any questions or recommendations, feel free to reach out in the Comments at the bottom of each post or drop a line at thecoldsmokereport@gmail.com.
 
 Everything on this site is an experimental research product, not official guidance. Please consult the [National Weather Service](https://www.weather.gov/) for weather forecasts, and in the backcountry, the [Gallatin National Forest Avalanche Center](https://www.mtavalanche.com/).
