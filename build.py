@@ -74,6 +74,23 @@ def parse_markdown_file(path: Path, base: str = config.BASE_URL) -> tuple[dict, 
     return meta, render_markdown(text)
 
 
+# Homepage layout: newest HOME_FULL posts in full, the next HOME_COMPACT as a
+# compact title/date/excerpt list, then an "Older posts" link to the archive.
+HOME_FULL = 3
+HOME_COMPACT = 5
+EXCERPT_CHARS = 180
+
+
+def make_excerpt(body_html: str, n: int = EXCERPT_CHARS) -> str:
+    """Plain-text teaser from rendered HTML (embeds and tags dropped)."""
+    text = EMBED_RE.sub(" ", body_html)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(re.sub(r"\s+", " ", text)).strip()
+    if len(text) <= n:
+        return text
+    return text[:n].rsplit(" ", 1)[0].rstrip(",;:—-") + "…"
+
+
 def load_posts(base: str = config.BASE_URL) -> list[dict]:
     posts = []
     for path in sorted(config.POSTS_DIR.glob("*.md")):
@@ -95,6 +112,7 @@ def load_posts(base: str = config.BASE_URL) -> list[dict]:
             "date": date,
             "tags": meta.get("tags") or [],
             "body": body,
+            "excerpt": make_excerpt(body),
         })
     posts.sort(key=lambda p: (p["date"], p["slug"]), reverse=True)
     return posts
@@ -216,7 +234,10 @@ def build_site(base: str, skip_data: bool = False):
         write(out / "posts" / p["slug"] / "index.html",
               env.get_template("post.html").render(post=p, sb=sidebar))
     write(out / "index.html",
-          env.get_template("index.html").render(posts=posts[:10], sb=sidebar))
+          env.get_template("index.html").render(
+              posts=posts[:HOME_FULL],
+              more=posts[HOME_FULL:HOME_FULL + HOME_COMPACT],
+              has_older=len(posts) > HOME_FULL, sb=sidebar))
     for mk, plist in months.items():
         label = datetime.strptime(mk, "%Y-%m").strftime("%B %Y")
         write(out / "archive" / mk / "index.html",

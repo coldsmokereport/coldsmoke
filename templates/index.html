@@ -19,4 +19,23 @@
 {% else %}
 <p>No posts yet — the season is coming.</p>
 {% endfor %}
+
+{% if more %}
+<section class="more-posts">
+  <h2 class="more-head">More recent posts</h2>
+  <ul class="more-list">
+    {% for p in more %}
+    <li>
+      <p class="post-date">{{ p.date|datefmt("%A, %B %-d, %Y") }}</p>
+      <a class="more-title" href="{{ base }}/posts/{{ p.slug }}/">{{ p.title }}</a>
+      {% if p.excerpt %}<p class="more-excerpt">{{ p.excerpt }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if has_older %}
+<p class="older-link"><a href="{{ base }}/archive/">Older posts →</a></p>
+{% endif %}
 {% endblock %}
