@@ -13,11 +13,9 @@ Thanks, all, for the warm reception to the launch of this blog! It makes me exci
 
 It’s hard to believe with how warm it’s been over this past week (we’re just a few shy of record highs for the date), but we may be talking about the potential for enough snow to ski early next week (at least for those with rock skis and flexible ACLs). Wait, what? Skiing already? Let me start off by saying that this is a very complex forecast. Why? We have a traditional frontal / mid-latitude storm system moving in from the west, but it’ll also be interacting with Hurricane Rachel that will be moving northward from the eastern Pacific. 
 
-```plain
 <video controls autoplay loop muted playsinline width="100%">
-  <source src="%BASE%/assets/images/2026-10-07/loop_500mb_2026100700.mp4" type="video/mp4">
+  <source src="%BASE%/assets/images/loop_500mb_2026100700.mp4" type="video/mp4">
 </video>
-```
 
 On Saturday PM a strong cold front will move through bringing heavy mountain precipitation that should quickly transition to snow at all elevations. Both the ECMWF (European weather model) and GFS (American weather model) are trending more bullish with potential snowfall. Below is UofUtah’s downscaled snow ensemble (meaning it uses the large global GFS and ECMWF models and tries to “downscale” or extrapolate what precipitation might look like on smaller scales due to terrain effects, etc.). Both ensembles are showing a mean of > 1” of water content. For early season storms we generally want more water content (less cold smoke) to help build our base. 
 
