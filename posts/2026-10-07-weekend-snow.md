@@ -23,10 +23,12 @@ On Saturday PM a strong cold front will move through bringing heavy mountain pre
 
 In the plots above you can see that both the GEFS and ECMWF ensembles are generally in decent agreement with the water content but less so on overall snowfall amounts. This is because the GEFS is quite a bit warmer than the ECMWF ensembles. Though I can’t completely discount that solution, it seems like it’s more of an outlier and I’d maybe lean towards the colder solutions with more snowfall based on current guidance.
 
-With this, my current expectations would be 6–12”+ for the mid-upper mountains at Bridger and Big Sky. Also, I think there's a high likelihood of our first in town snow in Bozeman overnight Saturday. Note that the IFS and GFS operational runs keep things a bit warmer, which would make these totals slightly lower. I’ll also add that this is a quite complex forecast due to the interactions of multiple features here. Furthermore, I’d expect decreased predictability overall in the upcoming pattern in the next 2 weeks. A former professor of mine writes a very interesting Utah-based blog has some info on how Western Pacific typhoons may also be impacting the weather pattern for the Intermountain West downstream: [https://wasatchweatherweenies.blogspot.com/2026/10/how-to-break-jet-stream.html](https://wasatchweatherweenies.blogspot.com/2026/10/how-to-break-jet-stream.html)
+With this, my current expectations would be 6–12”+ for the mid-upper mountains at Bridger and Big Sky. Also, I think there's a high likelihood of our first in town snow in Bozeman overnight Saturday. Note that the IFS and GFS operational runs keep things a bit warmer and drier, which would make these totals lower. There's a pretty strong precipitation gradient from west-east that I'm keeping an eye on. At this time, though, those models seem to be outliers. I’ll also add that this is a quite complex forecast due to the interactions of multiple features here. Furthermore, I’d expect decreased predictability overall in the upcoming pattern in the next 2 weeks. A former professor of mine writes a very interesting Utah-based blog has some info on how Western Pacific typhoons may also be impacting the weather pattern for the Intermountain West downstream: [https://wasatchweatherweenies.blogspot.com/2026/10/how-to-break-jet-stream.html](https://wasatchweatherweenies.blogspot.com/2026/10/how-to-break-jet-stream.html)
 
 Thanks for reading!
 
 -Trey
+
+P.S. for our friends farther west near Missoula and the Bitterroots, totals
 
 <iframe src="https://strawpoll.com/embed/ajnE1l7EBnW" style="width:100%;height:480px;border:0;" loading="lazy"></iframe>
