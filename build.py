@@ -28,6 +28,39 @@ FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
 md = mistune.create_markdown(plugins=["table", "strikethrough", "url"])
 
+# Raw HTML in posts is escaped by mistune, except these allowlisted embeds:
+#   <iframe> whose src is on a trusted host (polls, video players)
+#   <video> blocks (e.g. an MP4 loop uploaded to posts/images/)
+EMBED_HOSTS = ("strawpoll.com", "www.youtube.com", "www.youtube-nocookie.com",
+               "player.vimeo.com")
+EMBED_RE = re.compile(r"<(iframe|video)\b[^>]*>.*?</\1\s*>", re.DOTALL | re.IGNORECASE)
+IFRAME_SRC_RE = re.compile(r'\bsrc\s*=\s*["\']https://([^/"\']+)/', re.IGNORECASE)
+
+
+def _allowed_embed(block: str) -> bool:
+    if block[1:7].lower() == "iframe":
+        m = IFRAME_SRC_RE.search(block)
+        return bool(m) and m.group(1).lower() in EMBED_HOSTS
+    return "<script" not in block.lower() and "javascript:" not in block.lower()
+
+
+def render_markdown(text: str) -> str:
+    """mistune render, passing allowlisted <iframe>/<video> embeds through verbatim."""
+    keep = []
+
+    def stash(m):
+        if not _allowed_embed(m.group(0)):
+            return m.group(0)                        # left for mistune to escape
+        keep.append(m.group(0))
+        return f"\n\nCSEMBED{len(keep) - 1}X\n\n"
+
+    out = md(EMBED_RE.sub(stash, text))
+    for i, block in enumerate(keep):
+        token = f"CSEMBED{i}X"
+        wrapped = f'<div class="embed">{block}</div>'
+        out = out.replace(f"<p>{token}</p>", wrapped).replace(token, wrapped)
+    return out
+
 
 def parse_markdown_file(path: Path, base: str = config.BASE_URL) -> tuple[dict, str]:
     text = path.read_text()
@@ -38,7 +71,7 @@ def parse_markdown_file(path: Path, base: str = config.BASE_URL) -> tuple[dict, 
         text = text[m.end():]
     # %BASE% in markdown = site base URL, so posts work in local preview too
     text = text.replace("%BASE%", base)
-    return meta, md(text)
+    return meta, render_markdown(text)
 
 
 def load_posts(base: str = config.BASE_URL) -> list[dict]:
