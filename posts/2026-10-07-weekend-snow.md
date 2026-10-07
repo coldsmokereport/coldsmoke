@@ -17,7 +17,7 @@ It’s hard to believe with how warm it’s been over this past week (we’re ju
   <source src="%BASE%/assets/images/loop_500mb_2026100700.mp4" type="video/mp4">
 </video>
 
-On Saturday PM a strong cold front will move through bringing heavy mountain precipitation that should quickly transition to snow at all elevations. Both the ECMWF (European weather model) and Google DeepMind (AI model) are trending more bullish with potential snowfall. Below is UofUtah’s downscaled snow ensemble (meaning it uses the large global GFS and ECMWF models and tries to “downscale” or extrapolate what precipitation might look like on smaller scales due to terrain effects, etc.). The GEFS and ECMWF ensembles in the Utah Snow Ensemble graphics below both show a mean of > 1". For early season storms we generally want more water content (less cold smoke) to help build our base. 
+On Saturday PM a strong cold front will move through bringing heavy mountain precipitation that should quickly transition to snow at all elevations. Both the ECMWF (European weather model) and Google DeepMind (AI model) are trending more bullish with potential snowfall. Below is UofUtah’s downscaled snow ensemble (meaning it uses the large global GFS and ECMWF models and tries to “downscale” or extrapolate what precipitation might look like on smaller scales due to terrain effects, etc.). The GEFS and ECMWF ensembles in the Utah Snow Ensemble graphics below both show a mean of > 1" of water content. For early season storms we generally want more water content (less cold smoke) to help build our base. 
 
 ![University of Utah snow ensemble for Bridger Bowl](/coldsmoke/assets/images/ENSGEFSDSPL_BBALP2026100700F240.png)
 
