@@ -21,6 +21,7 @@ It’s hard to believe with how warm it’s been over this past week (we’re ju
 
 On Saturday PM a strong cold front will move through bringing heavy mountain precipitation that should quickly transition to snow at all elevations. Both the ECMWF (European weather model) and GFS (American weather model) are trending more bullish with potential snowfall. Below is UofUtah’s downscaled snow ensemble (meaning it uses the large global GFS and ECMWF models and tries to “downscale” or extrapolate what precipitation might look like on smaller scales due to terrain effects, etc.). Both ensembles are showing a mean of > 1” of water content. For early season storms we generally want more water content (less cold smoke) to help build our base. 
 
+![](/coldsmoke/assets/images/ENSGEFSDSPL_BBALP2026100700F240.png)
 
 In the plots above you can see that both the GEFS and ECMWF ensembles are generally in decent agreement with the water content but less so on overall snowfall amounts. This is because the GEFS is quite a bit warmer than the ECMWF ensembles. Though I can’t completely discount that solution, it seems like it’s more of an outlier and I’d maybe lean towards the colder solutions with more snowfall based on current guidance.
 
