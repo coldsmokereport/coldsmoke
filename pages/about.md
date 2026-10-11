@@ -8,8 +8,10 @@ I'm a hurricane scientist who fell in love with snow and skiing during grad scho
 
 My goal is to not only provide forecasts but also include some insight into how forecasts for these complex mountains come together. I'm hoping that you learn a little something and I do too along the way. Snowfall forecasting is inexact, and at least for me, the fun is in trying to reduce the uncertainty rather than pretending it doesn't exist.
 
-Every forecast discussion on this site is written and interpreted by a human, me. Full disclosure, though: I use large dataset, and therefore, a bit of machine learning to try some different forecasting techniques and find new patterns. However, the words and the reasoning are still my own (I guess minus that fact that everything I've learned is an accumulation from interactions with professors and colleagues over the years).
+Every forecast discussion on this site is written and interpreted by a human, me. Full disclosure, though: I use large datasets, and therefore, a bit of machine learning to try some different forecasting techniques and find new patterns. However, the words and the reasoning are still my own (I guess minus that fact that everything I've learned is an accumulation from interactions with professors and colleagues over the years).
 
 The [Season Tracker](%BASE%/tracker/) plots season-to-date snowfall compared to the full station record, and [Climatology](%BASE%/climatology/) shows what normal and abnormal seasons look like here. If you ever have any questions or recommendations, feel free to reach out in the Comments at the bottom of each post or drop a line at thecoldsmokereport@gmail.com.
 
-Everything on this site is an experimental research product, not official guidance. Please consult the [National Weather Service](https://www.weather.gov/) for weather forecasts, and in the backcountry, the [Gallatin National Forest Avalanche Center](https://www.mtavalanche.com/).
+-Trey
+
+_Everything on this site is an experimental research product, not official guidance. Please consult the_ [_National Weather Service_](https://www.weather.gov/) _for weather forecasts, and in the backcountry, the_ [_Gallatin National Forest Avalanche Center_](https://www.mtavalanche.com/)_._
