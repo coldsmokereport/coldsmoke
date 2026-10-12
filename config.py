@@ -23,7 +23,7 @@ BASE_URL_ABS = "https://coldsmokereport.github.io/coldsmoke"
 SOCIAL_IMAGE = "assets/social-card.png"
 # Google Search Console "HTML tag" verification code (just the content="..." value).
 # Empty = no tag.
-GOOGLE_SITE_VERIFICATION = ""
+GOOGLE_SITE_VERIFICATION = "B49wlRzas7Iu1hZ_PhaqBeMyuBanAkhfAszXJUmGQ0"
 
 # ===== Comments (Disqus) =====
 # Site shortname from disqus.com (Admin -> Settings -> General). Empty = comments hidden.
