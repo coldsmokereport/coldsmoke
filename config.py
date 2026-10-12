@@ -17,6 +17,14 @@ BASE_URL = "/coldsmoke"
 # Absolute URL used in the Atom feed.
 BASE_URL_ABS = "https://coldsmokereport.github.io/coldsmoke"
 
+# ===== Link previews / search =====
+# Fallback image for link-preview cards (a post uses its own first image instead).
+# Regenerate with make_social_card.py.
+SOCIAL_IMAGE = "assets/social-card.png"
+# Google Search Console "HTML tag" verification code (just the content="..." value).
+# Empty = no tag.
+GOOGLE_SITE_VERIFICATION = ""
+
 # ===== Comments (Disqus) =====
 # Site shortname from disqus.com (Admin -> Settings -> General). Empty = comments hidden.
 # (Cusdis, used until 2026-10-04, shut down its hosted service.)

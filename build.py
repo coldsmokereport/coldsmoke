@@ -5,7 +5,7 @@ Usage:
 
 Reads posts/*.md and pages/*.md, renders templates/ into docs/, copies static
 assets and post images, refreshes the data JSON via make_data, and writes an
-Atom feed. docs/ is committed and served by GitHub Pages (main branch /docs).
+Atom feed and sitemap. docs/ is committed and served by GitHub Pages (main branch /docs).
 """
 
 import argparse
@@ -91,6 +91,28 @@ def make_excerpt(body_html: str, n: int = EXCERPT_CHARS) -> str:
     return text[:n].rsplit(" ", 1)[0].rstrip(",;:—-") + "…"
 
 
+DESCRIPTION_CHARS = 200
+FIRST_IMG_RE = re.compile(r'<img\b[^>]*\bsrc="([^"]+)"', re.IGNORECASE)
+
+
+def abs_url(src: str) -> str:
+    """Absolute URL for a site path — link-preview crawlers need full URLs."""
+    if src.startswith(("http://", "https://")):
+        return src
+    if config.BASE_URL and src.startswith(config.BASE_URL + "/"):
+        src = src[len(config.BASE_URL):]
+    return f"{config.BASE_URL_ABS}/{src.lstrip('/')}"
+
+
+def first_image(body_html: str) -> str:
+    """First raster image in a post, for its link-preview card ('' if none)."""
+    for src in FIRST_IMG_RE.findall(body_html):
+        src = html.unescape(src)
+        if not src.lower().endswith(".svg"):
+            return abs_url(src)
+    return ""
+
+
 def load_posts(base: str = config.BASE_URL) -> list[dict]:
     posts = []
     for path in sorted(config.POSTS_DIR.glob("*.md")):
@@ -113,6 +135,12 @@ def load_posts(base: str = config.BASE_URL) -> list[dict]:
             "tags": meta.get("tags") or [],
             "body": body,
             "excerpt": make_excerpt(body),
+            # Link-preview card: frontmatter `description:` / `image:` win,
+            # else the opening lines and the first image in the post.
+            "description": meta.get("description")
+                           or make_excerpt(body, DESCRIPTION_CHARS),
+            "image": abs_url(meta["image"]) if meta.get("image")
+                     else first_image(body),
         })
     posts.sort(key=lambda p: (p["date"], p["slug"]), reverse=True)
     return posts
@@ -132,6 +160,8 @@ def jinja_env(base: str) -> Environment:
         site_description=config.SITE_DESCRIPTION,
         now_year=datetime.now().year,
         disqus_shortname=config.DISQUS_SHORTNAME,
+        social_image=abs_url(config.SOCIAL_IMAGE),
+        google_site_verification=config.GOOGLE_SITE_VERIFICATION,
     )
     env.filters["datefmt"] = lambda d, f="%B %-d, %Y": d.strftime(f)
     return env
@@ -167,6 +197,17 @@ def build_feed(env: Environment, posts: list[dict]) -> str:
         datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     return env.get_template("atom.xml").render(
         entries=entries, feed_updated=feed_updated, escape=html.escape)
+
+
+def build_sitemap(env: Environment, posts: list[dict], page_paths: list[str]) -> str:
+    """Posts plus the main pages; month/tag listings are left out as duplicates."""
+    latest = posts[0]["date"].isoformat() if posts else None
+    urls = [{"loc": f"{config.BASE_URL_ABS}/", "lastmod": latest}]
+    urls += [{"loc": f"{config.BASE_URL_ABS}/posts/{p['slug']}/",
+              "lastmod": p["date"].isoformat()} for p in posts]
+    urls += [{"loc": f"{config.BASE_URL_ABS}/{path}", "lastmod": None}
+             for path in page_paths]
+    return env.get_template("sitemap.xml").render(urls=urls)
 
 
 def build_site(base: str, skip_data: bool = False):
@@ -232,42 +273,53 @@ def build_site(base: str, skip_data: bool = False):
     # Post pages, index, archives, tags
     for p in posts:
         write(out / "posts" / p["slug"] / "index.html",
-              env.get_template("post.html").render(post=p, sb=sidebar))
+              env.get_template("post.html").render(
+                  post=p, sb=sidebar, page_path=f"posts/{p['slug']}/"))
     write(out / "index.html",
           env.get_template("index.html").render(
               posts=posts[:HOME_FULL],
               more=posts[HOME_FULL:HOME_FULL + HOME_COMPACT],
-              has_older=len(posts) > HOME_FULL, sb=sidebar))
+              has_older=len(posts) > HOME_FULL, sb=sidebar, page_path=""))
     for mk, plist in months.items():
         label = datetime.strptime(mk, "%Y-%m").strftime("%B %Y")
         write(out / "archive" / mk / "index.html",
               env.get_template("archive.html").render(
-                  heading=label, posts=plist, sb=sidebar))
+                  heading=label, posts=plist, sb=sidebar,
+                  page_path=f"archive/{mk}/"))
     write(out / "archive" / "index.html",
           env.get_template("archive.html").render(
-              heading="Archive", posts=posts, sb=sidebar, show_months=True))
+              heading="Archive", posts=posts, sb=sidebar, show_months=True,
+              page_path="archive/"))
     for t, plist in tags.items():
         write(out / "tags" / t / "index.html",
               env.get_template("archive.html").render(
-                  heading=f"Tagged “{t}”", posts=plist, sb=sidebar))
+                  heading=f"Tagged “{t}”", posts=plist, sb=sidebar,
+                  page_path=f"tags/{t}/"))
 
     # Standalone pages
+    page_paths = ["tracker/", "climatology/", "archive/"]
     for path in sorted(config.PAGES_DIR.glob("*.md")):
         meta, body = parse_markdown_file(path, base)
         write(out / path.stem / "index.html",
               env.get_template("page.html").render(
                   title=meta.get("title", path.stem.title()),
-                  body=body, sb=sidebar))
+                  description=meta.get("description")
+                              or make_excerpt(body, DESCRIPTION_CHARS),
+                  body=body, sb=sidebar, page_path=f"{path.stem}/"))
+        page_paths.append(f"{path.stem}/")
 
     # Data pages
     write(out / "tracker" / "index.html",
-          env.get_template("tracker.html").render(tracker=tracker, sb=sidebar))
+          env.get_template("tracker.html").render(
+              tracker=tracker, sb=sidebar, page_path="tracker/"))
     write(out / "climatology" / "index.html",
           env.get_template("climatology.html").render(
-              climo=climo, figures=config.CLIMO_FIGURES, sb=sidebar))
+              climo=climo, figures=config.CLIMO_FIGURES, sb=sidebar,
+              page_path="climatology/"))
 
     # Feed, assets, housekeeping
     write(out / "feed.xml", build_feed(env, posts))
+    write(out / "sitemap.xml", build_sitemap(env, posts, page_paths))
     copy_tree(config.STATIC_DIR, out / "assets")
     copy_tree(config.POSTS_DIR / "images", out / "assets" / "images")
     (out / ".nojekyll").touch()

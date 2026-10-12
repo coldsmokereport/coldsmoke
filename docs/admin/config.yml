@@ -32,6 +32,12 @@ collections:
       - { label: Draft, name: draft, widget: boolean, default: false,
           required: false,
           hint: "Drafts are skipped by the site build" }
+      - { label: "Link-preview summary", name: description, widget: text,
+          required: false,
+          hint: "One or two sentences shown when the post is shared. Blank = the post's opening lines." }
+      - { label: "Link-preview image", name: image, widget: image,
+          required: false,
+          hint: "Blank = the first image in the post." }
       - { label: Body, name: body, widget: markdown }
 
   - name: pages
