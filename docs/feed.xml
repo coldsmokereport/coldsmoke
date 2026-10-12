@@ -5,8 +5,21 @@
   <link href="https://coldsmokereport.github.io/coldsmoke/feed.xml" rel="self"/>
   <link href="https://coldsmokereport.github.io/coldsmoke/"/>
   <id>https://coldsmokereport.github.io/coldsmoke/</id>
-  <updated>2026-10-10T12:00:00Z</updated>
+  <updated>2026-10-12T12:00:00Z</updated>
   <author><name>Trey</name></author>
+  
+  <entry>
+    <title>Snow Day!</title>
+    <link href="https://coldsmokereport.github.io/coldsmoke/posts/snow-day/"/>
+    <id>https://coldsmokereport.github.io/coldsmoke/posts/snow-day/</id>
+    <updated>2026-10-12T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;What a beautiful morning looking up at the ridge! Overall, snowfall totals in the Bridgers hit on the upper end of forecasted ranges with 10–14&amp;quot; at mid-upper elevations and 1.5–2&amp;quot; of liquid water equivalent. Totals at Big Sky were a bit lower (4–7&amp;quot;), highlighting the very tight gradients of precipitation that made this forecast particularly tricky. The forecast in town was definitely a bust to the upside with 4–8&amp;quot; of snow. What happened? In my previous post you can see the stalled frontal boundary draped across the valley on Saturday. It pushed just far enough south to allow colder air to filter in about 18 hours earlier than was forecasted. Furthermore, the snow stuck better to the warm ground than expected. Hopefully you escaped any tree damage, since most of the in-town foliage has yet to fall.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/apron%20%281%29.jpg&#34; alt=&#34;&#34; title=&#34;Bridger Bowl Apron Snow&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;If you want to try to get a couple of turns in, I think low-angle grassy slopes may work (tips up and rock skis only!) in the Bridgers with the high water content. You&#39;ll need to get after it today, though. Looking ahead, temperatures will be a bit below average for the next couple of days before we rapidly warm up into late week. Mid-60s by the weekend means most of the low-mid elevation snow won&#39;t last. At the upper elevations (especially north-facing) we&#39;re going to keep a wary eye out for faceting and the potential for a weak layer near the ground if we don&#39;t quickly either fully melt (hard to do this time of year but not impossible) or continue to get additional snowfall. Keep an eye on &lt;a href=&#34;https://www.mtavalanche.com/&#34;&gt;https://www.mtavalanche.com/&lt;/a&gt; for updated backcountry forecasts. Thanks for reading!&lt;/p&gt;
+&lt;p&gt;-Trey&lt;/p&gt;
+</content>
+    <category term="forecast"/>
+  </entry>
   
   <entry>
     <title>Incoming</title>
