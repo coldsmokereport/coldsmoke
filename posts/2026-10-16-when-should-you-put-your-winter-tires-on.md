@@ -29,3 +29,5 @@ Finally, looking at the current forecast, it's likely we'll be above average in 
 ![](/coldsmoke/assets/images/03_highs_forecast.png "Bozeman forecasted high temperatures")
 
 We’ll keep an eye on things heading into early next week as the forecast evolves. Hope everyone has a great weekend!
+
+-Trey
