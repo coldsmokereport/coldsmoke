@@ -8,7 +8,7 @@ tags:
   - Bozeman
   - Bridger
 draft: true
-description: ''
+description: 'Highs in the 60s next week: when to swap in town vs. in the mountains, a look at the numbers.'
 image: ''
 ---
 
