@@ -1,4 +1,12 @@
 {% extends "base.html" %}
+{% block head %}
+<!-- Site name for Google results (shown above the URL) -->
+<script type="application/ld+json">
+{{ {"@context": "https://schema.org", "@type": "WebSite", "name": site_title,
+    "alternateName": ["Cold Smoke Report", "coldsmokereport.com"],
+    "url": base_abs ~ "/"} | tojson }}
+</script>
+{% endblock %}
 {% block content %}
 {% for post in posts %}
 <article class="post">

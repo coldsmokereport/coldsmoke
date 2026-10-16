@@ -320,6 +320,8 @@ def build_site(base: str, skip_data: bool = False):
     # Feed, assets, housekeeping
     write(out / "feed.xml", build_feed(env, posts))
     write(out / "sitemap.xml", build_sitemap(env, posts, page_paths))
+    write(out / "robots.txt",
+          f"User-agent: *\nDisallow: /admin/\n\nSitemap: {config.BASE_URL_ABS}/sitemap.xml\n")
     copy_tree(config.STATIC_DIR, out / "assets")
     copy_tree(config.POSTS_DIR / "images", out / "assets" / "images")
     # site_root/ = files that must sit at the site root (e.g. Search Console verification)
