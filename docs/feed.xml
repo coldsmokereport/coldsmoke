@@ -2,25 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>The Cold Smoke Report</title>
   <subtitle>Snow forecasts for Bridger Bowl, Big Sky &amp; Bozeman</subtitle>
-  <link href="https://coldsmokereport.github.io/coldsmoke/feed.xml" rel="self"/>
-  <link href="https://coldsmokereport.github.io/coldsmoke/"/>
-  <id>https://coldsmokereport.github.io/coldsmoke/</id>
+  <link href="https://coldsmokereport.com/feed.xml" rel="self"/>
+  <link href="https://coldsmokereport.com/"/>
+  <id>https://coldsmokereport.com/</id>
   <updated>2026-10-16T12:00:00Z</updated>
   <author><name>Trey</name></author>
   
   <entry>
     <title>When should I do my winter tire swap?</title>
-    <link href="https://coldsmokereport.github.io/coldsmoke/posts/when-should-you-put-your-winter-tires-on/"/>
-    <id>https://coldsmokereport.github.io/coldsmoke/posts/when-should-you-put-your-winter-tires-on/</id>
+    <link href="https://coldsmokereport.com/posts/when-should-you-put-your-winter-tires-on/"/>
+    <id>https://coldsmokereport.com/posts/when-should-you-put-your-winter-tires-on/</id>
     <updated>2026-10-16T12:00:00Z</updated>
     <content type="html">&lt;p&gt;After last weekend&#39;s storm, we&#39;re quickly thawing out and it looks like beautiful weather for this weekend. Hope you all are able to get out and enjoy it! The topic of today&#39;s post is something I&#39;ve seen floating around the interwebs and a common question around town this time of year: When should I do my winter tire swap? I&#39;m going to try to answer this with a bit of science and the latest weather forecasts.&lt;/p&gt;
 &lt;p&gt;We technically already had our first snowfall, with some road accumulation, in the last storm. However, road conditions only seemed dicey for maybe ~12-18 hours during the worst of the snow late Sun - early Mon. For those that held out and haven&#39;t swapped yet, you will be rewarded :). More on that in a bit. I should also add a couple of caveats here that may affect decision making. If you have to commute over a higher-elevation pass like Bozeman Pass, for instance, that probably bumps up these timelines a bit. Also, a lot likely depends on the traction quality of your current tire set. If you already have decent All-season tires, that allows for more risk tolerance. Okay, let&#39;s get into the #s!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/01_tireswap_timing_oct16.png&#34; alt=&#34;&#34; title=&#34;When to swap my tires based on snow and cold&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/01_tireswap_timing_oct16.png&#34; alt=&#34;&#34; title=&#34;When to swap my tires based on snow and cold&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;For the Oct 10–12 storm you can see that we were right at the typical date for the first snowfall, but about 10 days ahead of schedule for the first 1-inch snowfall. Week-average highs dropping below 45ºF is used here as a rough threshold for when snow starts sticking to roads more easily, since colder road surfaces collect snow more effectively. Typically early November is when those temperatures are consistently colder.&lt;/p&gt;
 &lt;p&gt;Another consideration is the number of &amp;quot;warm days&amp;quot; left (from both a climatological and forecast standpoint). Basically, with the warmer weather that&#39;s expected over the next 5–7 days, we&#39;re still expecting another 10+ days with highs over 60ºF for the remainder of this year. More than half of these are this next week. With this information, if you&#39;re able to hold out, waiting at least another week, maybe 2 would prevent you from driving on warmer roads (and potentially wearing down your tires a bit faster). If you&#39;re not driving a lot, it&#39;s probably no biggie, but if you are, it&#39;s worth factoring in, in addition to increased fuel costs if you swap to winter tires too early. Overall, my recommendation would be the last week of October or first week of November for those that mostly do in town driving. For those with more mountain driving (or current tires aren&#39;t great), I&#39;d recommend changing them out here sometime in the next week.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/04_warm_days_left.png&#34; alt=&#34;&#34; title=&#34;Bozeman&#39;s warm days left&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/04_warm_days_left.png&#34; alt=&#34;&#34; title=&#34;Bozeman&#39;s warm days left&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Finally, looking at the current forecast, it&#39;s likely we&#39;ll be above average in terms of temperatures for the next ~week before we may see our next storm system late next week. The next chance for colder weather and any potential snow looks to be Thursday night through Saturday (Oct 22–24). There’s a lot of uncertainty with the models right now: ECMWF and its ensembles are more aggressive, showing a 72% chance of &amp;gt;0.25” of water (44% chance of at least .25” falling as snow, which would be 2-3” in the Bridgers). The GFS ensembles, on the other hand, only show a 32% (16%) probability of decent precipitation. For those that aren&#39;t familiar with ensembles, I&#39;ll leave the details for a future post but they&#39;re essentially a model that&#39;s run with several slightly different combinations of either the initial state or model parameters. This is done because we know there are deficiencies in both the model and characterization of the initial atmosphere (a model&#39;s starting point). This allows us to get a more realistic spread of potential outcomes.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/03_highs_forecast.png&#34; alt=&#34;&#34; title=&#34;Bozeman forecasted high temperatures&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/03_highs_forecast.png&#34; alt=&#34;&#34; title=&#34;Bozeman forecasted high temperatures&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We’ll keep an eye on things heading into early next week as the forecast evolves. Hope everyone has a great weekend!&lt;/p&gt;
 &lt;p&gt;-Trey&lt;/p&gt;
 </content>
@@ -29,11 +29,11 @@
   
   <entry>
     <title>Snow Day!</title>
-    <link href="https://coldsmokereport.github.io/coldsmoke/posts/snow-day/"/>
-    <id>https://coldsmokereport.github.io/coldsmoke/posts/snow-day/</id>
+    <link href="https://coldsmokereport.com/posts/snow-day/"/>
+    <id>https://coldsmokereport.com/posts/snow-day/</id>
     <updated>2026-10-12T12:00:00Z</updated>
     <content type="html">&lt;p&gt;What a beautiful morning looking up at the ridge! Overall, snowfall totals in the Bridgers hit on the upper end of forecasted ranges with 10–14&amp;quot; at mid-upper elevations and 1.5–2&amp;quot; of liquid water equivalent. Totals at Big Sky were a bit lower (4–7&amp;quot;), highlighting the very tight gradients of precipitation that made this forecast particularly tricky. The forecast in town was definitely a bust to the upside with 4–8&amp;quot; of snow. What happened? In my previous post you can see the stalled frontal boundary draped across the valley on Saturday. It pushed just far enough south to allow colder air to filter in about 18 hours earlier than was forecasted. Furthermore, the snow stuck better to the warm ground than expected. Hopefully you escaped any tree damage, since most of the in-town foliage has yet to fall.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/apron%20%281%29.jpg&#34; alt=&#34;&#34; title=&#34;Bridger Bowl Apron Snow&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/apron%20%281%29.jpg&#34; alt=&#34;&#34; title=&#34;Bridger Bowl Apron Snow&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;If you want to try to get a couple of turns in, I think low-angle grassy slopes may work (tips up and rock skis only!) in the Bridgers with the high water content. You&#39;ll need to get after it today, though. Looking ahead, temperatures will be a bit below average for the next couple of days before we rapidly warm up into late week. Mid-60s by the weekend means most of the low-mid elevation snow won&#39;t last. At the upper elevations (especially north-facing) we&#39;re going to keep a wary eye out for faceting and the potential for a weak layer near the ground if we don&#39;t quickly either fully melt (hard to do this time of year but not impossible) or continue to get additional snowfall. Keep an eye on &lt;a href=&#34;https://www.mtavalanche.com/&#34;&gt;https://www.mtavalanche.com/&lt;/a&gt; for updated backcountry forecasts. Thanks for reading!&lt;/p&gt;
 &lt;p&gt;-Trey&lt;/p&gt;
 </content>
@@ -42,21 +42,21 @@
   
   <entry>
     <title>Incoming</title>
-    <link href="https://coldsmokereport.github.io/coldsmoke/posts/incoming/"/>
-    <id>https://coldsmokereport.github.io/coldsmoke/posts/incoming/</id>
+    <link href="https://coldsmokereport.com/posts/incoming/"/>
+    <id>https://coldsmokereport.com/posts/incoming/</id>
     <updated>2026-10-10T12:00:00Z</updated>
     <content type="html">&lt;p&gt;Hope you all were able to get outside the past few days with the great fall weather we&#39;ve had! I was able to get in one last bike ride this afternoon (huge shoutout to SWMMBA, Crosscut, and Bridger for the awesome new trails up there!).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/IMG_0938%20Large.jpeg&#34; alt=&#34;&#34; title=&#34;Crosscut&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/IMG_0938%20Large.jpeg&#34; alt=&#34;&#34; title=&#34;Crosscut&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Hopefully this will all be covered in snow the next time we see it :)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/IMG_0936%20Large.jpeg#small&#34; alt=&#34;Bridger Bowl biking&#34; title=&#34;Bridger Bowl Biking&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/IMG_0936%20Large.jpeg#small&#34; alt=&#34;Bridger Bowl biking&#34; title=&#34;Bridger Bowl Biking&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Radar, temperatures and winds from this afternoon (the front&#39;s position is from 3 PM):&lt;/p&gt;
 &lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline width=&#34;100%&#34; style=&#34;display:block; margin:1.8rem 0;&#34;&gt;
-  &lt;source src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/loop_radar_202610102250.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://coldsmokereport.com/assets/images/loop_radar_202610102250.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/div&gt;
 &lt;p&gt;Currently a stalled frontal boundary is draped across SW Montana as two storm systems converge over the region: One from the west/northwest and the other, associated with Tropical Storm Rachel to the south. Precipitation should transition to snow at upper elevation sites overnight Saturday, and overall the forecast still looks to be on track, 6–12&amp;quot;+ above mid-mountain. The heaviest snow looks to fall Sunday afternoon through Monday morning. In Bozeman, expect 1–3&amp;quot;+ by Monday morning, with the heaviest snow Sunday PM into the overnight. There is still some uncertainty and a fairly strong gradient of moisture and precipitation, so there could be some big winners and losers. Do your snow dances!&lt;/p&gt;
 &lt;p&gt;The HRRR model&#39;s forecast of Rachel&#39;s moisture plume through Monday midday (star = Bridger Bowl):&lt;/p&gt;
 &lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline width=&#34;100%&#34; style=&#34;display:block; margin:1.8rem 0;&#34;&gt;
-  &lt;source src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/loop_hrrr_plume_2026101018_layer.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://coldsmokereport.com/assets/images/loop_hrrr_plume_2026101018_layer.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/div&gt;
 </content>
     <category term="forecast"/>
@@ -64,16 +64,16 @@
   
   <entry>
     <title>Weekend Snow</title>
-    <link href="https://coldsmokereport.github.io/coldsmoke/posts/weekend-snow/"/>
-    <id>https://coldsmokereport.github.io/coldsmoke/posts/weekend-snow/</id>
+    <link href="https://coldsmokereport.com/posts/weekend-snow/"/>
+    <id>https://coldsmokereport.com/posts/weekend-snow/</id>
     <updated>2026-10-07T12:00:00Z</updated>
     <content type="html">&lt;p&gt;Thanks, all, for the warm reception to the launch of this blog! It makes me excited that so many in our community are interested in the weather. Today’s post will cover this weekend’s potential storm. ❄️ ⛷🏂&lt;/p&gt;
 &lt;p&gt;It’s hard to believe with how warm it’s been over this past week (we’re just a few degrees shy of record highs for the date), but we may be talking about the potential for enough snow to ski early next week (at least for those with rock skis and flexible ACLs). Wait, what? Skiing already? Let me start off by saying that this is a very complex forecast. Why? We have a traditional frontal / mid-latitude storm system moving in from the west, but it’ll also be interacting with Hurricane Rachel that will be moving northward from the eastern Pacific. &lt;/p&gt;
 &lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline width=&#34;100%&#34;&gt;
-  &lt;source src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/loop_500mb_2026100700.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://coldsmokereport.com/assets/images/loop_500mb_2026100700.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/div&gt;
 &lt;p&gt;On Saturday PM a strong cold front will move through bringing heavy mountain precipitation that should quickly transition to snow at all elevations. Both the ECMWF (European weather model) and Google DeepMind (AI model) are trending more bullish with potential snowfall. Below is UofUtah’s downscaled snow ensemble (meaning it uses the large global GFS and ECMWF models and tries to “downscale” or extrapolate what precipitation might look like on smaller scales due to terrain effects, etc.). The GEFS and ECMWF ensembles in the Utah Snow Ensemble graphics below both show a mean of &amp;gt; 1&amp;quot; of water content. For early season storms we generally want more water content (less cold smoke) to help build our base. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/ENSGEFSDSPL_BBALP2026100700F240.png&#34; alt=&#34;University of Utah snow ensemble for Bridger Bowl&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/ENSGEFSDSPL_BBALP2026100700F240.png&#34; alt=&#34;University of Utah snow ensemble for Bridger Bowl&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;In the plots above you can see that both the GEFS and ECMWF ensembles are generally in decent agreement with the water content but less so on overall snowfall amounts. This is because the GEFS is quite a bit warmer than the ECMWF ensembles. Though I can’t completely discount that solution, it seems like it’s more of an outlier and I’d maybe lean towards the colder solutions with more snowfall based on current guidance.&lt;/p&gt;
 &lt;p&gt;With this, my current expectations would be 6–12”+ for the upper mountains at Bridger and Big Sky. Also, I think there&#39;s a decent likelihood of our first in-town snow in Bozeman overnight Saturday. Note that the IFS and GFS operational runs keep things a bit warmer and drier, which would make these totals lower. At this time, though, those models seem to be outliers. There&#39;s a pretty strong precipitation gradient from northwest - southeast that I&#39;m keeping an eye on as well.  I’ll also add that this is a quite complex forecast due to the interactions of multiple features here. Furthermore, I’d expect decreased predictability overall in the upcoming pattern for the next 2+ weeks. A former professor of mine writes a very interesting Utah-based blog (also helps run weather.utah.edu, where I got the plume graphic from) with a recent post on how western Pacific typhoons may be affecting the pattern downstream over the Intermountain West: &lt;a href=&#34;https://wasatchweatherweenies.blogspot.com/2026/10/how-to-break-jet-stream.html&#34;&gt;https://wasatchweatherweenies.blogspot.com/2026/10/how-to-break-jet-stream.html&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;And for the hardcore weather nerds: &lt;a href=&#34;https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015GL065082&#34;&gt;https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015GL065082&lt;/a&gt;&lt;/p&gt;
@@ -87,8 +87,8 @@
   
   <entry>
     <title>Welcome &amp; What does El Niño mean for our Snow?</title>
-    <link href="https://coldsmokereport.github.io/coldsmoke/posts/el-nino-and-bridger-bowl-record-winter/"/>
-    <id>https://coldsmokereport.github.io/coldsmoke/posts/el-nino-and-bridger-bowl-record-winter/</id>
+    <link href="https://coldsmokereport.com/posts/el-nino-and-bridger-bowl-record-winter/"/>
+    <id>https://coldsmokereport.com/posts/el-nino-and-bridger-bowl-record-winter/</id>
     <updated>2026-10-05T12:00:00Z</updated>
     <content type="html">&lt;p&gt;Hi all, welcome to the Cold Smoke Report! As an atmospheric scientist with a passion for skiing and snow, I&#39;ve realized over the past few years that Southwest Montana is lacking a dedicated blog/site for snowfall forecasts. To start things off I&#39;ll be focusing on winter weather forecasts right here in the backyard at Bridger Bowl, Big Sky, and in Bozeman. Before I start with my first topic I&#39;ve got a few ground rules and things I can promise for you all:&lt;/p&gt;
 &lt;p&gt;1) All forecasts will be written by a human, me. The full model/forecast and AI disclosure can be found on the &amp;quot;About&amp;quot; tab.&lt;/p&gt;
@@ -103,18 +103,18 @@
 &lt;p&gt;So the question for anyone with a Bridger or Big Sky pass: what does a big El Niño actually do to our snowfall in this region? To dig a little deeper I aggregated 76 seasons of SNOTEL recorded data along with the CPC&#39;s Oceanic Niño Index. TLDR: El Niño historically tilts the odds against us.&lt;/p&gt;
 &lt;p&gt;The snowfall totals in this post come from the nearest Bridger Bowl SNOTEL record (Brackett Creek) that extends back to 1950 after including the nearby co-op station. I&#39;m using the daily change in snow depth, measured once a day after the snow has settled. Bridger&#39;s snow report that most are familiar with almost always measures higher (typically by up to 40+%) due to higher frequency measurements and measurement board sweeps. Basically in the upcoming plots, don&#39;t compare these numbers directly against the snow report; the results are meant to be percentages of normal.&lt;/p&gt;
 &lt;h2&gt;Scatter plot of El Niño vs. La Niña Snowfall&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/01_scatter.png&#34; alt=&#34;Bridger seasonal snowfall vs. El Niño&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/01_scatter.png&#34; alt=&#34;Bridger seasonal snowfall vs. El Niño&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Over the past 76 winters, on average, seasonal snowfall decreases by about 11 inches  per +1 °C of winter ONI at Bridger, the measure of El Nino&#39;s strength (more positive = stronger El Niño, more negative = stronger La Niña, -0.5–0.5 = neutral). It&#39;s important to note that despite the relationship, ENSO explains only part of the year-to-year variance. It does, however, in this case load the dice against us.&lt;/p&gt;
 &lt;p&gt;What&#39;s interesting to me is looking at where the loss is most prominent. In the plot you can see that the trend is steeper at the top of the range than the bottom: the biggest winters see a decrease of about 16″ per °C of El Niño, the driest about 5–6″. This indicates to me that while El Nino generally means less snow across the board, its bigger effect is on capping the ceiling. None of the eight strong El Niño winters since 1950 cleared 200 inches, while half of the strong La Niña winters did. Furthermore, though not shown here, looking at Bridger&#39;s top-20 biggest storm cycles on record, 11 landed in La Niña winters and just 5 in El Niño winters. TLDR is La Niña winters skew above normal in terms of snowfall ~2/3rds of the time, whereas zero of the eight historical El Niño winters had any more than a few inches above average.&lt;/p&gt;
 &lt;p&gt;Mean seasonal totals are 143″ for a strong El Niño → 158″ for neutral ENSO → 186″
 for strong La Niña, compared with a 164″ climatological mean. You&#39;re probably asking what happened last year, wasn&#39;t that a La Niña? Sort of. ENSO quickly flipped to neutral early in the season, technically making it not a La Niña winter at least by these metrics.&lt;/p&gt;
 &lt;h2&gt;Why El Niño&#39;s Pattern = Less Snowfall&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/04_why_ridge.png&#34; alt=&#34;Winter pressure pattern in strong El Niño vs. strong La Niña years — a ridge over Montana&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/04_why_ridge.png&#34; alt=&#34;Winter pressure pattern in strong El Niño vs. strong La Niña years — a ridge over Montana&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;If we composite 76 winters of reanalysis fields, the pattern during strong El Niño&#39;s mid-winter has a deeper Aleutian low (dark blues off the Pacific NW) and also have more prominent ridging over western Canada to the northern Rockies over MT (notice the lines look like they form a mountain ridge with redder colors). This coincides with a storm track that tends to split and provides California with more precipitation than typical winters. Strong La Niña&#39;s, on the other hand, feature a North Pacific ridge and a trough digging into the Northwest, which leads to a favorable storm track from the W/NW for us.&lt;/p&gt;
 &lt;p&gt;Is there any good news in all of this? Well, Bozeman-area station records, reanalysis, and SNOTEL all seem to indicate that strong El Niño winters here are not reliably warmer with differences of only 0.1–0.6 °C. This result actually surprised me a bit. Historically, the warmest stretches globally come a few months after a big El Niño peaks, which is typically late winter into spring. The year after previous major events (1998, 2016, 2024) have tended to set a new global temperature record, however, that signal seems much weaker for our local climatology.&lt;/p&gt;
 &lt;h2&gt;So what does 2026–27 look like?&lt;/h2&gt;
 &lt;p&gt;Our three very-strong analog winters (DJF ONI ≥ 2.0) are 1982-83, 1997-98, and 2015-16, which had 167″, 112″, and 138″ at Bridger respectively (remember these are the snotel numbers and would correspond to ~ 233, 157, and 193&amp;quot; for Bridger&#39;s direct measurements). This is a pretty wide spread and ranges anywhere from a decent winter near average to a dry one similar to last season. So here are what the numbers are telling me in summary: ~80–90% chance of finishing below the climo mean, and only ~10–15% chance of an above average season (*insert Jim Carrey meme*). Basically, I&#39;d suggest tempering expectations, but I don&#39;t think all hope is lost!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/06_outlook.png&#34; alt=&#34;Where 2026–27 most likely lands&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/06_outlook.png&#34; alt=&#34;Where 2026–27 most likely lands&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;A couple of disclaimers:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The strongest winter ENSO in the record is 2015-16 at +2.63, and this year&#39;s forecast sits there or above. If the El Niño is above CPC&#39;s historic threshold, we don&#39;t have anything to compare it to.&lt;/li&gt;
@@ -124,7 +124,7 @@ February. 1982-83 was a big time El Niño and was still near climatology.&lt;/li
 &lt;/ul&gt;
 &lt;h2&gt;What about Big Sky?&lt;/h2&gt;
 &lt;p&gt;The story is pretty similar down the road at Big Sky. The record there for the Lone Mountain Snotel is shorter (only goes back to 1992), but the ENSO relationship is, if anything, a touch stronger: about 14 inches lost per +1 °C of winter ONI, and the relationship explains a larger share of the variance than at Bridger.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.github.io/coldsmoke/assets/images/07_bigsky.png&#34; alt=&#34;Big Sky seasonal snowfall vs. winter El Niño strength, 1992–2026&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/07_bigsky.png&#34; alt=&#34;Big Sky seasonal snowfall vs. winter El Niño strength, 1992–2026&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Compared to a normal of about 141 inches at Lone Mountain, the strong-El-Niño
 winters on record averaged roughly 114″ (about 80% of normal); however, the
 two closest very-strong analogs, 1997-98 and 2015-16, both were near 95%.&lt;/p&gt;

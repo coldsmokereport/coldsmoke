@@ -134,7 +134,7 @@ img { max-width: 100%; height: auto; }
   padding: 3px; background: var(--paper);
 }
 /* per-image size: end the image address with #small / #medium / #large in the post,
-   e.g. ![alt](/coldsmoke/assets/images/photo.jpeg#small) */
+   e.g. ![alt](/assets/images/photo.jpeg#small) */
 .post-body img[src$="#small"]  { width: 45%; min-width: 240px; }
 .post-body img[src$="#medium"] { width: 65%; min-width: 280px; }
 .post-body img[src$="#large"]  { width: 85%; }

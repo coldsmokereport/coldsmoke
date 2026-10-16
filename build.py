@@ -323,6 +323,8 @@ def build_site(base: str, skip_data: bool = False):
     copy_tree(config.STATIC_DIR, out / "assets")
     copy_tree(config.POSTS_DIR / "images", out / "assets" / "images")
     (out / ".nojekyll").touch()
+    if config.CUSTOM_DOMAIN:
+        write(out / "CNAME", config.CUSTOM_DOMAIN + "\n")
 
     print(f"[build] {len(posts)} post(s), {len(months)} archive month(s), "
           f"{len(tags)} tag(s) -> {out}")

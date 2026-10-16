@@ -28,7 +28,7 @@ $EDITOR posts/2027-01-13-tue-jan-13-8-14-for-bridger.md   # write the discussion
 ## Build & preview
 
 ```bash
-conda run -n snowclim python build.py              # production build (base=/coldsmoke)
+conda run -n snowclim python build.py              # production build (base='', coldsmokereport.com)
 conda run -n snowclim python build.py --base ''    # local-preview build
 python -m http.server -d docs 8000                 # then ssh -L 8000:localhost:8000 from laptop
 ```

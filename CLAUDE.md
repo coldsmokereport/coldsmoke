@@ -19,7 +19,7 @@ uses) works correctly. A bare `python` does **not** — a shell alias forces it 
   editable. Change templates/posts and rebuild instead.
 - Build with `build.py`; publish with `./publish.sh "<message>"` (build + commit + push).
 - The `%BASE%` token controls path prefixing: production builds use `--base` default
-  (`/coldsmoke`); local preview uses `--base ''`. Getting this wrong breaks every link.
+  (`''` — the site is served at the root of coldsmokereport.com); local preview also uses `--base ''`. Getting this wrong breaks every link.
 - Season snowfall CSV is **Nov–Apr**; the site tracker runs the **full water year**.
   Do not conflate them.
 

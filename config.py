@@ -12,10 +12,12 @@ SITE_DESCRIPTION = (
 )
 
 # ===== URLs =====
-# Project Pages site is served under /coldsmoke; local preview overrides with --base ''.
-BASE_URL = "/coldsmoke"
+# Served at the root of the custom domain (was /coldsmoke on github.io until 2026-10-16).
+BASE_URL = ""
 # Absolute URL used in the Atom feed.
-BASE_URL_ABS = "https://coldsmokereport.github.io/coldsmoke"
+BASE_URL_ABS = "https://coldsmokereport.com"
+# GitHub Pages custom domain; build.py writes it to docs/CNAME. Empty = no CNAME.
+CUSTOM_DOMAIN = "coldsmokereport.com"
 
 # ===== Link previews / search =====
 # Fallback image for link-preview cards (a post uses its own first image instead).

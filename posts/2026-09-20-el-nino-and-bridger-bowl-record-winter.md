@@ -35,7 +35,7 @@ The snowfall totals in this post come from the nearest Bridger Bowl SNOTEL recor
 
 ## Scatter plot of El Niño vs. La Niña Snowfall
 
-![Bridger seasonal snowfall vs. El Niño](/coldsmoke/assets/images/01_scatter.png)
+![Bridger seasonal snowfall vs. El Niño](/assets/images/01_scatter.png)
 
 Over the past 76 winters, on average, seasonal snowfall decreases by about 11 inches  per +1 °C of winter ONI at Bridger, the measure of El Nino's strength (more positive = stronger El Niño, more negative = stronger La Niña, -0.5–0.5 = neutral). It's important to note that despite the relationship, ENSO explains only part of the year-to-year variance. It does, however, in this case load the dice against us.
 
@@ -46,7 +46,7 @@ for strong La Niña, compared with a 164″ climatological mean. You're probably
 
 ## Why El Niño's Pattern = Less Snowfall
 
-![Winter pressure pattern in strong El Niño vs. strong La Niña years — a ridge over Montana](/coldsmoke/assets/images/04_why_ridge.png)
+![Winter pressure pattern in strong El Niño vs. strong La Niña years — a ridge over Montana](/assets/images/04_why_ridge.png)
 
 If we composite 76 winters of reanalysis fields, the pattern during strong El Niño's mid-winter has a deeper Aleutian low (dark blues off the Pacific NW) and also have more prominent ridging over western Canada to the northern Rockies over MT (notice the lines look like they form a mountain ridge with redder colors). This coincides with a storm track that tends to split and provides California with more precipitation than typical winters. Strong La Niña's, on the other hand, feature a North Pacific ridge and a trough digging into the Northwest, which leads to a favorable storm track from the W/NW for us.
 
@@ -56,7 +56,7 @@ Is there any good news in all of this? Well, Bozeman-area station records, reana
 
 Our three very-strong analog winters (DJF ONI ≥ 2.0) are 1982-83, 1997-98, and 2015-16, which had 167″, 112″, and 138″ at Bridger respectively (remember these are the snotel numbers and would correspond to \~ 233, 157, and 193" for Bridger's direct measurements). This is a pretty wide spread and ranges anywhere from a decent winter near average to a dry one similar to last season. So here are what the numbers are telling me in summary: \~80–90% chance of finishing below the climo mean, and only \~10–15% chance of an above average season (\*insert Jim Carrey meme\*). Basically, I'd suggest tempering expectations, but I don't think all hope is lost!
 
-![Where 2026–27 most likely lands](/coldsmoke/assets/images/06_outlook.png)
+![Where 2026–27 most likely lands](/assets/images/06_outlook.png)
 
 A couple of disclaimers:
 
@@ -69,7 +69,7 @@ A couple of disclaimers:
 
 The story is pretty similar down the road at Big Sky. The record there for the Lone Mountain Snotel is shorter (only goes back to 1992), but the ENSO relationship is, if anything, a touch stronger: about 14 inches lost per +1 °C of winter ONI, and the relationship explains a larger share of the variance than at Bridger.
 
-![Big Sky seasonal snowfall vs. winter El Niño strength, 1992–2026](/coldsmoke/assets/images/07_bigsky.png)
+![Big Sky seasonal snowfall vs. winter El Niño strength, 1992–2026](/assets/images/07_bigsky.png)
 
 Compared to a normal of about 141 inches at Lone Mountain, the strong-El-Niño
 winters on record averaged roughly 114″ (about 80% of normal); however, the
