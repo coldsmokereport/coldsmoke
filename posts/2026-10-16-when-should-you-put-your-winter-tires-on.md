@@ -18,9 +18,9 @@ We technically already had our first snowfall, with some road accumulation, in t
 
 ![](/coldsmoke/assets/images/01_tireswap_timing_oct16.png "When to swap my tires based on snow and cold")
 
-For the Oct 10–12 storm you can see that we were right at our climatological average for the first snowfall date, however, a bit ahead of schedule for the typical first snowfall accumulations > 1". Week-average highs dropping below 45ºF is used as a crude threshold here to weigh the potential for snowfall so more effectively stick to roadways; colder incipient roads/surfaces will collect snowfall more effectively. Typically early November is when those temperatures are consistently colder.
+For the Oct 10–12 storm you can see that we were right at the typical date for the first snowfall, but about 10 days ahead of schedule for the first 1-inch snowfall. Week-average highs dropping below 45ºF is used here as a rough threshold for when snow starts sticking to roads more easily, since colder road surfaces collect snow more effectively. Typically early November is when those temperatures are consistently colder.
 
-Another consideration is the number of "warm days" left (from both a climatological and forecast standpoint). Basically, with the warmer weather that's expected over the next 5–7 days, we're still expecting another 10+ days with highs over 60ºF this year. More than half of these are this next week. With this information, if you're able to hold out, waiting at least another week, maybe 2 would prevent you from driving on warmer roads (and potentially wearing down your tires a bit faster). If you're not driving a lot, it's probably no biggie, but if you are, it's worth factoring in, in addition to increased fuel costs if you swap to winter tires too early. Overall, my recommendation would be the last week of October or first week of November for those that mostly do in town driving. For those with more mountain driving (or current tires aren't great), I'd recommend changing them out here sometime in the next week.
+Another consideration is the number of "warm days" left (from both a climatological and forecast standpoint). Basically, with the warmer weather that's expected over the next 5–7 days, we're still expecting another 10+ days with highs over 60ºF this remainder of this year. More than half of these are this next week. With this information, if you're able to hold out, waiting at least another week, maybe 2 would prevent you from driving on warmer roads (and potentially wearing down your tires a bit faster). If you're not driving a lot, it's probably no biggie, but if you are, it's worth factoring in, in addition to increased fuel costs if you swap to winter tires too early. Overall, my recommendation would be the last week of October or first week of November for those that mostly do in town driving. For those with more mountain driving (or current tires aren't great), I'd recommend changing them out here sometime in the next week.
 
 ![](/coldsmoke/assets/images/04_warm_days_left.png "Bozeman's warm days left")
 
@@ -28,4 +28,4 @@ Finally, looking at the current forecast, it's likely we'll be above average in 
 
 ![](/coldsmoke/assets/images/03_highs_forecast.png "Bozeman forecasted high temperatures")
 
-We’ll keep an eye on things heading into early next week as the forecast evolved. Hope everyone has a great weekend!
+We’ll keep an eye on things heading into early next week as the forecast evolves. Hope everyone has a great weekend!
