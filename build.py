@@ -322,6 +322,8 @@ def build_site(base: str, skip_data: bool = False):
     write(out / "sitemap.xml", build_sitemap(env, posts, page_paths))
     copy_tree(config.STATIC_DIR, out / "assets")
     copy_tree(config.POSTS_DIR / "images", out / "assets" / "images")
+    # site_root/ = files that must sit at the site root (e.g. Search Console verification)
+    copy_tree(config.ROOT / "site_root", out)
     (out / ".nojekyll").touch()
     if config.CUSTOM_DOMAIN:
         write(out / "CNAME", config.CUSTOM_DOMAIN + "\n")
