@@ -20,11 +20,11 @@ Also, just FYI, the rain/snow colors above are from the GFS's coarse 0.25° grid
 
 The heaviest precipitation will move across the region Friday during the day and into Friday evening. This is one of the rare situations where I'm actually rooting for rain at higher elevations to start. I haven't had a chance to go up and look myself, but I've been concerned about snowfall from the other week faceting on high-elevation, north-facing aspects that get very little sun this time of year. It may get warm enough the next couple of days regardless, but I'd rather be safe than sorry. By Friday PM, rain should change over to snow, heavy at times for the higher elevations. This storm might favor Big Sky a little bit more than the Bridgers due to high initial snow levels.
 
-What are we looking at for totals? Both the GFS and European model ensembles are showing 0.5–1.5" of liquid water equivalent. A lot will come down to how quickly the colder air can filter in but right now I think 5–10 inches of snow at the upper mountain of Big Sky is a decent possibility.
+What are we looking at for totals? Both the GFS and European model ensembles are showing 0.5–1.5" of liquid water equivalent. A lot will come down to how quickly the colder air can filter in but right now I think 5–10+ inches of snow at the upper mountain of Big Sky is a decent possibility.
 
 ![University of Utah GEFS snowfall plume for Big Sky](/assets/images/ENSGEFSDSPL_LMTMT2026102000F240.png)
 
-For Bridger, due to the storm being a bit on the warmer side initially, I'd expect totals to likely be a bit lower, more towards 2–4"+.
+For Bridger, due to the storm being a bit on the warmer side initially, I'd expect totals to likely be a bit lower, more towards 2–4"+ with higher amounts possible near the ridge.
 
 ![University of Utah GEFS snowfall plume for Bridger Bowl](/assets/images/ENSGEFSDSPL_BBALP2026102000F240%20%281%29.png)
 
