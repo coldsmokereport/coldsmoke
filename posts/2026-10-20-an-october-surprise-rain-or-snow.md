@@ -28,7 +28,7 @@ For Bridger, due to the storm being a bit on the warmer side initially, I'd expe
 
 ![University of Utah GEFS snowfall plume for Bridger Bowl](/assets/images/ENSGEFSDSPL_BBALP2026102000F240%20%281%29.png)
 
-What about town? Expect mostly rain in Bozeman Friday, around 0.5–1". The cold air arrives as the moisture is moving out, so snow levels likely won't reach the valley floor until things are close to winding down late Friday night. If the moisture hangs around longer, a slushy coating Saturday morning is possible, but I'm not expecting much. (Yes, I remember last time. I'll be watching the high-resolution models for any sign of the cold air arriving early.)
+What about town? Expect mostly rain in Bozeman Friday, around 0.5–1". The cold air arrives as the moisture is moving out, so snow levels likely won't reach the valley floor until things are close to winding down late Friday night. If the moisture hangs around longer, a slushy coating Saturday morning is possible, but I'm not expecting much. (Yes, I remember last time 🙃. I'll be watching the high-resolution models for any sign of the cold air arriving early.)
 
 I'll keep you all updated as the storm gets within range of the higher-resolution short range models. Thanks for checking in!
 
