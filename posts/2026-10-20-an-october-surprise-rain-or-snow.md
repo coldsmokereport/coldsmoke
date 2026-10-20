@@ -3,7 +3,7 @@ title: An October Surprise? Rain or Snow?
 date: 2026-10-20
 tags:
   - forecast
-draft: true
+draft: false
 description: Friday Storm for Montana's Mountains
 image: ''
 ---
