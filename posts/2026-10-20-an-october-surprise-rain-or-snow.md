@@ -18,4 +18,14 @@ Below is today's latest GFS model forecast for Thursday into Saturday. The upper
 
 The heaviest precipitation will move across the region Friday during the day and into Friday evening. This is one of the rare situations where I'm actually rooting for rain at higher elevations to start. I haven't had a chance to go up an look myslef but have been concerned about snowfall from the other week faceting on high elevation north facing aspects that get very little sun this time of year. It may get warm enough the next couple of days regardless, but I'd rather be safe than sorry. By Friday PM, rain should changeover to heavy snow at higher elevations. This storm might favor Big Sky a little bit more than the Bridgers due to high initial snow levels. Also, just fyi the rain/snow colors above are from the GFS's coarse 0.25° grid. The models coarse resolution means it resolves the mountains only as a block averaged across 25 km, which mutes the actual prominence and elevation of the narrow Bridger range. Consequentially, the cells around Bridger are actually closer to valley elevation in the model. The forecast is still mountain snow in the late afternoon - evening.
 
-What are we looking at for totals?
+What are we looking at for totals? Both the GFS and European model ensembles are showing 0.5–1.5" of liquid water equivalent. A lot will come down to how quickly the colder air can filter in but right now I think 5–10 inches of snow at the upper mountain of Big Sky is a decent possibility.
+
+![](/assets/images/ENSGEFSDSPL_LMTMT2026102000F240.png)
+
+For Bridger, due to the storm being a bit on the warmer side initially, I'd expect totals to likely be a bit lower, more towards 2–4"+.
+
+![](/assets/images/ENSGEFSDSPL_BBALP2026102000F240%20%281%29.png)
+
+I'll keep you all updated as the storm gets closer within range of the higher resolution short term models. Thanks for checking in!
+
+-Trey
