@@ -5,8 +5,31 @@
   <link href="https://coldsmokereport.com/feed.xml" rel="self"/>
   <link href="https://coldsmokereport.com/"/>
   <id>https://coldsmokereport.com/</id>
-  <updated>2026-10-16T12:00:00Z</updated>
+  <updated>2026-10-20T12:00:00Z</updated>
   <author><name>Trey</name></author>
+  
+  <entry>
+    <title>An October Surprise? Rain or Snow?</title>
+    <link href="https://coldsmokereport.com/posts/an-october-surprise-rain-or-snow/"/>
+    <id>https://coldsmokereport.com/posts/an-october-surprise-rain-or-snow/</id>
+    <updated>2026-10-20T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;Since the storm potential I mentioned late last week is now closer on the horizon, I&#39;ll provide a few more details with a rundown of the latest model guidance. The storm system is already taking shape off the Pacific coast and will first impact the Southwest U.S. beginning tomorrow into Thursday. There&#39;s actually a decent shot of a somewhat rare severe thunderstorm threat across parts of Southern California, Arizona, and Southern Utah with the SPC issuing a Day 2 enhanced risk outlook centered over Arizona: &lt;a href=&#34;https://www.spc.noaa.gov/&#34;&gt;https://www.spc.noaa.gov/&lt;/a&gt;. This is the kind of southern-track storm that El Niño tends to favor. You can go back and see our first post ever that talked a bit about the southern storm track: &lt;a href=&#34;https://coldsmokereport.com/posts/el-nino-and-bridger-bowl-record-winter/&#34;&gt;https://coldsmokereport.com/posts/el-nino-and-bridger-bowl-record-winter/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Below is today&#39;s latest GFS model forecast for Thursday into Saturday. The upper-level low and trough across the Pacific coast and Southwest will move northeast towards our region, bringing with it an increased chance of rain beginning Thursday night.&lt;/p&gt;
+&lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline width=&#34;100%&#34;&gt;
+  &lt;source src=&#34;https://coldsmokereport.com/assets/images/loop_storm_ir_2026102012.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/div&gt;
+&lt;p&gt;Also, just FYI, the rain/snow colors above are from the GFS&#39;s coarse 0.25° grid. The model&#39;s coarse resolution means it resolves the mountains only as a block averaged across 25 km, which mutes the actual prominence and elevation of the narrow Bridger range. Consequently, the cells around Bridger are actually closer to valley elevation in the model. The forecast is still mountain snow in the late afternoon - evening.&lt;/p&gt;
+&lt;p&gt;The heaviest precipitation will move across the region Friday during the day and into Friday evening. This is one of the rare situations where I&#39;m actually rooting for rain at higher elevations to start. I haven&#39;t had a chance to go up and look myself, but I&#39;ve been concerned about snowfall from the other week faceting on high-elevation, north-facing aspects that get very little sun this time of year. It may get warm enough the next couple of days regardless, but I&#39;d rather be safe than sorry. By Friday PM, rain should change over to snow, heavy at times for the higher elevations. This storm might favor Big Sky a little bit more than the Bridgers due to high initial snow levels.&lt;/p&gt;
+&lt;p&gt;What are we looking at for totals? Both the GFS and European model ensembles are showing 0.5–1.5&amp;quot; of liquid water equivalent. A lot will come down to how quickly the colder air can filter in but right now I think 5–10 inches of snow at the upper mountain of Big Sky is a decent possibility.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/ENSGEFSDSPL_LMTMT2026102000F240.png&#34; alt=&#34;University of Utah GEFS snowfall plume for Big Sky&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;For Bridger, due to the storm being a bit on the warmer side initially, I&#39;d expect totals to likely be a bit lower, more towards 2–4&amp;quot;+.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/ENSGEFSDSPL_BBALP2026102000F240%20%281%29.png&#34; alt=&#34;University of Utah GEFS snowfall plume for Bridger Bowl&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;What about town? Expect mostly rain in Bozeman Friday, around 0.5–1&amp;quot;. The cold air arrives as the moisture is moving out, so snow levels likely won&#39;t reach the valley floor until things are close to winding down late Friday night. If the moisture hangs around longer, a slushy coating Saturday morning is possible, but I&#39;m not expecting much. (Yes, I remember last time 🙃. I&#39;ll be watching the high-resolution models for any sign of the cold air arriving early.)&lt;/p&gt;
+&lt;p&gt;I&#39;ll keep you all updated as the storm gets within range of the higher-resolution short range models. Thanks for checking in!&lt;/p&gt;
+&lt;p&gt;-Trey&lt;/p&gt;
+</content>
+    <category term="forecast"/>
+  </entry>
   
   <entry>
     <title>When should I do my winter tire swap?</title>
