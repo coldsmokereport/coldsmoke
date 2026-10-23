@@ -59,6 +59,9 @@ def render_markdown(text: str) -> str:
         token = f"CSEMBED{i}X"
         wrapped = f'<div class="embed">{block}</div>'
         out = out.replace(f"<p>{token}</p>", wrapped).replace(token, wrapped)
+    # an all-italic paragraph right after a video/poll is its caption (styled .caption in style.css)
+    out = re.sub(r'(</(?:video|iframe)></div>\s*)<p><em>((?:(?!</em>).)*)</em></p>',
+                 r'\1<p class="caption">\2</p>', out, flags=re.S)
     return out
 
 
