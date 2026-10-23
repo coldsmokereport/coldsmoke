@@ -17,12 +17,12 @@
 &lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline width=&#34;100%&#34;&gt;
   &lt;source src=&#34;https://coldsmokereport.com/assets/images/loop_radar2_202610231140.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Radar this morning with airport temperatures and winds; the cold front (blue line) is moving in from the west&lt;/em&gt;&lt;/p&gt;
+&lt;p class=&#34;caption&#34;&gt;Radar this morning with airport temperatures and winds; the cold front (blue line) is moving in from the west&lt;/p&gt;
 &lt;p&gt;In Bozeman, it&#39;ll be mostly rain during the day, but by late afternoon – early evening, colder air filtering in plus heavy precipitation rates should lead to a snow changeover. Slick spots are definitely possible for the evening commute, and things could get a little dicey around Bozeman Pass and up the canyon toward Big Sky. FYI, the NWS has a Winter Weather Advisory for the Gallatin and Madison mountains from noon to midnight.&lt;/p&gt;
 &lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline width=&#34;100%&#34;&gt;
   &lt;source src=&#34;https://coldsmokereport.com/assets/images/loop_hrrr_storm2_2026102309.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;HRRR forecast, 6 AM–9 PM Friday&lt;/em&gt;&lt;/p&gt;
+&lt;p class=&#34;caption&#34;&gt;HRRR forecast, 6 AM–9 PM Friday&lt;/p&gt;
 </content>
     <category term="forecast"/><category term="snow"/><category term="Bridger Bowl"/><category term="Big Sky"/><category term="Bozeman"/><category term="storm"/><category term="winter"/><category term="weather"/>
   </entry>

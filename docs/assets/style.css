@@ -141,6 +141,11 @@ img { max-width: 100%; height: auto; }
 /* videos and polls (allowlisted embeds) get the same breathing room as images */
 .post-body .embed { margin: 2.2rem 0; }
 .post-body .embed video, .post-body .embed iframe { display: block; max-width: 100%; }
+/* caption under a video/poll: an all-italic line written right after the embed (build.py tags it) */
+.post-body .embed + p.caption {
+  margin-top: -1.7rem; font-family: var(--sans); font-size: 0.8rem;
+  font-style: italic; color: var(--ink-3);
+}
 .post-body blockquote {
   margin: 1rem 0; padding: 0.2rem 1.1rem; border-left: 3px solid var(--hairline);
   color: var(--ink-2);
