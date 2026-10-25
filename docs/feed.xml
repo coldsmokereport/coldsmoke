@@ -5,8 +5,30 @@
   <link href="https://coldsmokereport.com/feed.xml" rel="self"/>
   <link href="https://coldsmokereport.com/"/>
   <id>https://coldsmokereport.com/</id>
-  <updated>2026-10-23T12:00:00Z</updated>
+  <updated>2026-10-25T12:00:00Z</updated>
   <author><name>Trey</name></author>
+  
+  <entry>
+    <title>Friday Storm Recap</title>
+    <link href="https://coldsmokereport.com/posts/storm-recap/"/>
+    <id>https://coldsmokereport.com/posts/storm-recap/</id>
+    <updated>2026-10-25T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;The Good&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Overall, the forecasts for Bridger and Bozeman seemed to verify pretty close to expectations. Three to four inches of snow in the Bridgers verified on the upper end of the 2–4&amp;quot; forecast. In town, we saw that quicker transition to snow which led to some snowfall accumulations on grassy surfaces.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Bad&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Unfortunately for Big Sky skiers, the storm didn&#39;t turn out quite as well as I had originally anticipated. Snowfall totals were about 3–4&amp;quot; on the mid-upper mountains, which was at the low end or slightly less than the 4–8&amp;quot; forecasted. Just a quick fyi that the SNOTEL looks like it underestimated snowfall accumulation, so the tracker is likely low biased currently.&lt;/p&gt;
+&lt;p&gt;First, I&#39;ll add that as I had previously put in my first post disclaimer, I will be wrong at times :D. Admittedly, as primarily a Bridger skier, I&#39;m still learning a bit of the nuances with Big Sky snowfall. This is one I probably could have foreseen, but it&#39;s all a learning process. So what happened?&lt;/p&gt;
+&lt;p&gt;Several of the models seem to have a persistent high bias in precipitation, at least for these early season storms thus far. This problem seemed to be two-fold in this case. On Friday, the post frontal part of the storm (northerly flow) that favors Bridger vs. Big Sky set up hours earlier than the models had it. The other cause behind the high precipitation bias (especially in the medium to long range forecasts) is the inability of the models to properly resolve the complex terrain around Big Sky. The highest resolution model we have, the High-Resolution Rapid Refresh (HRRR), is a short term forecast model (forecasts available out to 48 hours). Its resolution is 3 km, whereas the Global models used for medium to long range forecasts typically only have about 9 km resolution or worse. This means that topography in the model shows up as blocks (with peaks often too low) versus the true dynamic, jagged nature of terrain.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/terrain_shadow_3d_blocky.png&#34; alt=&#34;&#34; title=&#34;Real mountains vs. model mountains&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Why does this matter for Big Sky and Lone Peak? To the north sit the very prominent Spanish Peaks. In the HRRR, Lone Peak tops out at 8,900 ft instead of 11,166 ft, and the Spanish Peaks at 9,550 ft instead of 11,015 ft. When the wind comes from the north it can lead to enhanced precipitation over the Spanish Peaks. This, however, puts Big Sky into a &amp;quot;shadow&amp;quot; effect where there can be localized subsidence and/or precipitation depletion by the upstream Spanish Peaks. This is flow dependent, but in the case of Friday&#39;s system this seemed to be one of the biggest culprits.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/terrain_transect.png&#34; alt=&#34;&#34; title=&#34;Model vs. Terrain cross section&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;North-to-south slice over the Spanish Peaks into Big Sky and up Lone Peak. Tan = real terrain, blue = HRRR&#39;s terrain, arrow = north wind.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Utah downscaled model ensembles that I sometimes post are an attempt to correct for the coarse model resolution. Often increasing precipitation totals with expected orographic enhancements, however, in the case of Big Sky / Lone Mountain, northerly flow actually results in a rain shadow effect, which the downscaling does not capture.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Looking Ahead&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I haven&#39;t had a chance to look at this next week&#39;s forecast much yet, however, it does look like a potential weak storm could bring a couple inches of mountain snow Monday PM through Tuesday. I&#39;ll try to have a more detailed forecast tomorrow if it looks like anything of note.&lt;/p&gt;
+</content>
+    <category term="forecast"/><category term="bridger"/><category term="big sky"/><category term="snow"/><category term="ski"/><category term="storm"/>
+  </entry>
   
   <entry>
     <title>Friday Storm Update: Trending Colder</title>
