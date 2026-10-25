@@ -27,13 +27,13 @@ Several of the models seem to have a persistent high bias in precipitation, at l
 
 ![](/assets/images/terrain_shadow_3d_blocky.png "Real mountains vs. model mountains")
 
-Why does this matter for Big Sky and Lone Peak? To the north sit the very prominent Spanish Peaks. n the HRRR, Lone Peak tops out at 8,900 ft instead of 11,166 ft, and the Spanish Peaks at 9,550 ft instead of 11,015 ft. When the wind comes from the north it can lead to enhanced precipitation over the Spanish Peaks. This, however, puts Big Sky into a "shadow" effect where there can be localized subsidence and/or precipitation depletion by the upstream Spanish Peaks. This is flow dependent, but in the case of Friday's system this seemed to be one of the biggest culprits.
+Why does this matter for Big Sky and Lone Peak? To the north sit the very prominent Spanish Peaks. In the HRRR, Lone Peak tops out at 8,900 ft instead of 11,166 ft, and the Spanish Peaks at 9,550 ft instead of 11,015 ft. When the wind comes from the north it can lead to enhanced precipitation over the Spanish Peaks. This, however, puts Big Sky into a "shadow" effect where there can be localized subsidence and/or precipitation depletion by the upstream Spanish Peaks. This is flow dependent, but in the case of Friday's system this seemed to be one of the biggest culprits.
 
 ![](/assets/images/terrain_transect.png)
 
 _North-to-south slice over the Spanish Peaks into Big Sky and up Lone Peak. Tan = real terrain, blue = HRRR's terrain, arrow = north wind._
 
-The Utah downscaled model ensembles that I sometimes post are an attempt to correct for the coarse model resolution. Often increasing precipitation totals with expected orographic enhancements, however, in the case of Big Sky / Lone Mountain, with northerly flow actually results in a rain shadow effect, which the model/downscaling does not correctly capture in this scenario.
+The Utah downscaled model ensembles that I sometimes post are an attempt to correct for the coarse model resolution. Often increasing precipitation totals with expected orographic enhancements, however, in the case of Big Sky / Lone Mountain, northerly flow actually results in a rain shadow effect, which the downscaling does not capture.
 
 **Looking Ahead**
 
