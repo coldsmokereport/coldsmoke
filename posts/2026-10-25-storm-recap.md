@@ -33,7 +33,7 @@ Why does this matter for Big Sky and Lone Peak? To the north sit the very promin
 
 _North-to-south slice over the Spanish Peaks into Big Sky and up Lone Peak. Tan = real terrain, blue = HRRR's terrain, arrow = north wind._
 
-The Utah downscaled model ensembles that I sometimes post are an attempt to correct for the coarse model resolution. Often increasing precipitation totals with expected orographic enhancements, however, in the case of Big Sky / Lone Mountain, with northerly flow it can actually result in a rain shadow effect, which the model/downscaling does not correctly capture in this scenario.
+The Utah downscaled model ensembles that I sometimes post are an attempt to correct for the coarse model resolution. Often increasing precipitation totals with expected orographic enhancements, however, in the case of Big Sky / Lone Mountain, with northerly flow actually results in a rain shadow effect, which the model/downscaling does not correctly capture in this scenario.
 
 **Looking Ahead**
 
