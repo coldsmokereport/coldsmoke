@@ -27,7 +27,7 @@ Several of the models seem to have a persistent high bias in precipitation, at l
 
 ![](/assets/images/terrain_shadow_3d_blocky.png "Real mountains vs. model mountains")
 
-Why does this matter for Big Sky and Lone Peak? To the north sit the very prominent Spanish Peaks. The model's Lone Peak tops out, though, at 8,900 ft against 11,000+ ft in reality, and its Spanish Peaks at 9,550 ft against 11,000 ft. When the wind comes from the north it can lead to enhanced precipitation over the Spanish Peaks. This, however, puts Big Sky into a "shadow" effect where there can be localized subsidence and/or precipitation depletion by the upstream Spanish Peaks. This is flow dependent, but in the case of Friday's system this seemed to be one of the biggest culprits.
+Why does this matter for Big Sky and Lone Peak? To the north sit the very prominent Spanish Peaks. n the HRRR, Lone Peak tops out at 8,900 ft instead of 11,166 ft, and the Spanish Peaks at 9,550 ft instead of 11,015 ft. When the wind comes from the north it can lead to enhanced precipitation over the Spanish Peaks. This, however, puts Big Sky into a "shadow" effect where there can be localized subsidence and/or precipitation depletion by the upstream Spanish Peaks. This is flow dependent, but in the case of Friday's system this seemed to be one of the biggest culprits.
 
 ![](/assets/images/terrain_transect.png)
 
