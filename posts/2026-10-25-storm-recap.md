@@ -27,3 +27,7 @@ Why does this matter for Big Sky and Lone Peak? To the north sit the very promin
 ![](/assets/images/terrain_transect.png)
 
 The Utah downscaled model ensembles that I sometimes post are an attempt to correct for the coarse model resolution. Often increasing precipitation totals with expected orographic enhancements, however, in the case of Big Sky / Lone Mountain, with northerly flow it can actually result in a rain shadow effect, which the model/downscaling does not correctly capture in this scenario.
+
+**Looking Ahead**
+
+I haven't had a chance to look at this next week's forecast much yet, however, it does look like a potential weak storm could bring a couple inches of mountain snow Monday PM - Tuesday. I'll try to have a more detailed forecast tomorrow if it looks like anything of note.
