@@ -19,7 +19,7 @@ Overall, the forecasts for Bridger and Bozeman seemed to verify pretty close to 
 
 **The Bad**
 
-Unfortunately for Big Sky skiers, the storm didn't turn out quite as well as I had originally anticipated. Snowfall totals were about 3–4" on the mid-upper mountains, which was at the low end or slightly less than the 4–8" forecasted. Just a quick fyi that the Snotel looks like it underestimated snowfall accumulation, so the tracker is likely low biased currently.
+Unfortunately for Big Sky skiers, the storm didn't turn out quite as well as I had originally anticipated. Snowfall totals were about 3–4" on the mid-upper mountains, which was at the low end or slightly less than the 4–8" forecasted. Just a quick fyi that the SNOTEL looks like it underestimated snowfall accumulation, so the tracker is likely low biased currently.
 
 First, I'll add that as I had previously put in my first post disclaimer, I will be wrong at times :D. Admittedly, as primarily a Bridger skier, I'm still learning a bit of the nuances with Big Sky snowfall. This is one I probably could have foreseen, but it's all a learning process. So what happened?
 
