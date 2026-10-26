@@ -8,7 +8,7 @@ tags:
   - bridger
   - big sky
 draft: true
-description: ''
+description: Quick hitting storm moves through Monday night. Expect a few inches of snow in the mountains.
 image: ''
 ---
 
