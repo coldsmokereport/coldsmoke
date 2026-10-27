@@ -8,7 +8,7 @@ tags:
   - bridger
   - big sky
 draft: true
-description: Quick hitting storm moves through Monday night. Expect a few inches of snow in the mountains.
+description: Quick-hitting storm moves through Monday night. Expect a few inches of snow in the mountains.
 image: ''
 ---
 
@@ -18,12 +18,12 @@ A quick-hitting storm will move in later this evening. Looking west, you can alr
 
 ![](/assets/images/storm.jpg "Storm clouds")
 
-Currently a line of showers and thunderstorms to our west and south is moving quickly towards our area. This should begin affecting Big Sky and then Bozeman/Bridgers by mid-to-late evening. I’d expect graupel in the mountains associated with this initial convective activity (which may limit accumulation but does provide decent water content typically) and also some gusty winds. Then maybe some lingering snow showers overnight behind the quick frontal passage. 
+Currently a line of showers and thunderstorms to our west and south is moving quickly towards our area. This should begin affecting Big Sky and then Bozeman/Bridgers by mid-to-late evening. I'd expect graupel and some gusty winds in the mountains with this initial convective activity (the graupel may limit accumulation but typically provides decent water content). Then maybe some lingering snow showers overnight behind the quick frontal passage. 
 
 <video controls autoplay loop muted playsinline width="100%" style="display:block; margin:1.8rem 0;">
   <source src="%BASE%/assets/images/loop_radar_hrrr2_202610262345.mp4" type="video/mp4">
 </video>
 
-Overall, I’d expect a few inches of snow for the mountains. This time the flow is out of the WSW, so I'm hopeful that Big Sky shouldn't get skunked like Friday. Currently a Winter Weather Advisory is in effect from 9PM tonight – 6AM Tuesday around Big Sky with the NWS calling for 2–5 inches.
+Overall, I’d expect a few inches of snow for the mountains. This time the flow is out of the WSW, so I'm hopeful that Big Sky won't get skunked like Friday. Currently a Winter Weather Advisory is in effect from 9PM tonight to 6AM Tuesday around Big Sky with the NWS calling for 2–5 inches.
 
 -Trey
