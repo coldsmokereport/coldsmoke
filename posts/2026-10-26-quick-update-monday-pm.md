@@ -26,6 +26,6 @@ Currently a line of showers and thunderstorms to our west and south is moving qu
 
 _Observed radar Monday evening and HRRR forecast through 5 a.m. Tuesday._
 
-Overall, I’d expect up to a few inches of snow for the mountains. This time the flow is out of the WSW, so I'm hopeful that Big Sky won't get skunked like Friday. Currently a Winter Weather Advisory is in effect from 9PM tonight to 6AM Tuesday around Big Sky with the NWS calling for 2–5 inches.
+Overall, I’d expect a few inches of snow for the mountains. This time the flow is out of the WSW, so I'm hopeful that Big Sky won't get skunked like Friday. Currently a Winter Weather Advisory is in effect from 9PM tonight to 6AM Tuesday around Big Sky with the NWS calling for 2–5 inches.
 
 -Trey
