@@ -5,8 +5,27 @@
   <link href="https://coldsmokereport.com/feed.xml" rel="self"/>
   <link href="https://coldsmokereport.com/"/>
   <id>https://coldsmokereport.com/</id>
-  <updated>2026-10-25T12:00:00Z</updated>
+  <updated>2026-10-26T12:00:00Z</updated>
   <author><name>Trey</name></author>
+  
+  <entry>
+    <title>Quick Update Monday PM</title>
+    <link href="https://coldsmokereport.com/posts/quick-update-monday-pm/"/>
+    <id>https://coldsmokereport.com/posts/quick-update-monday-pm/</id>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;I’ll keep this post short and sweet. After being stuck in the fog for much of the day in town (Bozeman), it was nice to finally see the sun peek out. Cold air/snow on the ground plus a quick ridge building led to a brief inversion across our area the past 24–48 hours. With Bridger temperatures peaking in the mid-to-upper 40s vs. the 30s in town, that inversion was quite apparent.&lt;/p&gt;
+&lt;p&gt;A quick-hitting storm will move in later this evening. Looking west, you can already see the clouds from it moving in.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/storm.jpg&#34; alt=&#34;&#34; title=&#34;Storm clouds&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Currently a line of showers and thunderstorms to our west and south is moving quickly towards our area. This should begin affecting Big Sky and then Bozeman/Bridgers by mid-to-late evening. I&#39;d expect graupel and some gusty winds in the mountains with this initial convective activity (the graupel may limit accumulation but typically provides decent water content). Then maybe some lingering snow showers overnight behind the quick frontal passage.&lt;/p&gt;
+&lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline width=&#34;100%&#34; style=&#34;display:block; margin:1.8rem 0;&#34;&gt;
+  &lt;source src=&#34;https://coldsmokereport.com/assets/images/loop_radar_hrrr2_202610262345.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/div&gt;
+&lt;p class=&#34;caption&#34;&gt;Observed radar Monday evening and HRRR forecast through 5 a.m. Tuesday.&lt;/p&gt;
+&lt;p&gt;Overall, I’d expect a few inches of snow for the mountains. This time the flow is out of the WSW, so I&#39;m hopeful that Big Sky won&#39;t get skunked like Friday. Currently a Winter Weather Advisory is in effect from 9PM tonight to 6AM Tuesday around Big Sky with the NWS calling for 2–5 inches.&lt;/p&gt;
+&lt;p&gt;-Trey&lt;/p&gt;
+</content>
+    <category term="forecast"/><category term="snow"/><category term="squall"/><category term="bridger"/><category term="big sky"/>
+  </entry>
   
   <entry>
     <title>Friday Storm Recap</title>
