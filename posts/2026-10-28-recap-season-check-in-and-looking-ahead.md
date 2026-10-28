@@ -7,8 +7,8 @@ tags:
   - big sky
   - bridger
   - storm
-draft: true
-description: Monday's storm produced, a quick look at how the numbers are so far this season, and next week's storm
+draft: false
+description: Monday's storm recap, a season-to-date check-in, and perhaps another storm Sunday–Monday?
 image: ''
 ---
 
