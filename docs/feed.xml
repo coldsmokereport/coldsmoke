@@ -5,8 +5,21 @@
   <link href="https://coldsmokereport.com/feed.xml" rel="self"/>
   <link href="https://coldsmokereport.com/"/>
   <id>https://coldsmokereport.com/</id>
-  <updated>2026-10-26T12:00:00Z</updated>
+  <updated>2026-10-28T12:00:00Z</updated>
   <author><name>Trey</name></author>
+  
+  <entry>
+    <title>Recap, Season Check-in, and Looking Ahead</title>
+    <link href="https://coldsmokereport.com/posts/recap-season-check-in-and-looking-ahead/"/>
+    <id>https://coldsmokereport.com/posts/recap-season-check-in-and-looking-ahead/</id>
+    <updated>2026-10-28T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;Monday PM&#39;s storm finally came in as a favorable snowfall producer for Big Sky! Totals generally ranged from 3–6 inches, with the Bridgers on the lower end.&lt;/p&gt;
+&lt;p&gt;A reader comment (always feel free to comment and ask questions; I&#39;ll answer as I&#39;m able) prompted me to dig into the following question: How are we doing for the season so far? Based on the nearby SNOTEL stations, we&#39;ve seen about 21&amp;quot; at Bridger and 9&amp;quot; at Big Sky. For Big Sky that&#39;s right around the median. Bridger is near the 90th percentile, largely thanks to the storm a couple of weeks ago. However, as many are aware, most of that snow melted out about a week ago, so current snow depths are only a few to ~7 inches. That&#39;s near median at Bridger and a bit below at Big Sky.&lt;/p&gt;
+&lt;p&gt;It’s important to note that this early in the season, a single big storm or a dry spell can swing these numbers dramatically, so don&#39;t read too much into them.&lt;/p&gt;
+&lt;p&gt;Looking ahead, the good news is another storm is on tap for Sunday through Monday. Details are still uncertain, but I&#39;ll aim to have a forecast out Thursday PM or Friday AM.&lt;/p&gt;
+</content>
+    <category term="forecast"/><category term="snow"/><category term="big sky"/><category term="bridger"/><category term="storm"/>
+  </entry>
   
   <entry>
     <title>Quick Update Monday PM</title>
