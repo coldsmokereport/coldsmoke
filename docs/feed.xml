@@ -5,8 +5,34 @@
   <link href="https://coldsmokereport.com/feed.xml" rel="self"/>
   <link href="https://coldsmokereport.com/"/>
   <id>https://coldsmokereport.com/</id>
-  <updated>2026-10-28T12:00:00Z</updated>
+  <updated>2026-10-30T12:00:00Z</updated>
   <author><name>Trey</name></author>
+  
+  <entry>
+    <title>Up Next</title>
+    <link href="https://coldsmokereport.com/posts/up-next/"/>
+    <id>https://coldsmokereport.com/posts/up-next/</id>
+    <updated>2026-10-30T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;Me, patiently waiting for ski season:&lt;/p&gt;
+&lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline width=&#34;100%&#34;&gt;
+  &lt;source src=&#34;https://coldsmokereport.com/assets/images/deer.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/div&gt;
+&lt;p&gt;After some great weather the past couple of days, it looks like another storm is on tap later this weekend.&lt;/p&gt;
+&lt;p&gt;Halloween (Saturday): Mild with breezy south winds; a few evening showers are possible. Hopefully it won’t be enough to negatively impact Trick-or-treaters.&lt;/p&gt;
+&lt;p&gt;Sunday: Showers develop in the afternoon. The storm will begin pretty warm with high rain/snow lines around 8,000 feet. By Sunday PM, however, a cold front will move through and snow levels should drop towards valley floors (though I&#39;m not expecting any significant valley floor accumulations).&lt;/p&gt;
+&lt;p&gt;Below is a time-height cross section at Bozeman. It’s a little complicated but is a nice way to view storms moving through at a given location. Time goes from right to left. Times are in UTC (&amp;quot;Z&amp;quot;); subtract 7 hours for Mountain Time after Sunday&#39;s time change, so Mon 00Z is 5 PM Sunday. You can see on Sunday how southerly flow above 700 mb (middle part of the atmosphere) increases ahead of the storm/front with increasing moisture (darker greens). The blue line is the freezing level, so you can see that’s pretty high near 700–750mb initially (~8,000–10,000 ft). By Sunday PM, though, the blue line rapidly drops along with a switch in the wind direction (cold front passage) towards the NW and an increase in moisture throughout the column. You can see the blue line never reaches the surface, hence the higher snow levels and lack of significant accumulation for the valley.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://coldsmokereport.com/assets/images/GFSTH_KBZN2026103006F084.png&#34; alt=&#34;GFS time-height section for Bozeman (University of Utah)&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Totals: 2-4 inches+ above mid-mountain at Bridger and Big Sky.&lt;/p&gt;
+&lt;p&gt;Below is another view of the storm system showing the potential range of outcomes from the 5th wettest to 5th driest ensemble members. You can think of each ensemble member as changing a very tiny parameter in the model to account for the fact that models are imperfect representations. The idea is that if you tweak enough of these slightly, you can capture most of the potential outcomes.&lt;/p&gt;
+&lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline width=&#34;100%&#34;&gt;
+  &lt;source src=&#34;https://coldsmokereport.com/assets/images/loop_ens_scenarios_2026103000_c.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/div&gt;
+&lt;p class=&#34;caption&#34;&gt;The bottom panels are the total water content at Bridger and Big Sky (rain/mix at the beginning, snow at the end), with the ensemble average in gray.&lt;/p&gt;
+&lt;p&gt;Beyond Monday, it is looking dry through mid-late week. Weather looks great for Tuesday, so nobody has an excuse for not getting out and voting on Election Day!&lt;/p&gt;
+&lt;p&gt;-Trey&lt;/p&gt;
+</content>
+    <category term="forecast"/><category term="snow"/><category term="bridger bowl"/><category term="big sky"/><category term="bozeman"/><category term="weather"/>
+  </entry>
   
   <entry>
     <title>Recap, Season Check-in, and Looking Ahead</title>
