@@ -14,7 +14,7 @@
     <id>https://coldsmokereport.com/posts/up-next/</id>
     <updated>2026-10-30T12:00:00Z</updated>
     <content type="html">&lt;p&gt;Me, patiently waiting for ski season:&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline width=&#34;100%&#34;&gt;
+&lt;div class=&#34;embed&#34;&gt;&lt;video controls autoplay loop muted playsinline style=&#34;width:100%; max-width:400px; margin:0 auto;&#34;&gt;
   &lt;source src=&#34;https://coldsmokereport.com/assets/images/deer.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/div&gt;
 &lt;p&gt;After some great weather the past couple of days, it looks like another storm is on tap later this weekend.&lt;/p&gt;
