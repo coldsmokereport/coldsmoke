@@ -8,7 +8,7 @@ tags:
   - big sky
   - winter
   - weather
-draft: true
+draft: false
 description: Above-average temperatures and dry weather for the next 7 days. Looking at potential pattern change prospects beyond.
 image: ''
 ---
