@@ -17,6 +17,9 @@ Apologies for the silence and slow updates on my end. It’s been a busy week wi
 
 It looks like much of the same this upcoming week, though a weak storm may try to ride over the top of the upper-level ridge around mid-week. I wouldn’t expect too much beyond increased clouds and maybe a few showers. It won’t really move the needle any.
 
+![](/assets/images/bzn_highs_forecast_v2.png "Temperatures vs. Normal")
+_Daily high temperatures and forecast with respect to climatology._
+
 The models are showing a dry cold front next weekend that will help knock temperatures down a bit. The earliest shot at real snow and seasonable cold looks like next Monday night into Tuesday (\~10 days from now). The timing has been slipping in the models, which is never a great sign, and there's a real possibility the storm could stall off California. This one is pretty 50/50 at this point, and there's not really much confidence in it until we see a real signal within the 7 day range. If we’re looking for any hopium, the European ensemble does show a bigger storm in about 1-in-3 of its ensemble members.
 
 In the meantime, if things stay quiet this upcoming week, I’ll try to do a more generic post on a topic like “Most favorable storm patterns for Bridger and Big Sky” or “Impacts of Climate Change on our Ski Areas”. I'm open to any other suggestions/ideas. Feel free to drop them in the comments! Thanks for reading!
