@@ -12,7 +12,7 @@ description: Cold weather is expected next week with a potential return to a sto
 image: ''
 ---
 
-The good news is the breakdown in the ridging, which has had a stranglehold on the northwest U.S., appears to finally be within reach! A little sooner than model guidance had indicated previously, a “ridge-busting” trough will coincide with a cold front moving through over the weekend. This will likely be a mostly dry storm, but it helps set us up for next week.
+The good news is the breakdown in the ridging, which has had a stranglehold on the northwest U.S., appears to finally be within reach! A little sooner than model guidance had indicated previously, a “ridge-busting” trough will coincide with a weak cold front moving through over the weekend. This will likely be a mostly dry storm, but it helps set us up for next week.
 
 <video controls autoplay loop muted playsinline width="100%">
   <source src="%BASE%/assets/images/pattern_change_v2_2026111100.mp4" type="video/mp4">
