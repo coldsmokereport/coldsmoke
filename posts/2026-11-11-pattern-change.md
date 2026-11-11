@@ -8,7 +8,7 @@ tags:
   - big sky
   - storm
 draft: true
-description: ''
+description: Cold weather is expected next week with a potential return to a stormier pattern
 image: ''
 ---
 
