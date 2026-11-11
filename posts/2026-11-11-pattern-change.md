@@ -37,6 +37,6 @@ Hopefully by the end of the week, once we get within the \~5 day sweet spot for 
 | GFS single run | 0.65" → **1.46"** | 0.53" → **1.73"** |
 | NOAA AI (AIGFS) single run | 0.76" → **0.43"** | 1.21" → **0.80"** |
 
-_Yesterday's (Tuesday) PM model run SWE totals vs. today's (Wednesday) AM models_
+_Yesterday's (Tuesday) PM model run SWE totals vs. today's (bold, Wednesday) AM models_
 
 -Trey
