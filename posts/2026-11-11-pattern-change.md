@@ -7,7 +7,7 @@ tags:
   - bridger bowl
   - big sky
   - storm
-draft: true
+draft: false
 description: Cold weather is expected next week with a potential return to a stormier pattern
 image: ''
 ---
