@@ -24,6 +24,12 @@ Overall, the storm timing has been pretty consistent within the models for late 
 This divergence gives me a bit of hesitation because generally the European model, overall, tends to be slightly more reliable than the American model. However, for any given storm there are a ton of competing factors, so it's not a one size fits all generalization. Below is another visual i wanted to show of the trends in the SWE numbers (liquid equivalent of snowfall) from some of the various models.
 ![](/assets/images/trend_water_simple_v2.png)
 
+**Snowfall Forecast Numbers:** I don't love issuing a forecast with hard numbers when there's this level of uncertainty, but sometimes that's just how it goes. I'm erring slightly on the conservative side here given the ECMWF model trends, however, there's still time for those models to flip back, and that would mean these numbers would likely be too low.
+
+**Big Sky above mid mountain: 4–8 Inches**
+
+**Bridger Bowl above mid mountain: 3–6 Inches**
+
 **El Nino Update:**
 
 The Climate Prediction Center (CPC) put out a short update two days ago. The El Niño is still strengthening (Niño‑3.4 rose from +2.1 to +2.5°C in October), however some of the recent trends and guidance suggest maybe a slightly lower peak than previously anticipated. The chance of a record-breaking event dropped slightly from 70% to about 60% for Nov–Jan. 
