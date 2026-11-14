@@ -17,7 +17,12 @@ We're finally close enough in to the potential storm this next week where I can 
 
 Overall, the storm timing has been pretty consistent within the models for late Tuesday through Wednesday. The overall upper level pattern (which is what drives the storm itself and conditions we experience on the ground) had been pretty consistent, but of course, just as I was starting to make this forecast, there were some additional complicating factors that popped up overnight. There is now disagreement between the ECMWF (European) and GFS (American) models with the ECMWF (and ensembles) showing a weaker storm penetrating inland. This can be seen in the animation below. The \~1/3-1/2 of ensemble members that show a potentially weaker solution have less blue colors near Gallatin Valley. More blues and a sharper kink in the height pattern (lines) would be an indication of a stronger shortwave trough (where the frontal systems derive their energy from). Hopefully this makes sense but feel free to ask any questions in the comment section. The American model has been holding pretty consistent with a wetter storm and stronger upper level trough pattern. 
 
+<video controls autoplay loop muted playsinline width="100%">
+  <source src="%BASE%/assets/images/scenarios_loop_v5.mp4" type="video/mp4">
+</video>
+
 This divergence gives me a bit of hesitation because generally the European model, overall, tends to be slightly more reliable than the American model. However, for any given storm there are a ton of competing factors, so it's not a one size fits all generalization. Below is another visual i wanted to show of the trends in the SWE numbers (liquid equivalent of snowfall) from some of the various models.
+![](/assets/images/trend_water_simple_v2.png)
 
 **El Nino Update:**
 
