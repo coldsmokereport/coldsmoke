@@ -9,7 +9,7 @@ tags:
   - ski
   - bozeman
 draft: true
-description: ''
+description: Forecasted snow for the mountains next week and the current status of El Niño
 image: ''
 ---
 
