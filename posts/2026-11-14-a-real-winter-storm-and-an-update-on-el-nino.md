@@ -8,7 +8,7 @@ tags:
   - big sky
   - ski
   - bozeman
-draft: true
+draft: false
 description: Forecasted snow for the mountains next week and the current status of El Niño
 image: ''
 ---
