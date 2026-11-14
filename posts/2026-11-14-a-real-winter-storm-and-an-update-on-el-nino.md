@@ -32,11 +32,12 @@ This divergence gives me a bit of hesitation because generally the European mode
 
 **Bozeman: 1–3 Inches**
 
-**El Nino Update:**
+**El Niño Update:**
 
 The Climate Prediction Center (CPC) put out a short update two days ago. The El Niño is still strengthening (Niño‑3.4 rose from +2.1 to +2.5°C in October), however some of the recent trends and guidance suggest maybe a slightly lower peak than previously anticipated. The chance of a record-breaking event dropped slightly from 70% to about 60% for Nov–Jan. 
 
 ![](/assets/images/ps2png-worker-commands-545ddb4758-4kx7b-6fe5cac1a363ec1525f54343b6cc9fd8-h9_z9tqt.png)
+
 _ECMWF Niño‑3.4 forecast from Oct 1 (red) and observed values (dotted)._
 
 Overall, though, the forecast is still quite confident in a very strong El Niño, and one of the strongest ever in recorded history. Do these slight changes have any impact on Bridger's forecast? It's unlikely in my opinion that the small trim in the peak will have any snow implications out here. The original post holds ([https://coldsmokereport.com/posts/el-nino-and-bridger-bowl-record-winter/](https://coldsmokereport.com/posts/el-nino-and-bridger-bowl-record-winter/)) and it's really going to come down to intraseasonal variability, so do those snow dances and let's hope we get lucky with a couple of patterns that overproduce! Thanks for reading!
