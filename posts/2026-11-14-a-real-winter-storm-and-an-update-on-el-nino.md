@@ -19,6 +19,8 @@ Due to limited time with the real job (out of town at a science meeting this wee
 
 I think the totals from the original post still look solid with an above-average chance of Bridger hitting the upper end (6 inches) or higher, especially above mid-mountain. Big Sky's range looks pretty good to me still. I'll try to provide another short update in the PM as the storm arrives.
 
+The National Weather Service has also issued a Winter Weather Advisory for both the mountains and valleys. Unfortunately, it looks like their website is having issues again, so I'll have to wait to add those totals until things are up again.
+
 **Original Post from Saturday (11/14):**
 
 We're finally close enough in to the potential storm this next week where I can dive a little bit more into the details. Overall, this looks like our 2nd real winter storm of the season. By "real" I mean a storm that will likely produce accumulating snowfall down to the valley floors and be accompanied by sustained below freezing temperatures (for at least a couple of days).
