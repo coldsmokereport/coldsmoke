@@ -13,6 +13,14 @@ description: Forecasted snow for the mountains next week and the current status 
 image: ''
 ---
 
+**Tuesday Nov. 17 PM:**
+
+<video controls autoplay loop muted playsinline width="100%">
+  <source src="%BASE%/assets/images/loop_radar_hrrr3_202611172045.mp4" type="video/mp4">
+</video>
+
+_Current radar and overnight forecast from the HRRR._
+
 **Quick Update Tuesday November 17 AM:**
 
 Due to limited time with the real job (out of town at a science meeting this week, so you all can thank me for the snow ;)), I'll keep this short. Overall, the models have converged more over the past few days, which is typical when getting closer in range to an actual storm. Snow should arrive late this afternoon in the mountains, and the cold front will bring the main burst during the evening hours with steady snow continuing through the night. The most recent HRRR model runs agree, and the ECMWF and GEFS ensembles put the middle of the storm around 9–11 PM tonight.
