@@ -16,6 +16,10 @@ Both the snow water equivalent (SWE) and the snowfall totals busted to the high 
 
 Rest of the week: Things will clear out later today, and Thursday looks relatively dry and breezy with much colder temperatures than we’ve seen the past few weeks. Then a slow-moving low will track to our southwest, and we should get some of the wrap around moisture here in SW Montana. Right now, this next storm looks to begin Thursday PM through Friday and light snow showers possibly continuing into Saturday. 
 
+<video controls autoplay loop muted playsinline width="100%">
+  <source src="%BASE%/assets/images/pattern_change_v2_2026111800.mp4" type="video/mp4">
+</video>
+
 Wednesday through Saturday:
 
 - Bridger and Big Sky: 4–8 inches
