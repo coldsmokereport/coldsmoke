@@ -19,6 +19,7 @@ Rest of the week: Things will clear out later today, and Thursday looks relative
 <video controls autoplay loop muted playsinline width="100%">
   <source src="%BASE%/assets/images/pattern_change_v2_2026111800.mp4" type="video/mp4">
 </video>
+
 _ECMWF ensemble-average upper-level (500-mb) pattern, Wednesday through Monday morning._
 
 Thursday through Saturday:
