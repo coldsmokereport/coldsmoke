@@ -14,7 +14,7 @@ image: ''
 
 **Update 11/19 PM:**
 
-Quick update: Remember that 20–30% I talked about the other day? Well, it looks like we’ve trended in the wrong direction towards those solutions, hence why we say it’s probablistic. What happened? Friday's daytime snow trended farther south; however, at least the Friday-night WNW/NW flow behind the front still looks solid. With that I think it’s most likely we’ll be near the bottom of the range or slightly lower now with the action primarily coming Friday PM.
+Quick update: Remember that 20–30% I talked about the other day? Well, it looks like we’ve trended in the wrong direction towards those solutions, hence why we say it’s probabilistic. What happened? The bulk of Thursday PM / Friday AM's snow trended farther south; however, at least the Friday-night WNW/NW flow behind the front still looks solid and could still produce decent totals. With that I think it’s more likely we’ll end up near the lower half of the range now with the action primarily coming Friday PM.
 
 **Original Post from 11/18 early AM:**
 
