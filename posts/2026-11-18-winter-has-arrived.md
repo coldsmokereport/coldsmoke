@@ -14,7 +14,7 @@ image: ''
 
 **Update 11/19 PM:**
 
-Quick update: Remember that 20–30% I talked about the other day? Well, it looks like we’ve trended in the wrong direction towards those solutions, hence why we say it’s probabilistic. What happened? The bulk of Thursday PM / Friday AM's snow trended farther south; however, at least the Friday-night WNW/NW flow behind the front still looks solid and could produce decent totals. With that, I think it’s more likely we’ll end up in the lower half of the range now with the action primarily coming early Friday with a break midday before peaking late PM. Also, just wanted to add that snowfall for this storm will likely be lower density (not quite cold smoke but in that direction), which could help compensate for the storm track shifts a bit but isn't quite as conducive to base building.
+Quick update: Remember that 20–30% I talked about the other day? Well, it looks like we’ve trended in the wrong direction towards those solutions, hence why we say it’s probabilistic. What happened? The bulk of Thursday PM / Friday AM's snow trended farther south; however, at least the Friday-night WNW/NW flow behind the front still looks solid and could produce decent totals. With that, I think it’s more likely we’ll end up in the lower half of the range now with the action primarily coming early Friday with a break midday before peaking late PM. Also, just wanted to add that snowfall for this storm will likely be lower density (not quite cold smoke but in that direction), which could help compensate for the storm track shifts a bit but isn't quite as conducive to base building. All that said, all snow is good snow :)
 
 **Original Post from 11/18 early AM:**
 
