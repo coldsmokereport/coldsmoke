@@ -19,3 +19,5 @@ So far we’ve seen about 1–2 inches at Bridger and Big Sky, most of that fall
 </video>
 
 _Satellite and radar from midnight to 5 p.m. Friday, HRRR forecast through 9 a.m. Saturday._
+
+P.S. I'm back in town, so sorry in advance for any potential upcoming dry spell ;). Hopefully it'll be short-lived. I should have a little more time than the past week or 2 in the coming weeks to provide some more detailed posts/analysis.
