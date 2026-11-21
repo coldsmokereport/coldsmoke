@@ -11,7 +11,7 @@ description: ''
 image: ''
 ---
 
-Love seeing everyone getting out for some turns at Bridger! But please be safe out there, especially on any high elevation north facing terrain steeper than 30º. Anything that held snow from before the most recent storm cycles is likely to be problem with weak layers near the ground. See the snippet from the Avalanche Centers discussion below. Also, anything below about 8,500 feet is likely to have only 12–18 inches of base depth, so keep those tips up.
+Love seeing everyone getting out for some turns at Bridger! Please please be safe out there, especially on any high elevation north facing terrain steeper than 30º. Anything that held snow from before the most recent storm cycles is likely to be problem with weak layers near the ground. See the snippet from the Avalanche Centers discussion below. Also, anything below about 8,500 feet is likely to have only 12–18 inches of base depth, so keep those tips up.
 
 ![](/assets/images/parking_lot.jpg)
 
