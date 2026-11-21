@@ -15,7 +15,7 @@ Love seeing everyone getting out for some turns at Bridger! Please please be saf
 
 ![](/assets/images/parking_lot.jpg)
 
-Part of [MT Avalanche Discussion](https://www.mtavalanche.com/avalanche-forecast#/bridger-range/) from yesterday: "The Bridgers for the full Thursday-Saturday storm cycle saw 7–11 inches. Big Sky totals were a little lower and generally came in around 6 inches. 
+Part of [MT Avalanche Discussion](https://www.mtavalanche.com/avalanche-forecast#/bridger-range/): "The Bridgers for the full Thursday-Saturday storm cycle saw 7–11 inches. Big Sky totals were a little lower and generally came in around 6 inches. 
 
 Earlier this week, new snow sparked enthusiasm for early-season turns, and a skier was caught in an avalanche early Wednesday morning in the northern Bridger Range ([observation\](https://www.mtavalanche.com/observations#/view/observations/1d98b502-8b9f-4473-b4ab-c83d5274c9bc)). Others in the same area triggered and observed additional avalanches ([observations 1\](https://www.mtavalanche.com/observations#/view/observations/ffdadb98-dd72-445a-9061-d488f59ff045) [and 2\](https://www.mtavalanche.com/observations#/view/observations/3cc7cbe3-b8b7-42a1-a35a-243ec6923ba1)). These slides all occurred in terrain where October and early November snow existed on the ground, and on wind-loaded slopes where fresh drifts were primed to slide. Thankfully, everyone came out unscathed.
 
