@@ -17,3 +17,5 @@ So far we’ve seen about 1–2 inches at Bridger and Big Sky, most of that fall
 <video controls autoplay loop muted playsinline width="100%">
   <source src="%BASE%/assets/images/loop_sat_radar_hrrr2_202611210000.mp4" type="video/mp4">
 </video>
+
+_Loop of radar and satellite and HRRR forecast for overnight Friday._
