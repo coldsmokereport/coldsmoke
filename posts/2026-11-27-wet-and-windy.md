@@ -8,7 +8,7 @@ tags:
   - ski
   - big sky
 draft: true
-description: ''
+description: Atmospheric River has arrived with windy and wet conditions
 image: ''
 ---
 
@@ -19,6 +19,8 @@ We should be in a bit of a lull this morning for precipitation, but that will qu
 <video controls autoplay loop muted playsinline width="100%">
   <source src="%BASE%/assets/images/loop_sat_radar_hrrr5_202611271400" type="video/mp4">
 </video>
+
+If you're getting out into the backcountry (and this includes Bridger Bowl right now!), don't forget to check the latest [avy report](https://www.mtavalanche.com/avalanche-forecast#/bridger-range/). I think they stated it quite well: "**Variability and uncertainty about the snowpack are both currently high.**"
 
 Enjoy the snow, Saturday should be a fun one with a nice “right side up” snowfall.
 
